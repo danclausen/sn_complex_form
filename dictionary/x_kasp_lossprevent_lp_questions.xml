@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="LP Questions" max_length="40" name="x_kasp_lossprevent_lp_questions" type="collection">
+        <element label="Fields" max_length="4000" name="fields" type="string"/>
+        <element label="Question" max_length="1000" name="question" type="string"/>
+    </element>
+</database>

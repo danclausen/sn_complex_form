@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="injury_type" table="x_kasp_lossprevent_loss_prevention_incidents" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>injury_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Abrasion</label>
+            <language>en</language>
+            <name>x_kasp_lossprevent_loss_prevention_incidents</name>
+            <sequence>0</sequence>
+            <sys_created_by>dipsha01</sys_created_by>
+            <sys_created_on>2017-02-13 16:39:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>672e19a36ffc320099a707321c3ee495</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>dipsha01</sys_updated_by>
+            <sys_updated_on>2017-02-13 16:39:59</sys_updated_on>
+            <value>Abrasion</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>injury_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Amputation</label>
+            <language>en</language>
+            <name>x_kasp_lossprevent_loss_prevention_incidents</name>
+            <sequence>1</sequence>
+            <sys_created_by>dipsha01</sys_created_by>
+            <sys_created_on>2017-02-13 16:39:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>e32e19a36ffc320099a707321c3ee496</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>dipsha01</sys_updated_by>
+            <sys_updated_on>2017-02-13 16:39:59</sys_updated_on>
+            <value>Amputation</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>injury_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Bruise</label>
+            <language>en</language>
+            <name>x_kasp_lossprevent_loss_prevention_incidents</name>
+            <sequence>2</sequence>
+            <sys_created_by>dipsha01</sys_created_by>
+            <sys_created_on>2017-02-13 16:39:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>af2e19a36ffc320099a707321c3ee496</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>dipsha01</sys_updated_by>
+            <sys_updated_on>2017-02-13 16:39:59</sys_updated_on>
+            <value>Bruise</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>injury_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Burns</label>
+            <language>en</language>
+            <name>x_kasp_lossprevent_loss_prevention_incidents</name>
+            <sequence>3</sequence>
+            <sys_created_by>dipsha01</sys_created_by>
+            <sys_created_on>2017-02-13 16:39:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>6b2e19a36ffc320099a707321c3ee497</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>dipsha01</sys_updated_by>
+            <sys_updated_on>2017-02-13 16:39:59</sys_updated_on>
+            <value>Burns</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>injury_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Chipped Tooth</label>
+            <language>en</language>
+            <name>x_kasp_lossprevent_loss_prevention_incidents</name>
+            <sequence>4</sequence>
+            <sys_created_by>dipsha01</sys_created_by>
+            <sys_created_on>2017-02-13 16:39:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>272e19a36ffc320099a707321c3ee498</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>dipsha01</sys_updated_by>
+            <sys_updated_on>2017-02-13 16:39:59</sys_updated_on>
+            <value>Chipped Tooth</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>injury_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Cut</label>
+            <language>en</language>
+            <name>x_kasp_lossprevent_loss_prevention_incidents</name>
+            <sequence>5</sequence>
+            <sys_created_by>dipsha01</sys_created_by>
+            <sys_created_on>2017-02-13 16:39:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>672edda36ffc320099a707321c3ee44d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>dipsha01</sys_updated_by>
+            <sys_updated_on>2017-02-13 16:39:59</sys_updated_on>
+            <value>Cut</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>injury_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Death</label>
+            <language>en</language>
+            <name>x_kasp_lossprevent_loss_prevention_incidents</name>
+            <sequence>6</sequence>
+            <sys_created_by>dipsha01</sys_created_by>
+            <sys_created_on>2017-02-13 16:39:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>232edda36ffc320099a707321c3ee44e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>dipsha01</sys_updated_by>
+            <sys_updated_on>2017-02-13 16:39:59</sys_updated_on>
+            <value>Death</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>injury_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Electrocution</label>
+            <language>en</language>
+            <name>x_kasp_lossprevent_loss_prevention_incidents</name>
+            <sequence>7</sequence>
+            <sys_created_by>dipsha01</sys_created_by>
+            <sys_created_on>2017-02-13 16:39:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>eb2edda36ffc320099a707321c3ee44e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>dipsha01</sys_updated_by>
+            <sys_updated_on>2017-02-13 16:39:59</sys_updated_on>
+            <value>Electrocution</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>injury_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Fracture</label>
+            <language>en</language>
+            <name>x_kasp_lossprevent_loss_prevention_incidents</name>
+            <sequence>8</sequence>
+            <sys_created_by>dipsha01</sys_created_by>
+            <sys_created_on>2017-02-13 16:39:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>a72edda36ffc320099a707321c3ee44f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>dipsha01</sys_updated_by>
+            <sys_updated_on>2017-02-13 16:39:59</sys_updated_on>
+            <value>Fracture</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>injury_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Fume Inhalation</label>
+            <language>en</language>
+            <name>x_kasp_lossprevent_loss_prevention_incidents</name>
+            <sequence>9</sequence>
+            <sys_created_by>dipsha01</sys_created_by>
+            <sys_created_on>2017-02-13 16:39:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>632edda36ffc320099a707321c3ee450</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>dipsha01</sys_updated_by>
+            <sys_updated_on>2017-02-13 16:39:59</sys_updated_on>
+            <value>Fume Inhalation</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>injury_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Insect Bite</label>
+            <language>en</language>
+            <name>x_kasp_lossprevent_loss_prevention_incidents</name>
+            <sequence>10</sequence>
+            <sys_created_by>dipsha01</sys_created_by>
+            <sys_created_on>2017-02-13 16:39:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>2f2edda36ffc320099a707321c3ee450</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>dipsha01</sys_updated_by>
+            <sys_updated_on>2017-02-13 16:39:59</sys_updated_on>
+            <value>Insect Bite</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>injury_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Laceration</label>
+            <language>en</language>
+            <name>x_kasp_lossprevent_loss_prevention_incidents</name>
+            <sequence>11</sequence>
+            <sys_created_by>dipsha01</sys_created_by>
+            <sys_created_on>2017-02-13 16:39:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>e72edda36ffc320099a707321c3ee451</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>dipsha01</sys_updated_by>
+            <sys_updated_on>2017-02-13 16:39:59</sys_updated_on>
+            <value>Laceration</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>injury_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Pain</label>
+            <language>en</language>
+            <name>x_kasp_lossprevent_loss_prevention_incidents</name>
+            <sequence>12</sequence>
+            <sys_created_by>dipsha01</sys_created_by>
+            <sys_created_on>2017-02-13 16:39:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>a32edda36ffc320099a707321c3ee452</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>dipsha01</sys_updated_by>
+            <sys_updated_on>2017-02-13 16:39:59</sys_updated_on>
+            <value>Pain</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>injury_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Puncture</label>
+            <language>en</language>
+            <name>x_kasp_lossprevent_loss_prevention_incidents</name>
+            <sequence>13</sequence>
+            <sys_created_by>dipsha01</sys_created_by>
+            <sys_created_on>2017-02-13 16:39:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>6f2edda36ffc320099a707321c3ee452</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>dipsha01</sys_updated_by>
+            <sys_updated_on>2017-02-13 16:39:59</sys_updated_on>
+            <value>Puncture</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>injury_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Rash Sprain</label>
+            <language>en</language>
+            <name>x_kasp_lossprevent_loss_prevention_incidents</name>
+            <sequence>14</sequence>
+            <sys_created_by>dipsha01</sys_created_by>
+            <sys_created_on>2017-02-13 16:39:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>2b2edda36ffc320099a707321c3ee453</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>dipsha01</sys_updated_by>
+            <sys_updated_on>2017-02-13 16:39:59</sys_updated_on>
+            <value>Rash Sprain</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>injury_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Other</label>
+            <language>en</language>
+            <name>x_kasp_lossprevent_loss_prevention_incidents</name>
+            <sequence>15</sequence>
+            <sys_created_by>dipsha01</sys_created_by>
+            <sys_created_on>2017-02-13 16:39:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>e32edda36ffc320099a707321c3ee454</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>dipsha01</sys_updated_by>
+            <sys_updated_on>2017-02-13 16:39:59</sys_updated_on>
+            <value>Other</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>injury_type</element>
+            <name>x_kasp_lossprevent_loss_prevention_incidents</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>dipsha01</sys_created_by>
+            <sys_created_on>2017-02-13 16:39:59</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>af2e19a36ffc320099a707321c3ee495</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>injury_type</sys_name>
+            <sys_package display_value="LossPrevention" source="x_kasp_lossprevent">c2716bb56ffc724099a707321c3ee439</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="LossPrevention">c2716bb56ffc724099a707321c3ee439</sys_scope>
+            <sys_update_name>sys_choice_x_kasp_lossprevent_loss_prevention_incidents_injury_type</sys_update_name>
+            <sys_updated_by>dipsha01</sys_updated_by>
+            <sys_updated_on>2017-02-13 16:39:59</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

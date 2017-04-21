@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="LP Shoplifter Information" max_length="40" name="x_kasp_lossprevent_lp_shoplifter_information" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Ethnicity" max_length="40" name="ethnicity" type="string">
+            <choice>
+                <element label="Hispanic" sequence="0" value="Hispanic"/>
+                <element label="African American" sequence="1" value="African American"/>
+                <element label="Native American" sequence="2" value="Native American"/>
+                <element label="Caucasian" sequence="3" value="Caucasian"/>
+                <element label="Asian" sequence="4" value="Asian"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Eye Color" max_length="40" name="eye_color" type="string">
+            <choice>
+                <element label="Black" sequence="0" value="Black"/>
+                <element label="Brown" sequence="1" value="Brown"/>
+                <element label="Blue" sequence="2" value="Blue"/>
+                <element label="Hazel" sequence="3" value="Hazel"/>
+                <element label="Light Blue" sequence="4" value="Light Blue"/>
+                <element label="Light Brown" sequence="5" value="Light Brown"/>
+                <element label="Green" sequence="6" value="Green"/>
+                <element label="Other" sequence="7" value="Other"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Name" max_length="40" name="full_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Gender" max_length="40" name="gender" type="string">
+            <choice>
+                <element label="Male" sequence="0" value="Male"/>
+                <element label="Female" sequence="1" value="Female"/>
+                <element label="Other" sequence="2" value="Other"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Hair Color" max_length="40" name="hair_color" type="string">
+            <choice>
+                <element label="Black" sequence="0" value="Black"/>
+                <element label="Blonde" sequence="1" value="Blonde"/>
+                <element label="Brown" sequence="2" value="Brown"/>
+                <element label="White" sequence="3" value="White"/>
+                <element label="Gray" sequence="4" value="Gray"/>
+                <element label="Red" sequence="5" value="Red"/>
+                <element label="Other" sequence="6" value="Other"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Height" max_length="40" name="height" type="string"/>
+        <element label="Parent" max_length="32" name="parent" read_only="true" reference="x_kasp_lossprevent_loss_prevention_incidents" type="reference"/>
+        <index name="index">
+            <element name="parent"/>
+        </index>
+    </element>
+</database>

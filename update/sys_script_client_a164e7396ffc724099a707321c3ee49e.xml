@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>camera_cctv</field>
+        <global>true</global>
+        <messages/>
+        <name>Create On Change functions</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+	
+	if(g_form.getValue('number') != ''){
+		return;
+	}
+	
+	var hideAndWipeFields = function(fields){
+		var ele;
+		var field;
+		for(field in fields){
+			
+			ele = g_form.getElement(field);
+			
+			if(ele && ele.toString() === '[object HTMLSelectElement]'){
+				g_form.setValue(field,'Select');
+				
+			}else if(ele){
+				if(g_form.getValue(field).indexOf("<a") < 0){
+					g_form.setValue(field,'');
+				}
+				
+			}
+		
+			g_form.setDisplay(field,false);	
+		}
+	};
+	
+	var hideAndWipeSections = function(sections){
+		
+		var section;
+		for(section in sections){
+			g_form.setSectionDisplay(section,false);
+		}
+		
+	};
+	
+	var myOnchangeFunction = function(event){
+		
+		var field = event.target.id.substring(event.target.id.indexOf('.')+1);
+		var value = event.target.value;
+		
+		var ajax = new GlideAjax("x_kasp_lossprevent.lp_scripts");
+		ajax.addParam("sysparm_name" , "getAllValuesForQuestion");
+		ajax.addParam('sysparm_questions_table','x_kasp_lossprevent_lp_questions');
+		ajax.addParam('sysparm_field',field);
+		var callback = createHideFunction(field,value);
+		ajax.getXML(callback);
+		
+	};
+	
+	var field;
+	//Hide All fields
+	
+	var fieldsArr =  g_form.getEditableFields();
+	for(var f = 0; f < fieldsArr.length; f++){
+		if(fieldsArr[f] != 'issue' && fieldsArr[f] != 'requested_by' && fieldsArr[f] != 'submitted_by'&& fieldsArr[f] != 'level_of_priority'){
+			field = g_form.getControl(fieldsArr[f]);
+			try{
+			
+				field.onchange = myOnchangeFunction;
+				
+			}
+			catch(err){
+				console.log("ERROR " + err);
+			}
+			
+			g_form.setDisplay(fieldsArr[f],false);
+		}
+		
+	}
+	
+	//Hide all sections
+	var sectionsArr = g_form.getSectionNames();
+	for(var s = 0; s < sectionsArr.length; s++){
+		g_form.setSectionDisplay(sectionsArr[s],false);
+	}
+	
+	var showFields = function(fields){
+		
+		var showOpts;
+		var hideOpts;
+		for(var i = 0;i<fields.length;i++){
+			g_form.setDisplay(fields[i].field,true);
+						
+			if(fields[i].options){
+				
+				showOpts = fields[i].options.show;
+				hideOpts = fields[i].options.hide;
+				
+				for(var h = 0; h < hideOpts.length; h++){
+					//g_form.addInfoMessage('Removing ' + hideOpts[h]);
+					g_form.removeOption(fields[i].field, hideOpts[h]);
+				}
+				
+				for(var s = 0; s < showOpts.length; s++){
+					if(showOpts[s].value){
+						console.log(g_form.getOption(fields[i].field, showOpts[s].value));
+						g_form.addOption(fields[i].field, showOpts[s].value, showOpts[s].value,s+1);
+						g_form.getOption(fields[i].field, showOpts[s].value).title = showOpts[s].hover;
+						
+					}else{
+						g_form.addOption(fields[i].field, showOpts[s], showOpts[s],s+1);
+						console.log(g_form.getOption(fields[i].field, showOpts[s]));
+					}
+					
+					
+					
+				}			
+				
+			}
+		}
+	};
+	
+	var showForm = function(response){
+		//g_form.addInfoMessage(response.responseXML.documentElement.getAttribute("answer"));
+		var answer = response.responseXML.documentElement.getAttribute("answer");
+		
+		if(answer == null || answer == ""){
+			return;
+		}
+		var fieldObj = JSON.parse(answer);
+		
+		if(fieldObj == null){
+			return;
+		}
+		
+		var sections = fieldObj.sections;
+		var fields = fieldObj.fields;
+		var popup = fieldObj.popup;
+		var priority = fieldObj.level_of_priority;
+		if(fields){
+			
+			showFields(fields);
+		}
+		if(sections){
+			for(var j = 0; j < sections.length;j++){
+				g_form.setSectionDisplay(sections[j].section,true);
+				if(sections[j].fields){
+					showFields(sections[j].fields);
+				}
+			}
+		}
+		
+		if(popup){
+			var gdw = new GlideDialogWindow('x_kasp_lossprevent_lp_popup');
+			gdw.setPreference('sysparm_popup', JSON.stringify(popup));
+			gdw.setPreference('sysparm_choice', "false");
+			gdw.setTitle('Enter Info below');
+			gdw.setSize(800,500);
+
+			//Open the dialog window
+			gdw.render();
+		}
+		if(priority){
+			g_form.setValue('level_of_priority', priority);
+		}
+	};
+	
+	var myShowFunction = function(field,value){
+		
+		return function(){
+			var ajax = new GlideAjax("x_kasp_lossprevent.lp_scripts");
+			ajax.addParam("sysparm_name" , "questions");
+			ajax.addParam('sysparm_questions_table','x_kasp_lossprevent_lp_questions');
+			ajax.addParam("sysparm_question",field+":"+value);
+			ajax.getXML(showForm);
+		};
+	};
+	
+	var createHideFunction = function(field,value){
+		//g_form.addInfoMessage('creating callback to hide');
+		return function hide(response) {
+			if(response == null){
+				return;
+			}
+			
+			var answer = response.responseXML.documentElement.getAttribute("answer");
+			
+			if(answer == null){
+				return;
+			}
+			
+			var fieldsGroups = JSON.parse(answer);
+			
+			if(fieldsGroups == null){
+				return;
+			}
+			
+			var fields = fieldsGroups.fields;
+			var sections = fieldsGroups.sections;
+			
+			if(fields){
+				
+				hideAndWipeFields(fields);
+			}
+			
+			if(sections){
+				hideAndWipeSections(sections);
+			}
+			
+			var show = myShowFunction(field,value);
+			show();
+		};
+	};
+	
+	var issue = g_form.getControl('issue');
+	
+	try{
+		issue.onchange = myOnchangeFunction;
+		
+	}
+	catch(err){
+		console.log("ERROR " + err);
+	}
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>sebgar01</sys_created_by>
+        <sys_created_on>2017-02-08 15:58:56</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>a164e7396ffc724099a707321c3ee49e</sys_id>
+        <sys_mod_count>166</sys_mod_count>
+        <sys_name>Create On Change functions</sys_name>
+        <sys_overrides display_value="">global</sys_overrides>
+        <sys_package display_value="LossPrevention" source="x_kasp_lossprevent">c2716bb56ffc724099a707321c3ee439</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="LossPrevention">c2716bb56ffc724099a707321c3ee439</sys_scope>
+        <sys_update_name>sys_script_client_a164e7396ffc724099a707321c3ee49e</sys_update_name>
+        <sys_updated_by>sebgar01</sys_updated_by>
+        <sys_updated_on>2017-04-19 18:45:45</sys_updated_on>
+        <table>x_kasp_lossprevent_loss_prevention_incidents</table>
+        <type>onLoad</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

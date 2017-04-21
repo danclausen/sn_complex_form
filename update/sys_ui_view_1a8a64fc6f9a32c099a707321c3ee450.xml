@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_view">
+    <sys_ui_view action="INSERT_OR_UPDATE">
+        <group/>
+        <hidden>false</hidden>
+        <name>RPT168a20b86f9a32c099a707321c3ee4e9</name>
+        <roles/>
+        <sys_class_name>sys_ui_view</sys_class_name>
+        <sys_created_by>dipsha01</sys_created_by>
+        <sys_created_on>2017-04-20 13:25:14</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>1a8a64fc6f9a32c099a707321c3ee450</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="LossPrevention">c2716bb56ffc724099a707321c3ee439</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>dipsha01</sys_updated_by>
+        <sys_updated_on>2017-04-20 13:25:14</sys_updated_on>
+        <title>Rpt168a20b86f9a32c099a707321c3ee4e9</title>
+        <user/>
+    </sys_ui_view>
+</record_update>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="death_resulting" table="x_kasp_lossprevent_loss_prevention_incidents" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>death_resulting</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Yes</label>
+            <language>en</language>
+            <name>x_kasp_lossprevent_loss_prevention_incidents</name>
+            <sequence>0</sequence>
+            <sys_created_by>dipsha01</sys_created_by>
+            <sys_created_on>2017-02-13 16:31:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>c92cd1636ffc320099a707321c3ee4e8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>dipsha01</sys_updated_by>
+            <sys_updated_on>2017-02-13 16:31:05</sys_updated_on>
+            <value>Yes</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>death_resulting</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>No</label>
+            <language>en</language>
+            <name>x_kasp_lossprevent_loss_prevention_incidents</name>
+            <sequence>1</sequence>
+            <sys_created_by>dipsha01</sys_created_by>
+            <sys_created_on>2017-02-13 16:31:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>492cd1636ffc320099a707321c3ee4e9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>dipsha01</sys_updated_by>
+            <sys_updated_on>2017-02-13 16:31:05</sys_updated_on>
+            <value>No</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>death_resulting</element>
+            <name>x_kasp_lossprevent_loss_prevention_incidents</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>dipsha01</sys_created_by>
+            <sys_created_on>2017-02-13 16:31:05</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>052cd1636ffc320099a707321c3ee4e9</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>death_resulting</sys_name>
+            <sys_package display_value="LossPrevention" source="x_kasp_lossprevent">c2716bb56ffc724099a707321c3ee439</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="LossPrevention">c2716bb56ffc724099a707321c3ee439</sys_scope>
+            <sys_update_name>sys_choice_x_kasp_lossprevent_loss_prevention_incidents_death_resulting</sys_update_name>
+            <sys_updated_by>dipsha01</sys_updated_by>
+            <sys_updated_on>2017-02-13 16:31:05</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

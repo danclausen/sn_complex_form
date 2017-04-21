@@ -1,0 +1,923 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="state" table="x_kasp_lossprevent_lp_associate_information" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Alabama</label>
+            <language>en</language>
+            <name>x_kasp_lossprevent_lp_associate_information</name>
+            <sequence>0</sequence>
+            <sys_created_by>danpal01</sys_created_by>
+            <sys_created_on>2017-02-27 01:15:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>22d096776fc57a0099a707321c3ee43e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-02-27 01:15:34</sys_updated_on>
+            <value>Alabama</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Alaska</label>
+            <language>en</language>
+            <name>x_kasp_lossprevent_lp_associate_information</name>
+            <sequence>1</sequence>
+            <sys_created_by>danpal01</sys_created_by>
+            <sys_created_on>2017-02-27 01:15:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>aed096776fc57a0099a707321c3ee43e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-02-27 01:15:34</sys_updated_on>
+            <value>Alaska</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Arizona</label>
+            <language>en</language>
+            <name>x_kasp_lossprevent_lp_associate_information</name>
+            <sequence>2</sequence>
+            <sys_created_by>danpal01</sys_created_by>
+            <sys_created_on>2017-02-27 01:15:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>6ad096776fc57a0099a707321c3ee43f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-02-27 01:15:34</sys_updated_on>
+            <value>Arizona</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Arkansas</label>
+            <language>en</language>
+            <name>x_kasp_lossprevent_lp_associate_information</name>
+            <sequence>3</sequence>
+            <sys_created_by>danpal01</sys_created_by>
+            <sys_created_on>2017-02-27 01:15:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>26d096776fc57a0099a707321c3ee440</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-02-27 01:15:34</sys_updated_on>
+            <value>Arkansas</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>California</label>
+            <language>en</language>
+            <name>x_kasp_lossprevent_lp_associate_information</name>
+            <sequence>4</sequence>
+            <sys_created_by>danpal01</sys_created_by>
+            <sys_created_on>2017-02-27 01:15:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>eed096776fc57a0099a707321c3ee440</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-02-27 01:15:34</sys_updated_on>
+            <value>California</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Colorado</label>
+            <language>en</language>
+            <name>x_kasp_lossprevent_lp_associate_information</name>
+            <sequence>5</sequence>
+            <sys_created_by>danpal01</sys_created_by>
+            <sys_created_on>2017-02-27 01:15:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>aad096776fc57a0099a707321c3ee441</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-02-27 01:15:34</sys_updated_on>
+            <value>Colorado</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Connecticut</label>
+            <language>en</language>
+            <name>x_kasp_lossprevent_lp_associate_information</name>
+            <sequence>6</sequence>
+            <sys_created_by>danpal01</sys_created_by>
+            <sys_created_on>2017-02-27 01:15:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>66d096776fc57a0099a707321c3ee442</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-02-27 01:15:34</sys_updated_on>
+            <value>Connecticut</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Delaware</label>
+            <language>en</language>
+            <name>x_kasp_lossprevent_lp_associate_information</name>
+            <sequence>7</sequence>
+            <sys_created_by>danpal01</sys_created_by>
+            <sys_created_on>2017-02-27 01:15:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>22d096776fc57a0099a707321c3ee443</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-02-27 01:15:34</sys_updated_on>
+            <value>Delaware</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Florida</label>
+            <language>en</language>
+            <name>x_kasp_lossprevent_lp_associate_information</name>
+            <sequence>8</sequence>
+            <sys_created_by>danpal01</sys_created_by>
+            <sys_created_on>2017-02-27 01:15:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>ead096776fc57a0099a707321c3ee443</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-02-27 01:15:34</sys_updated_on>
+            <value>Florida</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Georgia</label>
+            <language>en</language>
+            <name>x_kasp_lossprevent_lp_associate_information</name>
+            <sequence>9</sequence>
+            <sys_created_by>danpal01</sys_created_by>
+            <sys_created_on>2017-02-27 01:15:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>a6d096776fc57a0099a707321c3ee444</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-02-27 01:15:34</sys_updated_on>
+            <value>Georgia</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Hawaii</label>
+            <language>en</language>
+            <name>x_kasp_lossprevent_lp_associate_information</name>
+            <sequence>10</sequence>
+            <sys_created_by>danpal01</sys_created_by>
+            <sys_created_on>2017-02-27 01:15:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>62d096776fc57a0099a707321c3ee445</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-02-27 01:15:34</sys_updated_on>
+            <value>Hawaii</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Idaho</label>
+            <language>en</language>
+            <name>x_kasp_lossprevent_lp_associate_information</name>
+            <sequence>11</sequence>
+            <sys_created_by>danpal01</sys_created_by>
+            <sys_created_on>2017-02-27 01:15:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>2ed096776fc57a0099a707321c3ee445</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-02-27 01:15:34</sys_updated_on>
+            <value>Idaho</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Illinois</label>
+            <language>en</language>
+            <name>x_kasp_lossprevent_lp_associate_information</name>
+            <sequence>12</sequence>
+            <sys_created_by>danpal01</sys_created_by>
+            <sys_created_on>2017-02-27 01:15:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>e6d096776fc57a0099a707321c3ee446</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-02-27 01:15:34</sys_updated_on>
+            <value>Illinois</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Indiana</label>
+            <language>en</language>
+            <name>x_kasp_lossprevent_lp_associate_information</name>
+            <sequence>13</sequence>
+            <sys_created_by>danpal01</sys_created_by>
+            <sys_created_on>2017-02-27 01:15:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>a2d096776fc57a0099a707321c3ee447</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-02-27 01:15:34</sys_updated_on>
+            <value>Indiana</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Iowa</label>
+            <language>en</language>
+            <name>x_kasp_lossprevent_lp_associate_information</name>
+            <sequence>14</sequence>
+            <sys_created_by>danpal01</sys_created_by>
+            <sys_created_on>2017-02-27 01:15:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>aad016b76fc57a0099a707321c3ee407</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-02-27 01:15:34</sys_updated_on>
+            <value>Iowa</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Kansas</label>
+            <language>en</language>
+            <name>x_kasp_lossprevent_lp_associate_information</name>
+            <sequence>15</sequence>
+            <sys_created_by>danpal01</sys_created_by>
+            <sys_created_on>2017-02-27 01:15:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>66d016b76fc57a0099a707321c3ee408</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-02-27 01:15:34</sys_updated_on>
+            <value>Kansas</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Kentucky</label>
+            <language>en</language>
+            <name>x_kasp_lossprevent_lp_associate_information</name>
+            <sequence>16</sequence>
+            <sys_created_by>danpal01</sys_created_by>
+            <sys_created_on>2017-02-27 01:15:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>22d016b76fc57a0099a707321c3ee409</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-02-27 01:15:34</sys_updated_on>
+            <value>Kentucky</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Louisiana</label>
+            <language>en</language>
+            <name>x_kasp_lossprevent_lp_associate_information</name>
+            <sequence>17</sequence>
+            <sys_created_by>danpal01</sys_created_by>
+            <sys_created_on>2017-02-27 01:15:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>ead016b76fc57a0099a707321c3ee409</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-02-27 01:15:34</sys_updated_on>
+            <value>Louisiana</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Maine</label>
+            <language>en</language>
+            <name>x_kasp_lossprevent_lp_associate_information</name>
+            <sequence>18</sequence>
+            <sys_created_by>danpal01</sys_created_by>
+            <sys_created_on>2017-02-27 01:15:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>a6d016b76fc57a0099a707321c3ee40a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-02-27 01:15:34</sys_updated_on>
+            <value>Maine</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Maryland</label>
+            <language>en</language>
+            <name>x_kasp_lossprevent_lp_associate_information</name>
+            <sequence>19</sequence>
+            <sys_created_by>danpal01</sys_created_by>
+            <sys_created_on>2017-02-27 01:15:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>62d016b76fc57a0099a707321c3ee40b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-02-27 01:15:34</sys_updated_on>
+            <value>Maryland</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Massachusetts</label>
+            <language>en</language>
+            <name>x_kasp_lossprevent_lp_associate_information</name>
+            <sequence>20</sequence>
+            <sys_created_by>danpal01</sys_created_by>
+            <sys_created_on>2017-02-27 01:15:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>2ed016b76fc57a0099a707321c3ee40b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-02-27 01:15:34</sys_updated_on>
+            <value>Massachusetts</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Michigan</label>
+            <language>en</language>
+            <name>x_kasp_lossprevent_lp_associate_information</name>
+            <sequence>21</sequence>
+            <sys_created_by>danpal01</sys_created_by>
+            <sys_created_on>2017-02-27 01:15:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>e6d016b76fc57a0099a707321c3ee40c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-02-27 01:15:34</sys_updated_on>
+            <value>Michigan</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Minnesota</label>
+            <language>en</language>
+            <name>x_kasp_lossprevent_lp_associate_information</name>
+            <sequence>22</sequence>
+            <sys_created_by>danpal01</sys_created_by>
+            <sys_created_on>2017-02-27 01:15:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>a2d016b76fc57a0099a707321c3ee40d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-02-27 01:15:34</sys_updated_on>
+            <value>Minnesota</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Mississippi</label>
+            <language>en</language>
+            <name>x_kasp_lossprevent_lp_associate_information</name>
+            <sequence>23</sequence>
+            <sys_created_by>danpal01</sys_created_by>
+            <sys_created_on>2017-02-27 01:15:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>6ed016b76fc57a0099a707321c3ee40d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-02-27 01:15:34</sys_updated_on>
+            <value>Mississippi</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Missouri</label>
+            <language>en</language>
+            <name>x_kasp_lossprevent_lp_associate_information</name>
+            <sequence>24</sequence>
+            <sys_created_by>danpal01</sys_created_by>
+            <sys_created_on>2017-02-27 01:15:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>2ad016b76fc57a0099a707321c3ee40e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-02-27 01:15:34</sys_updated_on>
+            <value>Missouri</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Montana</label>
+            <language>en</language>
+            <name>x_kasp_lossprevent_lp_associate_information</name>
+            <sequence>25</sequence>
+            <sys_created_by>danpal01</sys_created_by>
+            <sys_created_on>2017-02-27 01:15:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>e2d016b76fc57a0099a707321c3ee40f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-02-27 01:15:34</sys_updated_on>
+            <value>Montana</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Nebraska</label>
+            <language>en</language>
+            <name>x_kasp_lossprevent_lp_associate_information</name>
+            <sequence>26</sequence>
+            <sys_created_by>danpal01</sys_created_by>
+            <sys_created_on>2017-02-27 01:15:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>aed016b76fc57a0099a707321c3ee40f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-02-27 01:15:34</sys_updated_on>
+            <value>Nebraska</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Nevada</label>
+            <language>en</language>
+            <name>x_kasp_lossprevent_lp_associate_information</name>
+            <sequence>27</sequence>
+            <sys_created_by>danpal01</sys_created_by>
+            <sys_created_on>2017-02-27 01:15:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>6ad016b76fc57a0099a707321c3ee410</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-02-27 01:15:34</sys_updated_on>
+            <value>Nevada</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>New Hampshire</label>
+            <language>en</language>
+            <name>x_kasp_lossprevent_lp_associate_information</name>
+            <sequence>28</sequence>
+            <sys_created_by>danpal01</sys_created_by>
+            <sys_created_on>2017-02-27 01:15:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>26d016b76fc57a0099a707321c3ee411</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-02-27 01:15:34</sys_updated_on>
+            <value>New Hampshire</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>New Jersey</label>
+            <language>en</language>
+            <name>x_kasp_lossprevent_lp_associate_information</name>
+            <sequence>29</sequence>
+            <sys_created_by>danpal01</sys_created_by>
+            <sys_created_on>2017-02-27 01:15:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>eed016b76fc57a0099a707321c3ee411</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-02-27 01:15:34</sys_updated_on>
+            <value>New Jersey</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>New Mexico</label>
+            <language>en</language>
+            <name>x_kasp_lossprevent_lp_associate_information</name>
+            <sequence>30</sequence>
+            <sys_created_by>danpal01</sys_created_by>
+            <sys_created_on>2017-02-27 01:15:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>aad016b76fc57a0099a707321c3ee412</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-02-27 01:15:34</sys_updated_on>
+            <value>New Mexico</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>New York</label>
+            <language>en</language>
+            <name>x_kasp_lossprevent_lp_associate_information</name>
+            <sequence>31</sequence>
+            <sys_created_by>danpal01</sys_created_by>
+            <sys_created_on>2017-02-27 01:15:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>66d016b76fc57a0099a707321c3ee413</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-02-27 01:15:34</sys_updated_on>
+            <value>New York</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>North Carolina</label>
+            <language>en</language>
+            <name>x_kasp_lossprevent_lp_associate_information</name>
+            <sequence>32</sequence>
+            <sys_created_by>danpal01</sys_created_by>
+            <sys_created_on>2017-02-27 01:15:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>22d016b76fc57a0099a707321c3ee414</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-02-27 01:15:34</sys_updated_on>
+            <value>North Carolina</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>North Dakota</label>
+            <language>en</language>
+            <name>x_kasp_lossprevent_lp_associate_information</name>
+            <sequence>33</sequence>
+            <sys_created_by>danpal01</sys_created_by>
+            <sys_created_on>2017-02-27 01:15:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>fad016b76fc57a0099a707321c3ee414</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-02-27 01:15:34</sys_updated_on>
+            <value>North Dakota</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Ohio</label>
+            <language>en</language>
+            <name>x_kasp_lossprevent_lp_associate_information</name>
+            <sequence>34</sequence>
+            <sys_created_by>danpal01</sys_created_by>
+            <sys_created_on>2017-02-27 01:15:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>b6d016b76fc57a0099a707321c3ee415</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-02-27 01:15:34</sys_updated_on>
+            <value>Ohio</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Oklahoma</label>
+            <language>en</language>
+            <name>x_kasp_lossprevent_lp_associate_information</name>
+            <sequence>35</sequence>
+            <sys_created_by>danpal01</sys_created_by>
+            <sys_created_on>2017-02-27 01:15:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>72d016b76fc57a0099a707321c3ee416</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-02-27 01:15:34</sys_updated_on>
+            <value>Oklahoma</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Oregon</label>
+            <language>en</language>
+            <name>x_kasp_lossprevent_lp_associate_information</name>
+            <sequence>36</sequence>
+            <sys_created_by>danpal01</sys_created_by>
+            <sys_created_on>2017-02-27 01:15:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>3ed016b76fc57a0099a707321c3ee416</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-02-27 01:15:34</sys_updated_on>
+            <value>Oregon</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Pennsylvania</label>
+            <language>en</language>
+            <name>x_kasp_lossprevent_lp_associate_information</name>
+            <sequence>37</sequence>
+            <sys_created_by>danpal01</sys_created_by>
+            <sys_created_on>2017-02-27 01:15:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>f6d016b76fc57a0099a707321c3ee417</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-02-27 01:15:34</sys_updated_on>
+            <value>Pennsylvania</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Rhode Island</label>
+            <language>en</language>
+            <name>x_kasp_lossprevent_lp_associate_information</name>
+            <sequence>38</sequence>
+            <sys_created_by>danpal01</sys_created_by>
+            <sys_created_on>2017-02-27 01:15:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>b2d016b76fc57a0099a707321c3ee418</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-02-27 01:15:34</sys_updated_on>
+            <value>Rhode Island</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>South Carolina</label>
+            <language>en</language>
+            <name>x_kasp_lossprevent_lp_associate_information</name>
+            <sequence>39</sequence>
+            <sys_created_by>danpal01</sys_created_by>
+            <sys_created_on>2017-02-27 01:15:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>7ed016b76fc57a0099a707321c3ee418</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-02-27 01:15:34</sys_updated_on>
+            <value>South Carolina</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>South Dakota</label>
+            <language>en</language>
+            <name>x_kasp_lossprevent_lp_associate_information</name>
+            <sequence>40</sequence>
+            <sys_created_by>danpal01</sys_created_by>
+            <sys_created_on>2017-02-27 01:15:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>3ad016b76fc57a0099a707321c3ee419</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-02-27 01:15:34</sys_updated_on>
+            <value>South Dakota</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Tennessee</label>
+            <language>en</language>
+            <name>x_kasp_lossprevent_lp_associate_information</name>
+            <sequence>41</sequence>
+            <sys_created_by>danpal01</sys_created_by>
+            <sys_created_on>2017-02-27 01:15:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>f2d016b76fc57a0099a707321c3ee41a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-02-27 01:15:34</sys_updated_on>
+            <value>Tennessee</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Texas</label>
+            <language>en</language>
+            <name>x_kasp_lossprevent_lp_associate_information</name>
+            <sequence>42</sequence>
+            <sys_created_by>danpal01</sys_created_by>
+            <sys_created_on>2017-02-27 01:15:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>bed016b76fc57a0099a707321c3ee41a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-02-27 01:15:34</sys_updated_on>
+            <value>Texas</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Utah</label>
+            <language>en</language>
+            <name>x_kasp_lossprevent_lp_associate_information</name>
+            <sequence>43</sequence>
+            <sys_created_by>danpal01</sys_created_by>
+            <sys_created_on>2017-02-27 01:15:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>7ad016b76fc57a0099a707321c3ee41b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-02-27 01:15:34</sys_updated_on>
+            <value>Utah</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Vermont</label>
+            <language>en</language>
+            <name>x_kasp_lossprevent_lp_associate_information</name>
+            <sequence>44</sequence>
+            <sys_created_by>danpal01</sys_created_by>
+            <sys_created_on>2017-02-27 01:15:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>36d016b76fc57a0099a707321c3ee41c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-02-27 01:15:34</sys_updated_on>
+            <value>Vermont</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Virginia</label>
+            <language>en</language>
+            <name>x_kasp_lossprevent_lp_associate_information</name>
+            <sequence>45</sequence>
+            <sys_created_by>danpal01</sys_created_by>
+            <sys_created_on>2017-02-27 01:15:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>fed016b76fc57a0099a707321c3ee41c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-02-27 01:15:34</sys_updated_on>
+            <value>Virginia</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Washington</label>
+            <language>en</language>
+            <name>x_kasp_lossprevent_lp_associate_information</name>
+            <sequence>46</sequence>
+            <sys_created_by>danpal01</sys_created_by>
+            <sys_created_on>2017-02-27 01:15:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>bad016b76fc57a0099a707321c3ee41d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-02-27 01:15:34</sys_updated_on>
+            <value>Washington</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>West Virginia</label>
+            <language>en</language>
+            <name>x_kasp_lossprevent_lp_associate_information</name>
+            <sequence>47</sequence>
+            <sys_created_by>danpal01</sys_created_by>
+            <sys_created_on>2017-02-27 01:15:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>76d016b76fc57a0099a707321c3ee41e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-02-27 01:15:34</sys_updated_on>
+            <value>West Virginia</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Wisconsin</label>
+            <language>en</language>
+            <name>x_kasp_lossprevent_lp_associate_information</name>
+            <sequence>48</sequence>
+            <sys_created_by>danpal01</sys_created_by>
+            <sys_created_on>2017-02-27 01:15:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>32d016b76fc57a0099a707321c3ee41f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-02-27 01:15:34</sys_updated_on>
+            <value>Wisconsin</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Wyoming</label>
+            <language>en</language>
+            <name>x_kasp_lossprevent_lp_associate_information</name>
+            <sequence>49</sequence>
+            <sys_created_by>danpal01</sys_created_by>
+            <sys_created_on>2017-02-27 01:15:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>fad016b76fc57a0099a707321c3ee41f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-02-27 01:15:34</sys_updated_on>
+            <value>Wyoming</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>state</element>
+            <name>x_kasp_lossprevent_lp_associate_information</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>danpal01</sys_created_by>
+            <sys_created_on>2017-02-27 01:15:34</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>6ad096776fc57a0099a707321c3ee43e</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>state</sys_name>
+            <sys_package display_value="LossPrevention" source="x_kasp_lossprevent">c2716bb56ffc724099a707321c3ee439</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="LossPrevention">c2716bb56ffc724099a707321c3ee439</sys_scope>
+            <sys_update_name>sys_choice_x_kasp_lossprevent_lp_associate_information_state</sys_update_name>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-02-27 01:15:34</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

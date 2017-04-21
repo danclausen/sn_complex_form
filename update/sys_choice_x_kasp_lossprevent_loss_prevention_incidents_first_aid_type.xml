@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="first_aid_type" table="x_kasp_lossprevent_loss_prevention_incidents" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>first_aid_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Ace Bandage</label>
+            <language>en</language>
+            <name>x_kasp_lossprevent_loss_prevention_incidents</name>
+            <sequence>0</sequence>
+            <sys_created_by>dipsha01</sys_created_by>
+            <sys_created_on>2017-02-13 16:27:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>704b99ef6fbc320099a707321c3ee4d1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>dipsha01</sys_updated_by>
+            <sys_updated_on>2017-02-13 16:27:14</sys_updated_on>
+            <value>Ace Bandage</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>first_aid_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Band-Aid</label>
+            <language>en</language>
+            <name>x_kasp_lossprevent_loss_prevention_incidents</name>
+            <sequence>1</sequence>
+            <sys_created_by>dipsha01</sys_created_by>
+            <sys_created_on>2017-02-13 16:27:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>fc4b99ef6fbc320099a707321c3ee4d1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>dipsha01</sys_updated_by>
+            <sys_updated_on>2017-02-13 16:27:14</sys_updated_on>
+            <value>Band-Aid</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>first_aid_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Cleaning Wounds</label>
+            <language>en</language>
+            <name>x_kasp_lossprevent_loss_prevention_incidents</name>
+            <sequence>2</sequence>
+            <sys_created_by>dipsha01</sys_created_by>
+            <sys_created_on>2017-02-13 16:27:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>b84b99ef6fbc320099a707321c3ee4d2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>dipsha01</sys_updated_by>
+            <sys_updated_on>2017-02-13 16:27:14</sys_updated_on>
+            <value>Cleaning Wounds</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>first_aid_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Cause Pads</label>
+            <language>en</language>
+            <name>x_kasp_lossprevent_loss_prevention_incidents</name>
+            <sequence>3</sequence>
+            <sys_created_by>dipsha01</sys_created_by>
+            <sys_created_on>2017-02-13 16:27:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>744b99ef6fbc320099a707321c3ee4d3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>dipsha01</sys_updated_by>
+            <sys_updated_on>2017-02-13 16:27:14</sys_updated_on>
+            <value>Cause Pads</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>first_aid_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Ice</label>
+            <language>en</language>
+            <name>x_kasp_lossprevent_loss_prevention_incidents</name>
+            <sequence>4</sequence>
+            <sys_created_by>dipsha01</sys_created_by>
+            <sys_created_on>2017-02-13 16:27:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>304b99ef6fbc320099a707321c3ee4d4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>dipsha01</sys_updated_by>
+            <sys_updated_on>2017-02-13 16:27:14</sys_updated_on>
+            <value>Ice</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>first_aid_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Other</label>
+            <language>en</language>
+            <name>x_kasp_lossprevent_loss_prevention_incidents</name>
+            <sequence>5</sequence>
+            <sys_created_by>dipsha01</sys_created_by>
+            <sys_created_on>2017-02-13 16:27:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>f84b99ef6fbc320099a707321c3ee4d4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>dipsha01</sys_updated_by>
+            <sys_updated_on>2017-02-13 16:27:14</sys_updated_on>
+            <value>Other</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>first_aid_type</element>
+            <name>x_kasp_lossprevent_loss_prevention_incidents</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>dipsha01</sys_created_by>
+            <sys_created_on>2017-02-13 16:27:14</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>b84b99ef6fbc320099a707321c3ee4d1</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>first_aid_type</sys_name>
+            <sys_package display_value="LossPrevention" source="x_kasp_lossprevent">c2716bb56ffc724099a707321c3ee439</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="LossPrevention">c2716bb56ffc724099a707321c3ee439</sys_scope>
+            <sys_update_name>sys_choice_x_kasp_lossprevent_loss_prevention_incidents_first_aid_type</sys_update_name>
+            <sys_updated_by>dipsha01</sys_updated_by>
+            <sys_updated_on>2017-02-13 16:27:14</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

@@ -1,0 +1,450 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_page">
+    <sys_ui_page action="INSERT_OR_UPDATE">
+        <category>general</category>
+        <client_script><![CDATA[String.prototype.replaceAll = function(search, replacement) {
+    var target = this;
+    return target.replace(new RegExp(search, 'g'), replacement);
+};
+
+function getParmVal(name){
+	var url = document.URL.parseQuery();
+	if(url[name]){
+		return decodeURI(url[name]);
+	}
+	else{
+		return null;
+	}
+	
+}
+
+var funcs = (function(){
+	var sateyQuestions = 'x_kasp_safety_inci_safety_questions';
+	var lpQuestions = 'x_kasp_lossprevent_lp_questions';
+	var safetyTables = [
+		{
+			table:'x_kasp_safety_inci_safety_associate_information',
+			name: 'Associate Information'
+		},
+		{
+			table:'x_kasp_safety_inci_safety_customer_information',
+			name: 'Customer Information'
+		},
+		{
+			table:'x_kasp_safety_inci_witness_information',
+			name: 'Witness Information'
+		}
+		];
+	var lpTables =  [
+		{
+			table:'x_kasp_lossprevent_lp_associate_information',
+			name: 'Associate Information'
+		},
+		{
+			table:'x_kasp_lossprevent_lp_customer_information',
+			name: 'Customer Information'
+		},
+		{
+			table:'x_kasp_lossprevent_lp_merchandise_table',
+			name: 'Merchandise Information'
+		},
+		{
+			table:'x_kasp_lossprevent_lp_shoplifter_information',
+			name: 'Shoplifter Information'
+		}
+		];
+	var choiceTables;
+	var questionTable;
+	
+	if(g_form.getTableName().indexOf('safety') >= 0){
+		questionTable = sateyQuestions;
+		choiceTables = safetyTables;
+	}else{
+		questionTable = lpQuestions;
+		choiceTables = lpTables;
+	}
+	
+	var popupStr = jQuery("#popup_text").html();
+	popupStr = popupStr.replaceAll("\\\\",'');
+	console.log(popupStr);
+	
+	var popupObj = JSON.parse(popupStr);
+	
+	var choice = popupObj.choice;
+	
+	var title;
+	var table;
+	var fields;
+	var count;
+	var showPopupForm = function(popupObject){
+		
+		var popup = popupObject.popup;
+		title = popup.title;
+		table = popup.table;
+		fields = popup.fields;
+		count = 0;
+
+		var fieldBoxDiv = '<div class="field-box">';
+		var innerDiv = '<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">';
+		var halfCount = Math.ceil(fields.length/2);
+		var closeDiv = '</div>';
+
+		var label = '';
+		var input = '';
+		var html = '';
+
+		jQuery("#title").html(title);
+
+		for(var c = 0; c < fields.length; c++){
+			label = '<label id="'+fields[c].name+'_label">'+fields[c].label+'</label>';
+
+			if(fields[c].type){
+
+				if(fields[c].type == 'date'){
+					input = '<input class="form-control" id="'+fields[c].name+'" type="'+fields[c].type+'"/>';
+				}else if(fields[c].type == 'select'){
+					input = '<select class="form-control" id="'+fields[c].name+'" onchange="funcs.onValueChange(this, this.value)">';
+					if(fields[c].options){
+						for(var o = 0; o < fields[c].options.length; o++){
+							input += "<option vlaue='"+fields[c].options[o]+"'>"+fields[c].options[o]+"</option>";
+						}
+
+					}
+				}else if(fields[c].type == 'text'){
+					input = '<input class="form-control" id="'+fields[c].name+'"/>';
+				}
+
+			}else{
+				input = '<input class="form-control" id="'+fields[c].name+'"/>';
+			}
+			html = fieldBoxDiv+innerDiv+label+closeDiv+innerDiv+input+closeDiv;
+			if(c < halfCount){
+				jQuery('#left').append(html);
+
+			}else{
+				jQuery('#right').append(html);
+
+			}
+			if(fields[c].hide){
+				jQuery("#"+fields[c].name).addClass("hide");
+				jQuery("#"+fields[c].name+"_label").addClass("hide");
+			}		
+		}
+	};
+	
+	
+	
+	
+	var processPopup = function(response){
+		
+		var answer = response.responseXML.documentElement.getAttribute("answer");
+		console.log("Loading " + answer);
+		var fieldsObjs = JSON.parse(answer);
+		showPopupForm(fieldsObjs);
+			
+	
+		
+	};
+	
+	var getPopup = function(title,table){
+		var ajax = new GlideAjax("x_kasp_lossprevent.lp_scripts");
+		ajax.addParam("sysparm_name" , "findPopupByTitle");
+		ajax.addParam('sysparm_questions_table',questionTable);
+		ajax.addParam("sysparm_title",title);
+		ajax.addParam("sysparm_table",table);
+		ajax.getXML(processPopup);
+	};
+	
+	if(choice == "true"){
+		jQuery("#formSection").addClass('hide');
+		var div;
+		var button;
+		for(var i= 0; i < choiceTables.length;i++){
+			div = '<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">';
+			button ='<button id="'+choiceTables[i].table+'" ';
+			button += 'title="'+choiceTables[i].name+'" ';
+			button += 'onclick="funcs.load_choice(this.title,this.id)" ';
+			button += 'class="choices">Add '+ choiceTables[i].name;
+			button += '</button>';
+			div += button + '</div>';
+			jQuery("#choice_buttons").append(div);
+		}
+		
+	}else{
+		jQuery("#choice_buttons").addClass('hide');
+		jQuery("#back").addClass('hide');
+		showPopupForm(popupObj);
+	}
+	
+	var hideAndWipeFields = function(fields){
+		var ele;
+		var field;
+		for(field in fields){
+			
+			ele = gel(field);
+			
+			if(ele && ele.toString() === '[object HTMLSelectElement]'){
+				ele.value = 'Select';
+				
+			}else if(ele){	
+				ele.value = '';
+				
+			}
+			jQuery("#"+field).addClass('hide');
+			jQuery("#"+field+'_label').addClass('hide');
+		}
+	};
+	var showFields = function(fields){
+		var showOpts;
+		var hideOpts;
+		var ele;
+		for(var i = 0;i<fields.length;i++){
+			
+			jQuery("#"+fields[i].field).removeClass('hide');
+			jQuery("#"+fields[i].field+"_label").removeClass('hide');
+		}
+	};
+	
+	var showForm = function(response){
+		//g_form.addInfoMessage(response.responseXML.documentElement.getAttribute("answer"));
+		var answer = response.responseXML.documentElement.getAttribute("answer");
+		
+		if(answer == null || answer == ""){
+			return;
+		}
+		var fieldObj = JSON.parse(answer);
+		
+		if(fieldObj == null){
+			return;
+		}
+		
+		var fields = fieldObj.fields;
+	
+		if(fields){
+			
+			showFields(fields);
+		}
+		
+	};
+	
+	var myShowFunction = function(field,value){
+		
+		return function(){
+			var ajax = new GlideAjax("x_kasp_lossprevent.lp_scripts");
+			ajax.addParam("sysparm_name" , "questions");
+			ajax.addParam('sysparm_questions_table',questionTable);
+			ajax.addParam("sysparm_question",field+":"+value);
+			ajax.getXML(showForm);
+		};
+	};
+	
+	var createHideFunction = function(field,value){
+		//g_form.addInfoMessage('creating callback to hide');
+		return function hide(response) {
+			if(response == null){
+				return;
+			}
+			
+			var answer = response.responseXML.documentElement.getAttribute("answer");
+			
+			if(answer == null){
+				return;
+			}
+			
+			var fieldsGroups = JSON.parse(answer);
+			
+			if(fieldsGroups == null){
+				return;
+			}
+			
+			var fields = fieldsGroups.fields;
+		
+			if(fields){
+				
+				hideAndWipeFields(fields);
+			}
+			
+			var show = myShowFunction(field,value);
+			show();
+		};
+	};
+	
+	var clearAllFields = function(){
+		for(var i = 0; i< fields.length; i++){
+			jQuery("#"+fields[i].name).val("");
+		}
+	};
+	
+	return { 
+		
+		onValueChange: function(element,value){
+			
+			var ajax = new GlideAjax("x_kasp_lossprevent.lp_scripts");
+			ajax.addParam("sysparm_name" , "getAllValuesForQuestion");
+			ajax.addParam('sysparm_questions_table',questionTable);
+			ajax.addParam('sysparm_field',element.id);
+			var callback = createHideFunction(element.id,value);
+			ajax.getXML(callback);
+		},
+		
+		addLine: function(){
+		
+			var line_info = (g_form.getValue('add_line_info') != '') ? JSON.parse(g_form.getValue('add_line_info')):{};
+
+			var info = {};
+			
+			var value;
+			for(var i = 0; i < fields.length; i++){
+				value = jQuery("#"+fields[i].name).val();
+				value = (value == "Select")?"":value;
+				info[fields[i].name] = value;
+			}
+			info['parent'] = g_form.getUniqueValue();
+
+			if(line_info[title]){
+				line_info[title].lines.push(info);
+			}else{
+				line_info[title] = {
+					table:table,
+					lines:[]
+				};
+				line_info[title].lines.push(info);
+			}
+
+			g_form.setValue('add_line_info',JSON.stringify(line_info));
+			count++;
+			jQuery("#count").html("Added: " + count + " " +title+" record(s)");
+			clearAllFields();
+		},
+	
+		done: function(){
+			GlideDialogWindow.get().destroy();
+		},
+		
+		load_choice:function(title,table){
+			console.log("Loading " + title + " " + table);
+			jQuery("#choice_buttons").addClass("hide");
+			jQuery("#formSection").removeClass("hide");
+			getPopup(title,table);
+			
+		},
+		back:function(){
+			jQuery("#left").html("");
+			jQuery("#right").html("");
+			jQuery("#choice_buttons").removeClass("hide");
+			jQuery("#formSection").addClass("hide");
+		}
+
+};
+	
+})();]]></client_script>
+        <description/>
+        <direct>false</direct>
+        <endpoint>x_kasp_lossprevent_lp_popup.do</endpoint>
+        <html><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+<style>
+	
+	.info-box{
+		margin-bottom:2em;
+	}
+	input[type=date]::-webkit-inner-spin-button {
+		-webkit-appearance: none;
+		display: none;
+	}
+
+	input{
+		margin-bottom:1em;
+	}
+	
+	select{
+		margin-bottom:1em;
+	}
+
+	#add_line,#back{
+		margin-right:1em;
+	}
+	#buttons{
+		margin-bottom:1em;
+	}
+	
+	.hide{
+		display:none;
+	}
+	
+	.choices{
+		background:none!important;
+		border:none!important; 
+		padding:0!important;
+		font-family:arial,sans-serif; /*input has OS specific font-family*/
+		color:#3A98FC!important;
+		text-decoration:underline;
+		cursor:pointer;
+	}
+</style>
+	<div id='template'>
+	
+		<g2:evaluate object="true" jelly="true">  
+			var popupControl = {
+				popup:JSON.parse(jelly.sysparm_popup),
+				choice:jelly.sysparm_choice		
+			};
+			var objString = JSON.stringify(popupControl);
+			objString;
+		</g2:evaluate>  
+		<div id="popup_text" style="display:none;" >$[objString]</div>
+		
+		
+		<div id="formSection" class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+				<h3 id="title"></h3>
+			</div>
+
+			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 info-box">
+				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6" id="left">
+
+				</div>
+				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6" id="right">
+
+
+				</div>
+			</div>
+			<div id='buttons' class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+				<div class="col-lg-8 col-md-8 col-sm-8 col-xs-8">
+					<p id="count"></p>
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+					<button id="add_line" type="button" class="btn btn-primary" onclick="funcs.addLine()">Add</button> 
+					<button id="back" type="button" class="btn btn-primary" onclick="funcs.back()">Back</button> 
+					<button id="done" type="button" class="btn btn-primary" onclick="funcs.done()">Done</button> 
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="choice_buttons" class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+		
+	</div>
+	
+
+
+	
+	
+</j:jelly>]]></html>
+        <name>lp_popup</name>
+        <processing_script/>
+        <sys_class_name>sys_ui_page</sys_class_name>
+        <sys_created_by>sebgar01</sys_created_by>
+        <sys_created_on>2017-02-21 14:05:16</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>63460a421389760076165ecf3244b0d8</sys_id>
+        <sys_mod_count>154</sys_mod_count>
+        <sys_name>lp_popup</sys_name>
+        <sys_package display_value="LossPrevention" source="x_kasp_lossprevent">c2716bb56ffc724099a707321c3ee439</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="LossPrevention">c2716bb56ffc724099a707321c3ee439</sys_scope>
+        <sys_update_name>sys_ui_page_63460a421389760076165ecf3244b0d8</sys_update_name>
+        <sys_updated_by>sebgar01</sys_updated_by>
+        <sys_updated_on>2017-04-14 18:03:08</sys_updated_on>
+    </sys_ui_page>
+</record_update>

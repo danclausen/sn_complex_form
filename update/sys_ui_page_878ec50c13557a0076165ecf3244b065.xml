@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_page">
+    <sys_ui_page action="INSERT_OR_UPDATE">
+        <category>general</category>
+        <client_script><![CDATA[var funcs = (function(){
+	var questions_table = jQuery("#questions_table_text").html();
+	
+	var info = JSON.parse(g_form.getValue('add_line_info'));
+	var currentInfo;
+	var line_index = 0;
+	var forms = [];
+	var form;
+	var currentForm;
+	
+	var processPopup = function(formObj){
+		
+		return function(response){
+			var fieldsObjs = JSON.parse(response.responseXML.documentElement.getAttribute("answer"));
+			formObj.popup = fieldsObjs.popup;
+		};
+		
+	};
+	
+	var getPopup = function(formObj){
+		var ajax = new GlideAjax("x_kasp_lossprevent.lp_scripts");
+		ajax.addParam("sysparm_name" , "findPopupByTitle");
+		ajax.addParam('sysparm_questions_table',questions_table);
+		ajax.addParam("sysparm_title",formObj.title);
+		ajax.addParam("sysparm_table",formObj.table);
+		var callback = processPopup(formObj);
+		ajax.getXML(callback);
+	};
+	
+	
+	var button;
+	for(var person_type in info){
+		form = {
+			title:person_type,
+			table:info[person_type].table,
+			popup: {}
+		};
+		getPopup(form);
+		forms.push(form);
+		button ='<button id="'+form.title+'" onclick="funcs.load_choice(this.id)"';
+		button += 'class="btn btn-default type_choice">Edit ' + form.title ;
+		button += '</button>';
+		
+		
+		jQuery("#choice_buttons").append(button);
+	}
+	
+	
+	
+	var populateFields = function(line){
+		console.log("Populating fields");
+		for(var field in line){
+			if(gel(field)){
+				jQuery("#"+field).val(line[field]);
+			}	
+		}	
+	};
+	
+	
+	var addFieldsToForm = function(popup){
+		console.log("Adding fields to form");
+		var fields = popup.fields;
+
+		var fieldBoxDiv = '<div class="field-box">';
+		var innerDiv = '<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">';
+		var halfCount = Math.ceil(fields.length/2);
+		var closeDiv = '</div>';
+
+		var label = '';
+		var input = '';
+		var html = '';
+		
+		for(var c = 0; c < fields.length; c++){
+			label = '<label>'+fields[c].label+'</label>';
+
+			if(fields[c].type){
+
+				if(fields[c].type == 'date'){
+					input = '<input class="form-control" id="'+fields[c].name+'" type="'+fields[c].type+'"/>';
+				}else if(fields[c].type == 'select'){
+					input = '<select class="form-control" id="'+fields[c].name+'">';
+					if(fields[c].options){
+						for(var o = 0; o < fields[c].options.length; o++){
+							input += "<option vlaue='"+fields[c].options[o]+"'>"+fields[c].options[o]+"</option>";
+						}
+
+					}
+				}else if(fields[c].type == 'text'){
+					input = '<input class="form-control" id="'+fields[c].name+'"/>';
+				}
+
+			}else{
+				input = '<input class="form-control" id="'+fields[c].name+'"/>';
+			}
+			html = fieldBoxDiv+innerDiv+label+closeDiv+innerDiv+input+closeDiv;
+			if(c < halfCount){
+				jQuery('#left').append(html);
+
+			}else{
+				jQuery('#right').append(html);
+
+			}
+				
+		}
+	
+	};
+	
+
+	
+	return {
+		save:function(){
+			
+			jQuery('.alert-info').fadeIn(1000);
+			jQuery('.alert-info').fadeOut(2000);
+			var fields = currentForm.popup.fields;
+			for(var i = 0; i < fields.length; i++){
+				currentInfo[fields[i].name] = jQuery("#"+fields[i].name).val();
+			}
+
+			g_form.setValue('add_line_info', JSON.stringify(info));
+		},
+		forw:function(){
+			line_index++;
+			if(line_index >= info[currentForm.title].lines.length){
+				line_index = info[currentForm.title].lines.length -1;
+				return;
+			}
+			currentInfo = info[currentForm.title].lines[line_index];
+			populateFields(currentInfo);
+			
+		},
+		back:function(){
+			line_index--;
+			if(line_index < 0){
+				line_index = 0;
+				return;
+			}
+			currentInfo = info[currentForm.title].lines[line_index];
+			populateFields(currentInfo);
+		},
+		
+		load_choice:function(id){
+			
+			jQuery("#choice_buttons").css("display","none");
+			jQuery("#bottom_section").css("display","block");
+			for(var i = 0; i < forms.length; i++){
+				if(forms[i].title == id){
+					currentForm = forms[i];
+					currentInfo = info[currentForm.title].lines[line_index];
+					addFieldsToForm(currentForm.popup);
+					populateFields(currentInfo);
+					return;
+				}
+			}
+			
+			
+		},
+		addAssociate: function(){
+			var newForm;
+			for(var i = 0; i < forms.length; i++){
+				if(forms[i].title == "Associate Information"){
+					newForm = forms[i];
+					break;
+				}
+			}
+			GlideDialogWindow.get().destroy();
+			var gdw = new GlideDialogWindow('x_kasp_lossprevent_lp_popup');
+			gdw.setPreference('sysparm_popup', JSON.stringify(newForm.popup));
+			gdw.setTitle('Enter Info below');
+			gdw.setSize(800,500);
+
+			//Open the dialog window
+			gdw.render();
+		},
+		done: function(){
+			GlideDialogWindow.get().destroy();
+		}
+	};
+})();]]></client_script>
+        <description/>
+        <direct>false</direct>
+        <endpoint>x_kasp_lossprevent_edit_lines.do</endpoint>
+        <html><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+
+	<style>
+		#bottom_section{
+			margin: 1em 0 1em 0;
+			text-align:center;
+			display: none;
+		}
+		input{
+			margin-bottom:1em;
+		}
+		select{
+			margin-bottom:1em;
+		}
+		
+		#choice_buttons{
+			margin: 1em 0 1em 0;
+		}
+		
+		#scroll_buttons{
+		
+		}
+		.alert-info{
+			display:none;
+		}
+		
+		#save,#back{
+			margin-right:1em;
+		}
+	</style>
+	
+	<div id='template'>
+		<g2:evaluate object="true" jelly="true">  
+			var question_table = jelly.sysparm_questable; 
+			question_table;
+		</g2:evaluate>  
+		<div id="questions_table_text" style="display:none;" >$[question_table]</div>
+		<div class="alert alert-info">
+		  <strong>Saved!</strong>
+		</div>
+		<div id="choice_buttons" class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+			
+		</div>
+		
+		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 info-box">
+			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6" id="left">
+				
+			</div>
+			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6" id="right">
+				
+			
+			</div>
+		</div>
+	</div>
+	
+	<div id='bottom_section' class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+		<div id="scroll_buttons" class="col-lg-8 col-md-8 col-sm-8 col-xs-8">
+			<button type="button" class="btn btn-default" onclick="funcs.back()">$[LT]</button>
+			<button type="button" class="btn btn-default" onclick="funcs.forw()">$[GT]</button>
+		</div>
+		<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+			<button id="save" type="button" class="btn btn-primary" onclick="funcs.save()">Save</button>
+			<button id="done" type="button" class="btn btn-primary" onclick="funcs.done()">Done</button> 
+		</div>
+	</div>
+
+	
+</j:jelly>]]></html>
+        <name>edit_lines</name>
+        <processing_script/>
+        <sys_class_name>sys_ui_page</sys_class_name>
+        <sys_created_by>sebgar01</sys_created_by>
+        <sys_created_on>2017-02-27 15:04:34</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>878ec50c13557a0076165ecf3244b065</sys_id>
+        <sys_mod_count>60</sys_mod_count>
+        <sys_name>edit_lines</sys_name>
+        <sys_package display_value="LossPrevention" source="x_kasp_lossprevent">c2716bb56ffc724099a707321c3ee439</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="LossPrevention">c2716bb56ffc724099a707321c3ee439</sys_scope>
+        <sys_update_name>sys_ui_page_878ec50c13557a0076165ecf3244b065</sys_update_name>
+        <sys_updated_by>sebgar01</sys_updated_by>
+        <sys_updated_on>2017-04-14 18:06:02</sys_updated_on>
+    </sys_ui_page>
+</record_update>

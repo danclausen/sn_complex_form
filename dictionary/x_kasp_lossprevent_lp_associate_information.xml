@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="LP Associate Information" max_length="40" name="x_kasp_lossprevent_lp_associate_information" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Age at Case" max_length="40" name="age_at_case" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="City" max_length="100" name="city" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="County" max_length="40" name="county" type="string"/>
+        <element label="Date of Birth" max_length="40" name="date_of_birth" type="glide_date"/>
+        <element label="Date of Hire" max_length="40" name="date_of_hire" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Employee ID" max_length="40" name="employee_id" type="string"/>
+        <element label="Employee ID Number" max_length="40" name="employee_id_number" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Full Name" max_length="100" name="full_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="Select" label="Gender" max_length="40" name="gender" type="string">
+            <choice>
+                <element label="Male" sequence="0" value="Male"/>
+                <element label="Female" sequence="1" value="Female"/>
+                <element label="Other" sequence="2" value="Other"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Home Address" max_length="100" name="home_address" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="Select" label="Job Title" max_length="40" name="job_title" type="string">
+            <choice>
+                <element label="Part Time Muse" sequence="0" value="Part Time Muse"/>
+                <element label="Full Time Muse" sequence="1" value="Full Time Muse"/>
+                <element label="Associate Store Leader" sequence="2" value="Associate Store Leader"/>
+                <element label="Supervisor" sequence="3" value="Supervisor"/>
+                <element label="Store Leader" sequence="4" value="Store Leader"/>
+                <element label="Senior Store Leader" sequence="5" value="Senior Store Leader"/>
+                <element label="Regional Leader" sequence="6" value="Regional Leader"/>
+                <element label="Area Leader" sequence="7" value="Area Leader"/>
+                <element label="District Leader" sequence="8" value="District Leader"/>
+                <element label="Seasonal Associate" sequence="9" value="Seasonal Associate"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Length of Time within Role" max_length="40" name="length_of_time_within_role" read_only="true" type="string"/>
+        <element label="Parent" max_length="32" name="parent" read_only="true" reference="x_kasp_lossprevent_loss_prevention_incidents" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Phone Number" max_length="40" name="phone_number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="Select" label="State" max_length="40" name="state" type="string">
+            <choice>
+                <element label="Alabama" sequence="0" value="Alabama"/>
+                <element label="Alaska" sequence="1" value="Alaska"/>
+                <element label="Arizona" sequence="2" value="Arizona"/>
+                <element label="Arkansas" sequence="3" value="Arkansas"/>
+                <element label="California" sequence="4" value="California"/>
+                <element label="Colorado" sequence="5" value="Colorado"/>
+                <element label="Connecticut" sequence="6" value="Connecticut"/>
+                <element label="Delaware" sequence="7" value="Delaware"/>
+                <element label="Florida" sequence="8" value="Florida"/>
+                <element label="Georgia" sequence="9" value="Georgia"/>
+                <element label="Hawaii" sequence="10" value="Hawaii"/>
+                <element label="Idaho" sequence="11" value="Idaho"/>
+                <element label="Illinois" sequence="12" value="Illinois"/>
+                <element label="Indiana" sequence="13" value="Indiana"/>
+                <element label="Iowa" sequence="14" value="Iowa"/>
+                <element label="Kansas" sequence="15" value="Kansas"/>
+                <element label="Kentucky" sequence="16" value="Kentucky"/>
+                <element label="Louisiana" sequence="17" value="Louisiana"/>
+                <element label="Maine" sequence="18" value="Maine"/>
+                <element label="Maryland" sequence="19" value="Maryland"/>
+                <element label="Massachusetts" sequence="20" value="Massachusetts"/>
+                <element label="Michigan" sequence="21" value="Michigan"/>
+                <element label="Minnesota" sequence="22" value="Minnesota"/>
+                <element label="Mississippi" sequence="23" value="Mississippi"/>
+                <element label="Missouri" sequence="24" value="Missouri"/>
+                <element label="Montana" sequence="25" value="Montana"/>
+                <element label="Nebraska" sequence="26" value="Nebraska"/>
+                <element label="Nevada" sequence="27" value="Nevada"/>
+                <element label="New Hampshire" sequence="28" value="New Hampshire"/>
+                <element label="New Jersey" sequence="29" value="New Jersey"/>
+                <element label="New Mexico" sequence="30" value="New Mexico"/>
+                <element label="New York" sequence="31" value="New York"/>
+                <element label="North Carolina" sequence="32" value="North Carolina"/>
+                <element label="North Dakota" sequence="33" value="North Dakota"/>
+                <element label="Ohio" sequence="34" value="Ohio"/>
+                <element label="Oklahoma" sequence="35" value="Oklahoma"/>
+                <element label="Oregon" sequence="36" value="Oregon"/>
+                <element label="Pennsylvania" sequence="37" value="Pennsylvania"/>
+                <element label="Rhode Island" sequence="38" value="Rhode Island"/>
+                <element label="South Carolina" sequence="39" value="South Carolina"/>
+                <element label="South Dakota" sequence="40" value="South Dakota"/>
+                <element label="Tennessee" sequence="41" value="Tennessee"/>
+                <element label="Texas" sequence="42" value="Texas"/>
+                <element label="Utah" sequence="43" value="Utah"/>
+                <element label="Vermont" sequence="44" value="Vermont"/>
+                <element label="Virginia" sequence="45" value="Virginia"/>
+                <element label="Washington" sequence="46" value="Washington"/>
+                <element label="West Virginia" sequence="47" value="West Virginia"/>
+                <element label="Wisconsin" sequence="48" value="Wisconsin"/>
+                <element label="Wyoming" sequence="49" value="Wyoming"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Zip Code" max_length="40" name="zip_code" type="string"/>
+        <index name="index">
+            <element name="parent"/>
+        </index>
+    </element>
+</database>

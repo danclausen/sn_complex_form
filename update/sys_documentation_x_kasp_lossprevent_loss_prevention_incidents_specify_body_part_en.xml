@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="specify_body_part" label="Specify Body Part" language="en" table="x_kasp_lossprevent_loss_prevention_incidents">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>specify_body_part</element>
+            <help/>
+            <hint/>
+            <label>Specify Body Part</label>
+            <language>en</language>
+            <name>x_kasp_lossprevent_loss_prevention_incidents</name>
+            <plural>Specify Body Parts</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>dipsha01</sys_created_by>
+            <sys_created_on>2017-02-13 16:37:54</sys_created_on>
+            <sys_customer_update>true</sys_customer_update>
+            <sys_id>38bd99a36ffc320099a707321c3ee452</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Specify Body Part</sys_name>
+            <sys_package display_value="LossPrevention" source="x_kasp_lossprevent">c2716bb56ffc724099a707321c3ee439</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="LossPrevention">c2716bb56ffc724099a707321c3ee439</sys_scope>
+            <sys_update_name>sys_documentation_x_kasp_lossprevent_loss_prevention_incidents_specify_body_part_en</sys_update_name>
+            <sys_updated_by>dipsha01</sys_updated_by>
+            <sys_updated_on>2017-02-13 16:37:54</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

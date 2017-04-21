@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="sys_import_set_row" label="Liz Claiborne, Inc. /Users" max_length="40" name="ldap_import" sizeclass="11411" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="msDS-LastKnownRDN" max_length="40" name="u_msds_lastknownrdn" type="string"/>
+    </element>
+</database>

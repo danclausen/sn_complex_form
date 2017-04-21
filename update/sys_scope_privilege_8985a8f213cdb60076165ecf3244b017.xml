@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_scope_privilege">
+    <sys_scope_privilege action="INSERT_OR_UPDATE">
+        <operation>create</operation>
+        <source_scope display_value="LossPrevention">c2716bb56ffc724099a707321c3ee439</source_scope>
+        <status>allowed</status>
+        <sys_class_name>sys_scope_privilege</sys_class_name>
+        <sys_created_by>sebgar01</sys_created_by>
+        <sys_created_on>2017-02-23 14:52:40</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>8985a8f213cdb60076165ecf3244b017</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_kasp_safety_inci_safety_customer_information</sys_name>
+        <sys_package display_value="LossPrevention" source="x_kasp_lossprevent">c2716bb56ffc724099a707321c3ee439</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="LossPrevention">c2716bb56ffc724099a707321c3ee439</sys_scope>
+        <sys_update_name>sys_scope_privilege_8985a8f213cdb60076165ecf3244b017</sys_update_name>
+        <sys_updated_by>sebgar01</sys_updated_by>
+        <sys_updated_on>2017-02-23 14:52:40</sys_updated_on>
+        <target_name>x_kasp_safety_inci_safety_customer_information</target_name>
+        <target_scope display_value="Safety Incident">fb8b1e0e1389760076165ecf3244b0c2</target_scope>
+        <target_type>sys_db_object</target_type>
+    </sys_scope_privilege>
+</record_update>

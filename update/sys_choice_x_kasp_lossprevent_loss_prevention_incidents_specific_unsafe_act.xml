@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="specific_unsafe_act" table="x_kasp_lossprevent_loss_prevention_incidents" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>specific_unsafe_act</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Horse Play</label>
+            <language>en</language>
+            <name>x_kasp_lossprevent_loss_prevention_incidents</name>
+            <sequence>0</sequence>
+            <sys_created_by>dipsha01</sys_created_by>
+            <sys_created_on>2017-02-13 16:48:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>ec30e1e36ffc320099a707321c3ee4ef</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>dipsha01</sys_updated_by>
+            <sys_updated_on>2017-02-13 16:48:48</sys_updated_on>
+            <value>Horse Play</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>specific_unsafe_act</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Incorrect Use of Equipment</label>
+            <language>en</language>
+            <name>x_kasp_lossprevent_loss_prevention_incidents</name>
+            <sequence>1</sequence>
+            <sys_created_by>dipsha01</sys_created_by>
+            <sys_created_on>2017-02-13 16:48:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>6c30e1e36ffc320099a707321c3ee4f0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>dipsha01</sys_updated_by>
+            <sys_updated_on>2017-02-13 16:48:48</sys_updated_on>
+            <value>Incorrect Use of Equipment</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>specific_unsafe_act</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Un-Authorized use of Equipment</label>
+            <language>en</language>
+            <name>x_kasp_lossprevent_loss_prevention_incidents</name>
+            <sequence>2</sequence>
+            <sys_created_by>dipsha01</sys_created_by>
+            <sys_created_on>2017-02-13 16:48:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>3830e1e36ffc320099a707321c3ee4f1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>dipsha01</sys_updated_by>
+            <sys_updated_on>2017-02-13 16:48:48</sys_updated_on>
+            <value>Un-Authorized use of Equipment</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>specific_unsafe_act</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Un-Supervised use of Equipment</label>
+            <language>en</language>
+            <name>x_kasp_lossprevent_loss_prevention_incidents</name>
+            <sequence>3</sequence>
+            <sys_created_by>dipsha01</sys_created_by>
+            <sys_created_on>2017-02-13 16:48:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>f030e1e36ffc320099a707321c3ee4f2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>dipsha01</sys_updated_by>
+            <sys_updated_on>2017-02-13 16:48:48</sys_updated_on>
+            <value>Un-Supervised use of Equipment</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>specific_unsafe_act</element>
+            <name>x_kasp_lossprevent_loss_prevention_incidents</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>dipsha01</sys_created_by>
+            <sys_created_on>2017-02-13 16:48:48</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>2830e1e36ffc320099a707321c3ee4f0</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>specific_unsafe_act</sys_name>
+            <sys_package display_value="LossPrevention" source="x_kasp_lossprevent">c2716bb56ffc724099a707321c3ee439</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="LossPrevention">c2716bb56ffc724099a707321c3ee439</sys_scope>
+            <sys_update_name>sys_choice_x_kasp_lossprevent_loss_prevention_incidents_specific_unsafe_act</sys_update_name>
+            <sys_updated_by>dipsha01</sys_updated_by>
+            <sys_updated_on>2017-02-13 16:48:48</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

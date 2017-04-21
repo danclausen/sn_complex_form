@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="date_of_birth" label="Date of Birth" language="en" table="x_kasp_lossprevent_lp_associate_information">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>date_of_birth</element>
+            <help/>
+            <hint/>
+            <label>Date of Birth</label>
+            <language>en</language>
+            <name>x_kasp_lossprevent_lp_associate_information</name>
+            <plural>Date of Births</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>danpal01</sys_created_by>
+            <sys_created_on>2017-02-16 19:25:41</sys_created_on>
+            <sys_customer_update>true</sys_customer_update>
+            <sys_id>40e061286fcdb20099a707321c3ee447</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Date of Birth</sys_name>
+            <sys_package display_value="LossPrevention" source="x_kasp_lossprevent">c2716bb56ffc724099a707321c3ee439</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="LossPrevention">c2716bb56ffc724099a707321c3ee439</sys_scope>
+            <sys_update_name>sys_documentation_x_kasp_lossprevent_lp_associate_information_date_of_birth_en</sys_update_name>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-02-16 19:25:41</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

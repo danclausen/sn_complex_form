@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_kasp_lossprevent.lp_scripts</api_name>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>lp_scripts</name>
+        <script><![CDATA[var lp_scripts = Class.create();
+lp_scripts.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+	
+	questions: function(){
+		
+		var question = this.getParameter("sysparm_question");
+		var questions_table = this.getParameter('sysparm_questions_table');
+		var question_rec = new GlideRecord(questions_table);
+		question_rec.addQuery('question','CONTAINS',question);
+		question_rec.query();
+		
+		var newCode;
+		if(question_rec.next()){
+			
+			return question_rec.getValue("fields");
+			
+		}
+		
+		return "";
+		
+	},
+	_getAllValuesRecursive: function(field,fieldGroups,questions_table){
+		gs.info("RECURSING ON FIELD " +field);
+	
+		var questions = new GlideRecord(questions_table);
+		questions.addQuery('question','STARTSWITH',field+":");
+		questions.query();
+		gs.info("RECURSING fields for question " + field);
+		
+		var group;
+		var groupObj;
+		var arrayUtil = new global.ArrayUtil();
+		
+		while(questions.next()){
+			gs.info("Looking at record " + questions.getValue('question'));
+			group = questions.getValue("fields");
+			gs.info("Fields to show " + questions.getValue('question'));
+			gs.info(questions.getValue('question') + " " + group);
+			if(group == null || group == ""){
+				continue;
+			}
+			groupObj = JSON.parse(group);
+			
+			if(groupObj.fields){
+				gs.info('Recursive Adding fields for ' + questions.getValue('question'));
+				//arrayUtil.concat(fieldGroups.fields,groupObj.fields);
+				this._addArrayToObj(fieldGroups.fields,groupObj.fields,'field');
+				for(var i = 0; i< groupObj.fields.length; i++){
+					this._getAllValuesRecursive(groupObj.fields[i].field, fieldGroups,
+											   questions_table);
+				}
+				gs.info(JSON.stringify('Recursive '+fieldGroups));
+			}
+			
+			if(groupObj.sections){
+				
+				for(var j = 0; j < groupObj.sections.length; j++ ){
+					if(groupObj.sections[j].fields){
+						this._addArrayToObj(fieldGroups.fields,groupObj.sections[j].fields,'field');
+					}
+				}
+				this._addArrayToObj(fieldGroups.sections,groupObj.sections);
+				
+			}
+			
+		}
+		gs.info('RECURSIVE return ' + JSON.stringify(fieldGroups));
+	},
+	
+	getAllValuesForQuestion : function(){
+		
+		var field = this.getParameter("sysparm_field");
+		var questions_table = this.getParameter('sysparm_questions_table');
+		
+		var questions = new GlideRecord(questions_table);
+		questions.addQuery('question','STARTSWITH',field+":");
+		questions.query();
+		gs.info("fields for question " + field);
+		
+		var fieldGroups = {
+			fields: {},
+			sections:{}
+		};
+		
+		var group;
+		var groupObj;
+		var arrayUtil = new global.ArrayUtil();
+		while(questions.next()){
+			gs.info("Adding values  for" + questions.getValue('question'));
+			group = questions.getValue("fields");
+			if(group == null || group == ""){
+				continue;
+			}
+			groupObj = JSON.parse(group);
+			
+			if(groupObj.fields){
+				gs.info('ADDING  TOP fields');
+				//arrayUtil.concat(fieldGroups.fields,groupObj.fields);
+				this._addArrayToObj(fieldGroups.fields,groupObj.fields,'field');
+				for(var i = 0; i< groupObj.fields.length; i++){
+					this._getAllValuesRecursive(groupObj.fields[i].field,fieldGroups,
+											   questions_table);
+				}
+				gs.info(JSON.stringify(fieldGroups));
+			}
+			
+			if(groupObj.sections){
+				
+				for(var j = 0; j < groupObj.sections.length; j++ ){
+					if(groupObj.sections[j].fields){
+						this._addArrayToObj(fieldGroups.fields,groupObj.sections[j].fields,'field');
+					}
+				}
+				this._addArrayToObj(fieldGroups.sections,groupObj.sections,'section');
+			}
+			
+			
+			
+		}
+		gs.info("Returning");
+		gs.info('return ' + JSON.stringify(fieldGroups));
+		return JSON.stringify(fieldGroups);
+	},
+	
+	addLine: function(){
+		var info = this.getParameter("sysparm_info");
+		var table = this.getParameter("sysparm_table");
+		info = JSON.parse(info);
+		
+		var line = new GlideRecord(table);
+		for(var n in info){
+			gs.info("Property");
+			gs.info(n);
+			line.setValue(n, info[n]);
+		}
+		
+		return line.insert();
+		
+	},
+	
+	findPopupByTitle: function(){
+		var title = this.getParameter("sysparm_title");
+		var questions_table = this.getParameter('sysparm_questions_table');
+		var detail_table = this.getParameter("sysparm_table");
+		var rec = new GlideRecord(questions_table);
+		rec.addQuery('fields','CONTAINS','popup');
+		rec.addQuery('fields','CONTAINS',title);
+		rec.addQuery('fields','CONTAINS',detail_table);
+		rec.query();
+		var fieldsObjs;
+		var popup;
+		while(rec.next()){
+			fieldsObjs = JSON.parse(rec.getValue('fields'));
+			popup = fieldsObjs.popup;
+			
+			if(popup.title == title && popup.table == detail_table){
+				return rec.getValue('fields');
+			}
+		}
+	},
+	
+	_addArrayToObj: function(obj,arrayToAdd,element){
+		
+		for(var i = 0; i < arrayToAdd.length; i++){
+			obj[arrayToAdd[i][element]] = arrayToAdd[i][element];
+		}
+		
+		return obj;
+	},
+	
+	type: 'lp_scripts'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>sebgar01</sys_created_by>
+        <sys_created_on>2017-02-08 16:01:14</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>20c4ab396ffc724099a707321c3ee43e</sys_id>
+        <sys_mod_count>28</sys_mod_count>
+        <sys_name>lp_scripts</sys_name>
+        <sys_package display_value="LossPrevention" source="x_kasp_lossprevent">c2716bb56ffc724099a707321c3ee439</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="LossPrevention">c2716bb56ffc724099a707321c3ee439</sys_scope>
+        <sys_update_name>sys_script_include_20c4ab396ffc724099a707321c3ee43e</sys_update_name>
+        <sys_updated_by>sebgar01</sys_updated_by>
+        <sys_updated_on>2017-04-13 23:38:32</sys_updated_on>
+    </sys_script_include>
+</record_update>
