@@ -8,9 +8,6 @@
         <element attributes="edge_encryption_enabled=true" label="Qty" max_length="40" name="qty" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Style" max_length="100" name="style" type="string"/>
         <element label="Total" max_length="40" name="total" read_only="true" type="integer"/>
-        <element attributes="edge_encryption_enabled=true" label="Total Cash Loss" max_length="40" name="total_cash_loss" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="Total Merchandise/Cash Loss" max_length="40" name="total_merchandise_cash_loss" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="Total Merchandise Lost" max_length="40" name="total_merchandise_lost" read_only="true" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="UPC" max_length="100" name="upc" type="string"/>
         <index name="index">
             <element name="parent"/>

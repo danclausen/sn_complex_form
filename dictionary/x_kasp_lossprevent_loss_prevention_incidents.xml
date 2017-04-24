@@ -447,7 +447,7 @@
                 <element label="Other" sequence="3" value="Other"/>
             </choice>
         </element>
-        <element attributes="edge_encryption_enabled=true" label="Witness's Phone Number" max_length="40" name="witness_s_phone_number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="(xxx)-xxx-xxxx" label="Witness's Phone Number" max_length="40" name="witness_s_phone_number" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Zip Code" max_length="40" name="zip_code" type="string"/>
         <index name="index">
             <element name="requested_by"/>

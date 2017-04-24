@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_encryption_context">
+    <sys_encryption_context action="INSERT_OR_UPDATE">
+        <encryption_key>1YCpSgZFzJzMR7QN1viu9nCs2KQzVdAx5azI1Y+n/F/7ETUzajwsBnmvuEZ+RhUGT0JYpcDHS5RWReJSU0SRo3sxpJr4TKMY</encryption_key>
+        <name>my key</name>
+        <sys_class_name>sys_encryption_context</sys_class_name>
+        <sys_created_by>sebgar01</sys_created_by>
+        <sys_created_on>2017-04-21 18:54:02</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>b55f320d6f5e72c099a707321c3ee414</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>my key</sys_name>
+        <sys_package display_value="LossPrevention" source="x_kasp_lossprevent">c2716bb56ffc724099a707321c3ee439</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="LossPrevention">c2716bb56ffc724099a707321c3ee439</sys_scope>
+        <sys_update_name>sys_encryption_context_b55f320d6f5e72c099a707321c3ee414</sys_update_name>
+        <sys_updated_by>sebgar01</sys_updated_by>
+        <sys_updated_on>2017-04-21 18:54:02</sys_updated_on>
+        <type>AES256</type>
+    </sys_encryption_context>
+</record_update>

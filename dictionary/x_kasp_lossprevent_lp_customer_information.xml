@@ -4,7 +4,7 @@
         <element attributes="edge_encryption_enabled=true" label="City" max_length="40" name="city" type="string"/>
         <element label="Date of Birth" max_length="40" name="date_of_birth" type="glide_date"/>
         <element attributes="edge_encryption_enabled=true" label="Driver License #" max_length="100" name="driver_license" type="string"/>
-        <element attributes="edge_encryption_enabled=true" choice="3" default="Select" label="Ethnicity" max_length="40" name="ethnicity" type="string">
+        <element attributes="edge_encryption_enabled=true" choice="3" default="Select" label="Ethnicity" max_length="100" name="ethnicity" type="string">
             <choice>
                 <element label="American Indian/Alaskan Native(Not Hispanic)" sequence="0" value="American Indian/Alaskan Native(Not Hispanic)"/>
                 <element label="Asian(Not Hispanic)" sequence="1" value="Asian(Not Hispanic)"/>
