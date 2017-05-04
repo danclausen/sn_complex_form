@@ -6,6 +6,7 @@
         <element label="Parent" max_length="32" name="parent" read_only="true" reference="x_kasp_lossprevent_loss_prevention_incidents" type="reference"/>
         <element attributes="omit_sys_original=true" label="Price" max_length="20" name="price" type="currency"/>
         <element attributes="edge_encryption_enabled=true" label="Qty" max_length="40" name="qty" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Size" max_length="40" name="size" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Style" max_length="100" name="style" type="string"/>
         <element label="Total" max_length="40" name="total" read_only="true" type="integer"/>
         <element attributes="edge_encryption_enabled=true" label="UPC" max_length="100" name="upc" type="string"/>

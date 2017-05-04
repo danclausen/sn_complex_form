@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="LP Witness Information" max_length="40" name="x_kasp_lossprevent_lp_witness_information" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Address" max_length="100" name="address" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Country" max_length="40" name="country" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Full Name" max_length="100" name="full_name" type="string"/>
+        <element label="Parent" max_length="32" name="parent" read_only="true" reference="x_kasp_lossprevent_loss_prevention_incidents" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Phone Number" max_length="40" name="phone_number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="Select" label="Witness Type" max_length="40" name="witness_type" type="string">
+            <choice>
+                <element label="Select" sequence="0" value="Select"/>
+                <element label="Associate" sequence="1" value="Associate"/>
+                <element label="Member of Public" sequence="2" value="Member of Public"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="parent"/>
+        </index>
+    </element>
+</database>

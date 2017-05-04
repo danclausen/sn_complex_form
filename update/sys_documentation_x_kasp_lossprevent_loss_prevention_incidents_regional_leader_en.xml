@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="regional_leader" label="Regional Leader" language="en" table="x_kasp_lossprevent_loss_prevention_incidents">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>regional_leader</element>
+            <help/>
+            <hint/>
+            <label>Regional Leader</label>
+            <language>en</language>
+            <name>x_kasp_lossprevent_loss_prevention_incidents</name>
+            <plural>Regional Leaders</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>danpal01</sys_created_by>
+            <sys_created_on>2017-05-03 12:58:42</sys_created_on>
+            <sys_customer_update>true</sys_customer_update>
+            <sys_id>8021af7c1366b20076165ecf3244b0ff</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Regional Leader</sys_name>
+            <sys_package display_value="LossPrevention" source="x_kasp_lossprevent">c2716bb56ffc724099a707321c3ee439</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="LossPrevention">c2716bb56ffc724099a707321c3ee439</sys_scope>
+            <sys_update_name>sys_documentation_x_kasp_lossprevent_loss_prevention_incidents_regional_leader_en</sys_update_name>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-05-03 12:58:42</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

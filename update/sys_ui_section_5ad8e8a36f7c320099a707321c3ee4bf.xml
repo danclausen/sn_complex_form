@@ -2,114 +2,72 @@
 <record_update>
     <sys_ui_section caption="Incident Info" section_id="5ad8e8a36f7c320099a707321c3ee4bf" sys_domain="global" table="x_kasp_lossprevent_loss_prevention_incidents" version="3" view="">
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>customer_or_associate_witness</element>
-            <position>0</position>
-            <sys_created_by>dipsha01</sys_created_by>
-            <sys_created_on>2017-04-03 13:11:04</sys_created_on>
-            <sys_id>7444859313f5328076165ecf3244b0c5</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Incident Info" display_value="Incident Info" name="x_kasp_lossprevent_loss_prevention_incidents" sys_domain="global" view="Default view">5ad8e8a36f7c320099a707321c3ee4bf</sys_ui_section>
-            <sys_updated_by>dipsha01</sys_updated_by>
-            <sys_updated_on>2017-04-03 13:11:04</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
             <element>hop_at_time_of_incident</element>
-            <position>1</position>
-            <sys_created_by>dipsha01</sys_created_by>
-            <sys_created_on>2017-04-03 13:11:04</sys_created_on>
-            <sys_id>f844859313f5328076165ecf3244b0c5</sys_id>
+            <position>0</position>
+            <sys_created_by>danpal01</sys_created_by>
+            <sys_created_on>2017-04-25 12:15:51</sys_created_on>
+            <sys_id>ee9aca926f5676c099a707321c3ee4a4</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Incident Info" display_value="Incident Info" name="x_kasp_lossprevent_loss_prevention_incidents" sys_domain="global" view="Default view">5ad8e8a36f7c320099a707321c3ee4bf</sys_ui_section>
-            <sys_updated_by>dipsha01</sys_updated_by>
-            <sys_updated_on>2017-04-03 13:11:04</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>full_name_of_witness</element>
-            <position>2</position>
-            <sys_created_by>dipsha01</sys_created_by>
-            <sys_created_on>2017-04-03 13:11:04</sys_created_on>
-            <sys_id>7c44859313f5328076165ecf3244b0c5</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Incident Info" display_value="Incident Info" name="x_kasp_lossprevent_loss_prevention_incidents" sys_domain="global" view="Default view">5ad8e8a36f7c320099a707321c3ee4bf</sys_ui_section>
-            <sys_updated_by>dipsha01</sys_updated_by>
-            <sys_updated_on>2017-04-03 13:11:04</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>witness_s_phone_number</element>
-            <position>3</position>
-            <sys_created_by>dipsha01</sys_created_by>
-            <sys_created_on>2017-04-03 13:11:04</sys_created_on>
-            <sys_id>fc44859313f5328076165ecf3244b0c5</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Incident Info" display_value="Incident Info" name="x_kasp_lossprevent_loss_prevention_incidents" sys_domain="global" view="Default view">5ad8e8a36f7c320099a707321c3ee4bf</sys_ui_section>
-            <sys_updated_by>dipsha01</sys_updated_by>
-            <sys_updated_on>2017-04-03 13:11:04</sys_updated_on>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-04-25 12:15:51</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>4</position>
-            <sys_created_by>dipsha01</sys_created_by>
-            <sys_created_on>2017-04-03 13:11:04</sys_created_on>
-            <sys_id>7044859313f5328076165ecf3244b0c6</sys_id>
+            <position>1</position>
+            <sys_created_by>danpal01</sys_created_by>
+            <sys_created_on>2017-04-25 12:15:51</sys_created_on>
+            <sys_id>669aca926f5676c099a707321c3ee4a5</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Incident Info" display_value="Incident Info" name="x_kasp_lossprevent_loss_prevention_incidents" sys_domain="global" view="Default view">5ad8e8a36f7c320099a707321c3ee4bf</sys_ui_section>
-            <sys_updated_by>dipsha01</sys_updated_by>
-            <sys_updated_on>2017-04-03 13:11:04</sys_updated_on>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-04-25 12:15:51</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.end_split</element>
-            <position>5</position>
-            <sys_created_by>dipsha01</sys_created_by>
-            <sys_created_on>2017-04-03 13:11:04</sys_created_on>
-            <sys_id>f044859313f5328076165ecf3244b0c6</sys_id>
+            <position>2</position>
+            <sys_created_by>danpal01</sys_created_by>
+            <sys_created_on>2017-04-25 12:15:51</sys_created_on>
+            <sys_id>e69aca926f5676c099a707321c3ee4a5</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Incident Info" display_value="Incident Info" name="x_kasp_lossprevent_loss_prevention_incidents" sys_domain="global" view="Default view">5ad8e8a36f7c320099a707321c3ee4bf</sys_ui_section>
-            <sys_updated_by>dipsha01</sys_updated_by>
-            <sys_updated_on>2017-04-03 13:11:04</sys_updated_on>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-04-25 12:15:51</sys_updated_on>
             <sys_user/>
             <type>.end_split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>incident_details</element>
-            <position>6</position>
-            <sys_created_by>dipsha01</sys_created_by>
-            <sys_created_on>2017-04-03 13:11:04</sys_created_on>
-            <sys_id>7444859313f5328076165ecf3244b0c6</sys_id>
+            <position>3</position>
+            <sys_created_by>danpal01</sys_created_by>
+            <sys_created_on>2017-04-25 12:15:51</sys_created_on>
+            <sys_id>6a9aca926f5676c099a707321c3ee4a5</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Incident Info" display_value="Incident Info" name="x_kasp_lossprevent_loss_prevention_incidents" sys_domain="global" view="Default view">5ad8e8a36f7c320099a707321c3ee4bf</sys_ui_section>
-            <sys_updated_by>dipsha01</sys_updated_by>
-            <sys_updated_on>2017-04-03 13:11:04</sys_updated_on>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-04-25 12:15:51</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>preventative_action_s</element>
-            <position>7</position>
-            <sys_created_by>dipsha01</sys_created_by>
-            <sys_created_on>2017-04-03 13:11:04</sys_created_on>
-            <sys_id>f444859313f5328076165ecf3244b0c6</sys_id>
+            <position>4</position>
+            <sys_created_by>danpal01</sys_created_by>
+            <sys_created_on>2017-04-25 12:15:51</sys_created_on>
+            <sys_id>ea9aca926f5676c099a707321c3ee4a5</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Incident Info" display_value="Incident Info" name="x_kasp_lossprevent_loss_prevention_incidents" sys_domain="global" view="Default view">5ad8e8a36f7c320099a707321c3ee4bf</sys_ui_section>
-            <sys_updated_by>dipsha01</sys_updated_by>
-            <sys_updated_on>2017-04-03 13:11:04</sys_updated_on>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-04-25 12:15:51</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

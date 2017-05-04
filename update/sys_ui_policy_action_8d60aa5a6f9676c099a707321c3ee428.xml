@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <disabled>ignore</disabled>
+        <field>total_cash_amount_lost</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>danpal01</sys_created_by>
+        <sys_created_on>2017-04-25 13:51:14</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>8d60aa5a6f9676c099a707321c3ee428</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>total_cash_amount_lost</sys_name>
+        <sys_package display_value="LossPrevention" source="x_kasp_lossprevent">c2716bb56ffc724099a707321c3ee439</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="LossPrevention">c2716bb56ffc724099a707321c3ee439</sys_scope>
+        <sys_update_name>sys_ui_policy_action_8d60aa5a6f9676c099a707321c3ee428</sys_update_name>
+        <sys_updated_by>danpal01</sys_updated_by>
+        <sys_updated_on>2017-04-25 13:51:14</sys_updated_on>
+        <table>x_kasp_lossprevent_loss_prevention_incidents</table>
+        <ui_policy display_value="Hide Total Cash Amount if Cash Lost is No">4720e65a6f9676c099a707321c3ee4cc</ui_policy>
+        <visible>false</visible>
+    </sys_ui_policy_action>
+</record_update>

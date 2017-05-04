@@ -3,45 +3,59 @@
     <sys_ui_related sys_domain="global" table="x_kasp_lossprevent_loss_prevention_incidents" version="2" view="">
         <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
             <filter/>
-            <list_id display_value="Loss Prevention Incidents - Default view" name="x_kasp_lossprevent_loss_prevention_incidents" related_list="NULL" sys_domain="global" view="Default view">e7e570cc13157a0076165ecf3244b0fe</list_id>
+            <list_id display_value="Loss Prevention Incidents - Default view" name="x_kasp_lossprevent_loss_prevention_incidents" related_list="NULL" sys_domain="global" view="Default view">417b264e135676c076165ecf3244b069</list_id>
             <order_by/>
             <position>0</position>
             <related_list>x_kasp_lossprevent_lp_associate_information.parent</related_list>
             <sys_class_name>sys_ui_related_list_entry</sys_class_name>
             <sys_created_by>danpal01</sys_created_by>
-            <sys_created_on>2017-02-27 13:16:48</sys_created_on>
-            <sys_id>afe570cc13157a0076165ecf3244b0fe</sys_id>
+            <sys_created_on>2017-04-24 20:00:55</sys_created_on>
+            <sys_id>cd7b264e135676c076165ecf3244b069</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>danpal01</sys_updated_by>
-            <sys_updated_on>2017-02-27 13:16:48</sys_updated_on>
+            <sys_updated_on>2017-04-24 20:00:55</sys_updated_on>
         </sys_ui_related_list_entry>
         <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
             <filter/>
-            <list_id display_value="Loss Prevention Incidents - Default view" name="x_kasp_lossprevent_loss_prevention_incidents" related_list="NULL" sys_domain="global" view="Default view">e7e570cc13157a0076165ecf3244b0fe</list_id>
+            <list_id display_value="Loss Prevention Incidents - Default view" name="x_kasp_lossprevent_loss_prevention_incidents" related_list="NULL" sys_domain="global" view="Default view">417b264e135676c076165ecf3244b069</list_id>
             <order_by/>
             <position>1</position>
             <related_list>x_kasp_lossprevent_lp_customer_information.parent</related_list>
             <sys_class_name>sys_ui_related_list_entry</sys_class_name>
             <sys_created_by>danpal01</sys_created_by>
-            <sys_created_on>2017-02-27 13:16:48</sys_created_on>
-            <sys_id>e3e570cc13157a0076165ecf3244b0ff</sys_id>
+            <sys_created_on>2017-04-24 20:00:55</sys_created_on>
+            <sys_id>4d7b6e4e135676c076165ecf3244b01c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>danpal01</sys_updated_by>
-            <sys_updated_on>2017-02-27 13:16:48</sys_updated_on>
+            <sys_updated_on>2017-04-24 20:00:55</sys_updated_on>
         </sys_ui_related_list_entry>
         <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
             <filter/>
-            <list_id display_value="Loss Prevention Incidents - Default view" name="x_kasp_lossprevent_loss_prevention_incidents" related_list="NULL" sys_domain="global" view="Default view">e7e570cc13157a0076165ecf3244b0fe</list_id>
+            <list_id display_value="Loss Prevention Incidents - Default view" name="x_kasp_lossprevent_loss_prevention_incidents" related_list="NULL" sys_domain="global" view="Default view">417b264e135676c076165ecf3244b069</list_id>
             <order_by/>
             <position>2</position>
             <related_list>x_kasp_lossprevent_lp_merchandise_table.parent</related_list>
             <sys_class_name>sys_ui_related_list_entry</sys_class_name>
             <sys_created_by>danpal01</sys_created_by>
-            <sys_created_on>2017-02-27 13:16:48</sys_created_on>
-            <sys_id>2be570cc13157a0076165ecf3244b0ff</sys_id>
+            <sys_created_on>2017-04-24 20:00:55</sys_created_on>
+            <sys_id>417b6e4e135676c076165ecf3244b01d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>danpal01</sys_updated_by>
-            <sys_updated_on>2017-02-27 13:16:48</sys_updated_on>
+            <sys_updated_on>2017-04-24 20:00:55</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Loss Prevention Incidents - Default view" name="x_kasp_lossprevent_loss_prevention_incidents" related_list="NULL" sys_domain="global" view="Default view">417b264e135676c076165ecf3244b069</list_id>
+            <order_by/>
+            <position>3</position>
+            <related_list>x_kasp_lossprevent_lp_shoplifter_information.parent</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>danpal01</sys_created_by>
+            <sys_created_on>2017-04-24 20:00:55</sys_created_on>
+            <sys_id>457b6e4e135676c076165ecf3244b01d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-04-24 20:00:55</sys_updated_on>
         </sys_ui_related_list_entry>
         <sys_ui_related_list action="INSERT_OR_UPDATE">
             <calculated_name>Loss Prevention Incidents - Default view</calculated_name>
@@ -52,10 +66,10 @@
             <related_list/>
             <sys_class_name>sys_ui_related_list</sys_class_name>
             <sys_created_by>danpal01</sys_created_by>
-            <sys_created_on>2017-02-27 13:16:48</sys_created_on>
+            <sys_created_on>2017-04-24 20:00:55</sys_created_on>
             <sys_customer_update>true</sys_customer_update>
             <sys_domain>global</sys_domain>
-            <sys_id>e7e570cc13157a0076165ecf3244b0fe</sys_id>
+            <sys_id>417b264e135676c076165ecf3244b069</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>Loss Prevention Incidents - Default view</sys_name>
             <sys_package display_value="LossPrevention" source="x_kasp_lossprevent">c2716bb56ffc724099a707321c3ee439</sys_package>
@@ -64,7 +78,7 @@
             <sys_scope display_value="LossPrevention">c2716bb56ffc724099a707321c3ee439</sys_scope>
             <sys_update_name>sys_ui_related_x_kasp_lossprevent_loss_prevention_incidents_null</sys_update_name>
             <sys_updated_by>danpal01</sys_updated_by>
-            <sys_updated_on>2017-02-27 13:16:48</sys_updated_on>
+            <sys_updated_on>2017-04-24 20:00:55</sys_updated_on>
             <sys_user/>
             <view display_value="Default view" name="NULL">Default view</view>
             <view_name/>

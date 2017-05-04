@@ -6,6 +6,24 @@
             <element>location_of_incident</element>
             <hint/>
             <inactive>false</inactive>
+            <label>Select</label>
+            <language>en</language>
+            <name>x_kasp_lossprevent_loss_prevention_incidents</name>
+            <sequence>0</sequence>
+            <sys_created_by>danpal01</sys_created_by>
+            <sys_created_on>2017-04-25 11:33:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>e5d082966f1676c099a707321c3ee4e5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-04-25 11:33:11</sys_updated_on>
+            <value>Select</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>location_of_incident</element>
+            <hint/>
+            <inactive>false</inactive>
             <label>ASC</label>
             <language>en</language>
             <name>x_kasp_lossprevent_loss_prevention_incidents</name>
@@ -153,14 +171,14 @@
             <label>Other</label>
             <language>en</language>
             <name>x_kasp_lossprevent_loss_prevention_incidents</name>
-            <sequence>50</sequence>
+            <sequence>9</sequence>
             <sys_created_by>danpal01</sys_created_by>
             <sys_created_on>2017-02-17 13:33:02</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_id>b3b9197413c1f20076165ecf3244b01d</sys_id>
-            <sys_mod_count>3</sys_mod_count>
-            <sys_updated_by>sebgar01</sys_updated_by>
-            <sys_updated_on>2017-04-14 19:12:45</sys_updated_on>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-04-25 11:33:11</sys_updated_on>
             <value>Other</value>
         </sys_choice>
         <sys_choice_set action="INSERT_OR_UPDATE">
@@ -171,15 +189,15 @@
             <sys_created_on>2017-02-17 13:33:02</sys_created_on>
             <sys_customer_update>false</sys_customer_update>
             <sys_id>fbb9557413c1f20076165ecf3244b048</sys_id>
-            <sys_mod_count>13</sys_mod_count>
+            <sys_mod_count>14</sys_mod_count>
             <sys_name>location_of_incident</sys_name>
             <sys_package display_value="LossPrevention" source="x_kasp_lossprevent">c2716bb56ffc724099a707321c3ee439</sys_package>
             <sys_policy/>
             <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
             <sys_scope display_value="LossPrevention">c2716bb56ffc724099a707321c3ee439</sys_scope>
             <sys_update_name>sys_choice_x_kasp_lossprevent_loss_prevention_incidents_location_of_incident</sys_update_name>
-            <sys_updated_by>sebgar01</sys_updated_by>
-            <sys_updated_on>2017-04-14 19:13:17</sys_updated_on>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-04-25 11:33:11</sys_updated_on>
         </sys_choice_set>
     </sys_choice>
 </record_update>

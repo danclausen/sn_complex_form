@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="customers_involved" table="x_kasp_lossprevent_loss_prevention_incidents" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>customers_involved</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Yes</label>
+            <language>en</language>
+            <name>x_kasp_lossprevent_loss_prevention_incidents</name>
+            <sequence>0</sequence>
+            <sys_created_by>danpal01</sys_created_by>
+            <sys_created_on>2017-04-25 11:28:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>39afb9166f1676c099a707321c3ee469</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-04-25 11:28:01</sys_updated_on>
+            <value>Yes</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>customers_involved</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>No</label>
+            <language>en</language>
+            <name>x_kasp_lossprevent_loss_prevention_incidents</name>
+            <sequence>1</sequence>
+            <sys_created_by>danpal01</sys_created_by>
+            <sys_created_on>2017-04-25 11:28:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>b5afb9166f1676c099a707321c3ee46a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-04-25 11:28:01</sys_updated_on>
+            <value>No</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>customers_involved</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Not Applicable</label>
+            <language>en</language>
+            <name>x_kasp_lossprevent_loss_prevention_incidents</name>
+            <sequence>2</sequence>
+            <sys_created_by>danpal01</sys_created_by>
+            <sys_created_on>2017-04-25 11:28:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>71afb9166f1676c099a707321c3ee46b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-04-25 11:28:01</sys_updated_on>
+            <value>Not Applicable</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>customers_involved</element>
+            <name>x_kasp_lossprevent_loss_prevention_incidents</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>danpal01</sys_created_by>
+            <sys_created_on>2017-04-25 11:28:01</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>71afb9166f1676c099a707321c3ee46a</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>customers_involved</sys_name>
+            <sys_package display_value="LossPrevention" source="x_kasp_lossprevent">c2716bb56ffc724099a707321c3ee439</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="LossPrevention">c2716bb56ffc724099a707321c3ee439</sys_scope>
+            <sys_update_name>sys_choice_x_kasp_lossprevent_loss_prevention_incidents_customers_involved</sys_update_name>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-04-25 11:28:01</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

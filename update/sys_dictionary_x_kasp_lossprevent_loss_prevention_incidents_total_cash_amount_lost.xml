@@ -7,7 +7,7 @@
         <attributes>omit_sys_original=true</attributes>
         <audit>false</audit>
         <calculation/>
-        <choice>0</choice>
+        <choice/>
         <choice_field/>
         <choice_table/>
         <column_label>Total Cash Amount Lost</column_label>
@@ -49,7 +49,7 @@
         <sys_created_on>2017-02-27 14:16:06</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
         <sys_id>08830d8413557a0076165ecf3244b0b2</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Total Cash Amount Lost</sys_name>
         <sys_package display_value="LossPrevention" source="x_kasp_lossprevent">c2716bb56ffc724099a707321c3ee439</sys_package>
         <sys_policy/>
@@ -57,7 +57,7 @@
         <sys_scope display_value="LossPrevention">c2716bb56ffc724099a707321c3ee439</sys_scope>
         <sys_update_name>sys_dictionary_x_kasp_lossprevent_loss_prevention_incidents_total_cash_amount_lost</sys_update_name>
         <sys_updated_by>danpal01</sys_updated_by>
-        <sys_updated_on>2017-02-27 14:16:06</sys_updated_on>
+        <sys_updated_on>2017-04-25 12:20:10</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

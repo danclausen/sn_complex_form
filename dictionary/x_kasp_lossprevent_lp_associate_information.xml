@@ -19,16 +19,30 @@
         <element attributes="edge_encryption_enabled=true" label="Home Address" max_length="100" name="home_address" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="3" default="Select" label="Job Title" max_length="40" name="job_title" type="string">
             <choice>
-                <element label="Part Time Muse" sequence="0" value="Part Time Muse"/>
-                <element label="Full Time Muse" sequence="1" value="Full Time Muse"/>
+                <element label="Area Leader" sequence="0" value="Area Leader"/>
+                <element label="Assistant Store Leader" sequence="1" value="Assistant Store Leader"/>
                 <element label="Associate Store Leader" sequence="2" value="Associate Store Leader"/>
-                <element label="Supervisor" sequence="3" value="Supervisor"/>
-                <element label="Store Leader" sequence="4" value="Store Leader"/>
-                <element label="Senior Store Leader" sequence="5" value="Senior Store Leader"/>
-                <element label="Regional Leader" sequence="6" value="Regional Leader"/>
-                <element label="Area Leader" sequence="7" value="Area Leader"/>
-                <element label="District Leader" sequence="8" value="District Leader"/>
-                <element label="Seasonal Associate" sequence="9" value="Seasonal Associate"/>
+                <element label="District Leader" sequence="3" value="District Leader"/>
+                <element label="FT Associate" sequence="4" value="FT Associate"/>
+                <element label="FT Master Muse" sequence="5" value="FT Master Muse"/>
+                <element label="FT Sales Lead" sequence="6" value="FT Sales Lead"/>
+                <element label="FT Senior Sales Associate" sequence="7" value="FT Senior Sales Associate"/>
+                <element label="FT Stock Supervisor" sequence="8" value="FT Stock Supervisor"/>
+                <element label="FT Supervisor" sequence="9" value="FT Supervisor"/>
+                <element label="FT Support Associate" sequence="10" value="FT Support Associate"/>
+                <element label="FT Support Supervisor" sequence="11" value="FT Support Supervisor"/>
+                <element label="FT Visual Associate" sequence="12" value="FT Visual Associate"/>
+                <element label="PT Associate" sequence="13" value="PT Associate"/>
+                <element label="PT Sales Lead" sequence="14" value="PT Sales Lead"/>
+                <element label="PT Sales Support" sequence="15" value="PT Sales Support"/>
+                <element label="PT Senior Sales Associate" sequence="16" value="PT Senior Sales Associate"/>
+                <element label="PT Stock Associate 20" sequence="17" value="PT Stock Associate 20"/>
+                <element label="PT Supervisor" sequence="18" value="PT Supervisor"/>
+                <element label="PT Support Associate" sequence="19" value="PT Support Associate"/>
+                <element label="Regional Director" sequence="20" value="Regional Director"/>
+                <element label="Senior Store Leader" sequence="21" value="Senior Store Leader"/>
+                <element label="Store Leader" sequence="22" value="Store Leader"/>
+                <element label="Corporate Associate" sequence="23" value="Corporate Associate"/>
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" label="Length of Time within Role" max_length="40" name="length_of_time_within_role" read_only="true" type="string"/>

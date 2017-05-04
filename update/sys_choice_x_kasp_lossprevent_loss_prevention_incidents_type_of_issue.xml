@@ -5,6 +5,24 @@
             <dependent_value/>
             <element>type_of_issue</element>
             <hint/>
+            <inactive>true</inactive>
+            <label>Altercation</label>
+            <language>en</language>
+            <name>x_kasp_lossprevent_loss_prevention_incidents</name>
+            <sequence>0</sequence>
+            <sys_created_by>danpal01</sys_created_by>
+            <sys_created_on>2017-02-13 13:15:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>e46fa8e76f7c320099a707321c3ee4b7</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-04-25 12:24:56</sys_updated_on>
+            <value>Altercation</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type_of_issue</element>
+            <hint/>
             <inactive>false</inactive>
             <label>Select</label>
             <language>en</language>
@@ -40,20 +58,20 @@
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
             <element>type_of_issue</element>
-            <hint/>
+            <hint>A threat, usually verbal or written, to detonate an explosive or incendiary device to cause property damage, death, injuries whether or not such a device actually exists.</hint>
             <inactive>true</inactive>
-            <label>Altercation</label>
+            <label>Bomb Threat</label>
             <language>en</language>
             <name>x_kasp_lossprevent_loss_prevention_incidents</name>
-            <sequence>2</sequence>
+            <sequence>1</sequence>
             <sys_created_by>danpal01</sys_created_by>
-            <sys_created_on>2017-02-13 13:15:32</sys_created_on>
+            <sys_created_on>2017-02-13 13:31:52</sys_created_on>
             <sys_domain>global</sys_domain>
-            <sys_id>e46fa8e76f7c320099a707321c3ee4b7</sys_id>
-            <sys_mod_count>3</sys_mod_count>
-            <sys_updated_by>sebgar01</sys_updated_by>
-            <sys_updated_on>2017-04-14 19:09:51</sys_updated_on>
-            <value>Altercation</value>
+            <sys_id>8823f4ab6f7c320099a707321c3ee433</sys_id>
+            <sys_mod_count>9</sys_mod_count>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-04-25 12:24:56</sys_updated_on>
+            <value>Bomb Threat</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
@@ -63,15 +81,33 @@
             <label>Associate Incident</label>
             <language>en</language>
             <name>x_kasp_lossprevent_loss_prevention_incidents</name>
-            <sequence>3</sequence>
+            <sequence>2</sequence>
             <sys_created_by>danpal01</sys_created_by>
             <sys_created_on>2017-02-13 13:15:32</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_id>e06f242b6f7c320099a707321c3ee4ab</sys_id>
-            <sys_mod_count>7</sys_mod_count>
-            <sys_updated_by>sebgar01</sys_updated_by>
-            <sys_updated_on>2017-04-14 19:09:53</sys_updated_on>
+            <sys_mod_count>8</sys_mod_count>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-04-25 12:24:56</sys_updated_on>
             <value>Associate Incident</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type_of_issue</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>Harassment</label>
+            <language>en</language>
+            <name>x_kasp_lossprevent_loss_prevention_incidents</name>
+            <sequence>2</sequence>
+            <sys_created_by>danpal01</sys_created_by>
+            <sys_created_on>2017-02-13 13:15:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>e86fa8e76f7c320099a707321c3ee4b9</sys_id>
+            <sys_mod_count>8</sys_mod_count>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-04-25 12:24:56</sys_updated_on>
+            <value>Harassment</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
@@ -81,33 +117,33 @@
             <label>Associate Theft</label>
             <language>en</language>
             <name>x_kasp_lossprevent_loss_prevention_incidents</name>
-            <sequence>4</sequence>
+            <sequence>3</sequence>
             <sys_created_by>danpal01</sys_created_by>
             <sys_created_on>2017-02-16 15:20:01</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_id>11a860286f4db20099a707321c3ee402</sys_id>
-            <sys_mod_count>7</sys_mod_count>
-            <sys_updated_by>sebgar01</sys_updated_by>
-            <sys_updated_on>2017-04-14 19:09:55</sys_updated_on>
+            <sys_mod_count>8</sys_mod_count>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-04-25 12:24:56</sys_updated_on>
             <value>Associate Theft</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
             <element>type_of_issue</element>
-            <hint>A threat, usually verbal or written, to detonate an explosive or incendiary device to cause property damage, death, injuries whether or not such a device actually exists.</hint>
+            <hint/>
             <inactive>true</inactive>
-            <label>Bomb Threat</label>
+            <label>Internal Theft</label>
             <language>en</language>
             <name>x_kasp_lossprevent_loss_prevention_incidents</name>
-            <sequence>5</sequence>
+            <sequence>3</sequence>
             <sys_created_by>danpal01</sys_created_by>
-            <sys_created_on>2017-02-13 13:31:52</sys_created_on>
+            <sys_created_on>2017-02-13 13:15:32</sys_created_on>
             <sys_domain>global</sys_domain>
-            <sys_id>8823f4ab6f7c320099a707321c3ee433</sys_id>
-            <sys_mod_count>8</sys_mod_count>
-            <sys_updated_by>dipsha01</sys_updated_by>
-            <sys_updated_on>2017-04-20 17:10:19</sys_updated_on>
-            <value>Bomb Threat</value>
+            <sys_id>206f242b6f7c320099a707321c3ee4a5</sys_id>
+            <sys_mod_count>5</sys_mod_count>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-04-25 12:24:56</sys_updated_on>
+            <value>Internal Theft</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
@@ -117,15 +153,33 @@
             <label>Bulk Buyer</label>
             <language>en</language>
             <name>x_kasp_lossprevent_loss_prevention_incidents</name>
-            <sequence>6</sequence>
+            <sequence>4</sequence>
             <sys_created_by>danpal01</sys_created_by>
             <sys_created_on>2017-02-13 13:15:32</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_id>646f242b6f7c320099a707321c3ee4a4</sys_id>
-            <sys_mod_count>8</sys_mod_count>
-            <sys_updated_by>sebgar01</sys_updated_by>
-            <sys_updated_on>2017-04-14 19:08:44</sys_updated_on>
+            <sys_mod_count>9</sys_mod_count>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-04-25 12:24:56</sys_updated_on>
             <value>Bulk Buyer</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type_of_issue</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>Physical Security</label>
+            <language>en</language>
+            <name>x_kasp_lossprevent_loss_prevention_incidents</name>
+            <sequence>4</sequence>
+            <sys_created_by>danpal01</sys_created_by>
+            <sys_created_on>2017-02-13 13:15:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>a46f242b6f7c320099a707321c3ee4a6</sys_id>
+            <sys_mod_count>6</sys_mod_count>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-04-25 12:24:56</sys_updated_on>
+            <value>Physical Security</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
@@ -135,15 +189,51 @@
             <label>Burglary</label>
             <language>en</language>
             <name>x_kasp_lossprevent_loss_prevention_incidents</name>
-            <sequence>7</sequence>
+            <sequence>5</sequence>
             <sys_created_by>danpal01</sys_created_by>
             <sys_created_on>2017-02-13 13:15:32</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_id>646fa8e76f7c320099a707321c3ee4b8</sys_id>
-            <sys_mod_count>7</sys_mod_count>
-            <sys_updated_by>dipsha01</sys_updated_by>
-            <sys_updated_on>2017-04-20 17:10:06</sys_updated_on>
+            <sys_mod_count>8</sys_mod_count>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-04-25 12:24:56</sys_updated_on>
             <value>Burglary</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type_of_issue</element>
+            <hint>Excessive use of a potentially addictive substance, especially one that may modify body functions, such as alcohol and drugs.  Examples include finding drugs and/or paraphernalia in the store and observing individuals (guest or associates) who may be under the influence.</hint>
+            <inactive>true</inactive>
+            <label>Substance Abuse</label>
+            <language>en</language>
+            <name>x_kasp_lossprevent_loss_prevention_incidents</name>
+            <sequence>5</sequence>
+            <sys_created_by>danpal01</sys_created_by>
+            <sys_created_on>2017-02-13 13:15:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>e86f242b6f7c320099a707321c3ee4a5</sys_id>
+            <sys_mod_count>13</sys_mod_count>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-04-25 12:24:56</sys_updated_on>
+            <value>Substance Abuse</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type_of_issue</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Cash Control</label>
+            <language>en</language>
+            <name>x_kasp_lossprevent_loss_prevention_incidents</name>
+            <sequence>6</sequence>
+            <sys_created_by>danpal01</sys_created_by>
+            <sys_created_on>2017-04-25 12:24:56</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>6fac8a166f5676c099a707321c3ee495</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-04-25 13:28:26</sys_updated_on>
+            <value>Cash Control</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
@@ -153,14 +243,14 @@
             <label>Customer Incident</label>
             <language>en</language>
             <name>x_kasp_lossprevent_loss_prevention_incidents</name>
-            <sequence>8</sequence>
+            <sequence>7</sequence>
             <sys_created_by>danpal01</sys_created_by>
             <sys_created_on>2017-02-13 13:15:32</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_id>286f242b6f7c320099a707321c3ee4aa</sys_id>
-            <sys_mod_count>9</sys_mod_count>
-            <sys_updated_by>sebgar01</sys_updated_by>
-            <sys_updated_on>2017-04-14 19:09:43</sys_updated_on>
+            <sys_mod_count>11</sys_mod_count>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-04-25 16:27:33</sys_updated_on>
             <value>Customer Incident</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -171,14 +261,14 @@
             <label>Defeated Sensor</label>
             <language>en</language>
             <name>x_kasp_lossprevent_loss_prevention_incidents</name>
-            <sequence>9</sequence>
+            <sequence>8</sequence>
             <sys_created_by>dipsha01</sys_created_by>
             <sys_created_on>2017-03-27 18:32:02</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_id>5a9a0e8d6f7dfa4099a707321c3ee498</sys_id>
-            <sys_mod_count>5</sys_mod_count>
-            <sys_updated_by>sebgar01</sys_updated_by>
-            <sys_updated_on>2017-04-14 19:10:55</sys_updated_on>
+            <sys_mod_count>7</sys_mod_count>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-04-25 16:27:33</sys_updated_on>
             <value>Defeated Sensor</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -189,14 +279,14 @@
             <label>Early Close</label>
             <language>en</language>
             <name>x_kasp_lossprevent_loss_prevention_incidents</name>
-            <sequence>10</sequence>
+            <sequence>9</sequence>
             <sys_created_by>danpal01</sys_created_by>
             <sys_created_on>2017-02-13 13:15:32</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_id>606f242b6f7c320099a707321c3ee4a7</sys_id>
-            <sys_mod_count>9</sys_mod_count>
-            <sys_updated_by>sebgar01</sys_updated_by>
-            <sys_updated_on>2017-04-14 19:10:57</sys_updated_on>
+            <sys_mod_count>11</sys_mod_count>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-04-25 16:27:33</sys_updated_on>
             <value>Early Close</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -207,14 +297,14 @@
             <label>Fire</label>
             <language>en</language>
             <name>x_kasp_lossprevent_loss_prevention_incidents</name>
-            <sequence>11</sequence>
+            <sequence>10</sequence>
             <sys_created_by>danpal01</sys_created_by>
             <sys_created_on>2017-02-15 19:55:35</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_id>082e1c506f45b20099a707321c3ee4dd</sys_id>
-            <sys_mod_count>8</sys_mod_count>
-            <sys_updated_by>sebgar01</sys_updated_by>
-            <sys_updated_on>2017-04-14 19:11:00</sys_updated_on>
+            <sys_mod_count>10</sys_mod_count>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-04-25 16:27:33</sys_updated_on>
             <value>Fire</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -225,14 +315,14 @@
             <label>Flood</label>
             <language>en</language>
             <name>x_kasp_lossprevent_loss_prevention_incidents</name>
-            <sequence>12</sequence>
+            <sequence>11</sequence>
             <sys_created_by>danpal01</sys_created_by>
             <sys_created_on>2017-02-15 19:55:35</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_id>442e1c506f45b20099a707321c3ee4de</sys_id>
-            <sys_mod_count>8</sys_mod_count>
-            <sys_updated_by>sebgar01</sys_updated_by>
-            <sys_updated_on>2017-04-14 19:11:06</sys_updated_on>
+            <sys_mod_count>10</sys_mod_count>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-04-25 16:27:33</sys_updated_on>
             <value>Flood</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -243,51 +333,15 @@
             <label>Fraud</label>
             <language>en</language>
             <name>x_kasp_lossprevent_loss_prevention_incidents</name>
-            <sequence>13</sequence>
+            <sequence>12</sequence>
             <sys_created_by>dipsha01</sys_created_by>
             <sys_created_on>2017-03-27 18:52:56</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_id>286f06416fbdfa4099a707321c3ee417</sys_id>
-            <sys_mod_count>6</sys_mod_count>
-            <sys_updated_by>dipsha01</sys_updated_by>
-            <sys_updated_on>2017-04-20 17:09:35</sys_updated_on>
+            <sys_mod_count>8</sys_mod_count>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-04-25 16:27:33</sys_updated_on>
             <value>Fraud</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>type_of_issue</element>
-            <hint/>
-            <inactive>true</inactive>
-            <label>Harassment</label>
-            <language>en</language>
-            <name>x_kasp_lossprevent_loss_prevention_incidents</name>
-            <sequence>14</sequence>
-            <sys_created_by>danpal01</sys_created_by>
-            <sys_created_on>2017-02-13 13:15:32</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_id>e86fa8e76f7c320099a707321c3ee4b9</sys_id>
-            <sys_mod_count>7</sys_mod_count>
-            <sys_updated_by>sebgar01</sys_updated_by>
-            <sys_updated_on>2017-04-14 19:11:12</sys_updated_on>
-            <value>Harassment</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>type_of_issue</element>
-            <hint/>
-            <inactive>true</inactive>
-            <label>Internal Theft</label>
-            <language>en</language>
-            <name>x_kasp_lossprevent_loss_prevention_incidents</name>
-            <sequence>15</sequence>
-            <sys_created_by>danpal01</sys_created_by>
-            <sys_created_on>2017-02-13 13:15:32</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_id>206f242b6f7c320099a707321c3ee4a5</sys_id>
-            <sys_mod_count>4</sys_mod_count>
-            <sys_updated_by>sebgar01</sys_updated_by>
-            <sys_updated_on>2017-04-14 19:11:15</sys_updated_on>
-            <value>Internal Theft</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
@@ -297,14 +351,14 @@
             <label>Known Shortage</label>
             <language>en</language>
             <name>x_kasp_lossprevent_loss_prevention_incidents</name>
-            <sequence>16</sequence>
+            <sequence>13</sequence>
             <sys_created_by>dipsha01</sys_created_by>
             <sys_created_on>2017-04-10 20:51:26</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_id>34c032a56f8ef68099a707321c3ee49f</sys_id>
-            <sys_mod_count>3</sys_mod_count>
-            <sys_updated_by>sebgar01</sys_updated_by>
-            <sys_updated_on>2017-04-14 19:11:18</sys_updated_on>
+            <sys_mod_count>5</sys_mod_count>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-04-25 16:27:33</sys_updated_on>
             <value>Known Shortage</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -315,15 +369,33 @@
             <label>Late Open</label>
             <language>en</language>
             <name>x_kasp_lossprevent_loss_prevention_incidents</name>
-            <sequence>17</sequence>
+            <sequence>14</sequence>
             <sys_created_by>danpal01</sys_created_by>
             <sys_created_on>2017-02-13 13:15:32</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_id>2c6f242b6f7c320099a707321c3ee4a7</sys_id>
-            <sys_mod_count>12</sys_mod_count>
-            <sys_updated_by>sebgar01</sys_updated_by>
-            <sys_updated_on>2017-04-14 19:11:27</sys_updated_on>
+            <sys_mod_count>14</sys_mod_count>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-04-25 16:27:33</sys_updated_on>
             <value>Late Open</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type_of_issue</element>
+            <hint>Merchandise is recovered and returned back to the store after a previous theft.</hint>
+            <inactive>false</inactive>
+            <label>Merchandise Recovery</label>
+            <language>en</language>
+            <name>x_kasp_lossprevent_loss_prevention_incidents</name>
+            <sequence>15</sequence>
+            <sys_created_by>danpal01</sys_created_by>
+            <sys_created_on>2017-04-25 16:27:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>2d3403966f1a76c099a707321c3ee4cf</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>dipsha01</sys_updated_by>
+            <sys_updated_on>2017-05-01 13:08:09</sys_updated_on>
+            <value>Merchandise Recovery</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
@@ -333,33 +405,15 @@
             <label>Open Alone</label>
             <language>en</language>
             <name>x_kasp_lossprevent_loss_prevention_incidents</name>
-            <sequence>18</sequence>
+            <sequence>16</sequence>
             <sys_created_by>danpal01</sys_created_by>
             <sys_created_on>2017-02-13 13:15:32</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_id>e46f242b6f7c320099a707321c3ee4a8</sys_id>
-            <sys_mod_count>12</sys_mod_count>
-            <sys_updated_by>sebgar01</sys_updated_by>
-            <sys_updated_on>2017-04-14 19:11:30</sys_updated_on>
+            <sys_mod_count>14</sys_mod_count>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-04-25 16:27:33</sys_updated_on>
             <value>Open Alone</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>type_of_issue</element>
-            <hint/>
-            <inactive>true</inactive>
-            <label>Physical Security</label>
-            <language>en</language>
-            <name>x_kasp_lossprevent_loss_prevention_incidents</name>
-            <sequence>19</sequence>
-            <sys_created_by>danpal01</sys_created_by>
-            <sys_created_on>2017-02-13 13:15:32</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_id>a46f242b6f7c320099a707321c3ee4a6</sys_id>
-            <sys_mod_count>5</sys_mod_count>
-            <sys_updated_by>sebgar01</sys_updated_by>
-            <sys_updated_on>2017-04-14 19:11:33</sys_updated_on>
-            <value>Physical Security</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
@@ -369,14 +423,14 @@
             <label>Property Damage</label>
             <language>en</language>
             <name>x_kasp_lossprevent_loss_prevention_incidents</name>
-            <sequence>20</sequence>
+            <sequence>17</sequence>
             <sys_created_by>danpal01</sys_created_by>
             <sys_created_on>2017-02-15 19:55:35</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_id>002e1c506f45b20099a707321c3ee4df</sys_id>
-            <sys_mod_count>11</sys_mod_count>
-            <sys_updated_by>sebgar01</sys_updated_by>
-            <sys_updated_on>2017-04-14 19:11:36</sys_updated_on>
+            <sys_mod_count>13</sys_mod_count>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-04-25 16:27:33</sys_updated_on>
             <value>Property Damage</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -387,14 +441,14 @@
             <label>Re-entry After Closing</label>
             <language>en</language>
             <name>x_kasp_lossprevent_loss_prevention_incidents</name>
-            <sequence>21</sequence>
+            <sequence>18</sequence>
             <sys_created_by>danpal01</sys_created_by>
             <sys_created_on>2017-02-13 13:15:32</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_id>6c6f242b6f7c320099a707321c3ee4a9</sys_id>
-            <sys_mod_count>12</sys_mod_count>
-            <sys_updated_by>sebgar01</sys_updated_by>
-            <sys_updated_on>2017-04-14 19:11:39</sys_updated_on>
+            <sys_mod_count>14</sys_mod_count>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-04-25 16:27:33</sys_updated_on>
             <value>Re-entry After Closing</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -405,14 +459,14 @@
             <label>Robbery</label>
             <language>en</language>
             <name>x_kasp_lossprevent_loss_prevention_incidents</name>
-            <sequence>22</sequence>
+            <sequence>19</sequence>
             <sys_created_by>dipsha01</sys_created_by>
             <sys_created_on>2017-03-27 18:32:02</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_id>569a0e8d6f7dfa4099a707321c3ee49e</sys_id>
-            <sys_mod_count>8</sys_mod_count>
-            <sys_updated_by>sebgar01</sys_updated_by>
-            <sys_updated_on>2017-04-14 19:11:40</sys_updated_on>
+            <sys_mod_count>10</sys_mod_count>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-04-25 16:27:33</sys_updated_on>
             <value>Robbery</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -423,14 +477,14 @@
             <label>Shoplifting</label>
             <language>en</language>
             <name>x_kasp_lossprevent_loss_prevention_incidents</name>
-            <sequence>23</sequence>
+            <sequence>20</sequence>
             <sys_created_by>danpal01</sys_created_by>
             <sys_created_on>2017-02-17 13:15:37</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_id>74c559b013c1f20076165ecf3244b093</sys_id>
-            <sys_mod_count>12</sys_mod_count>
-            <sys_updated_by>dipsha01</sys_updated_by>
-            <sys_updated_on>2017-04-20 17:09:21</sys_updated_on>
+            <sys_mod_count>14</sys_mod_count>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-04-25 16:27:33</sys_updated_on>
             <value>Shoplifting</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -441,50 +495,32 @@
             <label>Store Security</label>
             <language>en</language>
             <name>x_kasp_lossprevent_loss_prevention_incidents</name>
-            <sequence>24</sequence>
+            <sequence>21</sequence>
             <sys_created_by>danpal01</sys_created_by>
             <sys_created_on>2017-02-17 13:15:37</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_id>b8c559b013c1f20076165ecf3244b092</sys_id>
-            <sys_mod_count>10</sys_mod_count>
-            <sys_updated_by>sebgar01</sys_updated_by>
-            <sys_updated_on>2017-04-14 19:11:51</sys_updated_on>
+            <sys_mod_count>12</sys_mod_count>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-04-25 16:27:33</sys_updated_on>
             <value>Store Security</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
             <element>type_of_issue</element>
-            <hint>Excessive use of a potentially addictive substance, especially one that may modify body functions, such as alcohol and drugs.  Examples include finding drugs and/or paraphernalia in the store and observing individuals (guest or associates) who may be under the influence.</hint>
-            <inactive>true</inactive>
-            <label>Substance Abuse</label>
-            <language>en</language>
-            <name>x_kasp_lossprevent_loss_prevention_incidents</name>
-            <sequence>25</sequence>
-            <sys_created_by>danpal01</sys_created_by>
-            <sys_created_on>2017-02-13 13:15:32</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_id>e86f242b6f7c320099a707321c3ee4a5</sys_id>
-            <sys_mod_count>12</sys_mod_count>
-            <sys_updated_by>sebgar01</sys_updated_by>
-            <sys_updated_on>2017-04-14 19:11:55</sys_updated_on>
-            <value>Substance Abuse</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>type_of_issue</element>
-            <hint>:  Damaged done to rented transportation used to move product from ASC’s/Offsites/Storage to the store.  Examples include graffiti, stolen fuel, cut padlock, broken windows, and slashed tires.  Note: U-Haul accidents must be report as a safety incident.</hint>
+            <hint>Damage done to rented transportation used to move product from ASC’s/Offsites/Storage to the store.  Examples include graffiti, stolen fuel, cut padlock, broken windows, and slashed tires.  Note: U-Haul accidents must be report as a safety incident.</hint>
             <inactive>false</inactive>
             <label>U-Haul</label>
             <language>en</language>
             <name>x_kasp_lossprevent_loss_prevention_incidents</name>
-            <sequence>26</sequence>
+            <sequence>22</sequence>
             <sys_created_by>danpal01</sys_created_by>
             <sys_created_on>2017-02-13 13:15:32</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_id>a86f242b6f7c320099a707321c3ee4a3</sys_id>
-            <sys_mod_count>14</sys_mod_count>
-            <sys_updated_by>dipsha01</sys_updated_by>
-            <sys_updated_on>2017-04-20 17:10:42</sys_updated_on>
+            <sys_mod_count>17</sys_mod_count>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-05-01 13:09:49</sys_updated_on>
             <value>U-Haul</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -495,14 +531,14 @@
             <label>Other</label>
             <language>en</language>
             <name>x_kasp_lossprevent_loss_prevention_incidents</name>
-            <sequence>50</sequence>
+            <sequence>23</sequence>
             <sys_created_by>dipsha01</sys_created_by>
             <sys_created_on>2017-04-10 19:27:30</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_id>1b8d5aa56f4ef68099a707321c3ee400</sys_id>
-            <sys_mod_count>4</sys_mod_count>
-            <sys_updated_by>sebgar01</sys_updated_by>
-            <sys_updated_on>2017-04-14 19:09:31</sys_updated_on>
+            <sys_mod_count>6</sys_mod_count>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-04-25 16:27:33</sys_updated_on>
             <value>Other</value>
         </sys_choice>
         <sys_choice_set action="INSERT_OR_UPDATE">
@@ -513,15 +549,15 @@
             <sys_created_on>2017-02-13 13:15:32</sys_created_on>
             <sys_customer_update>false</sys_customer_update>
             <sys_id>206fa8e76f7c320099a707321c3ee4b8</sys_id>
-            <sys_mod_count>68</sys_mod_count>
+            <sys_mod_count>75</sys_mod_count>
             <sys_name>type_of_issue</sys_name>
             <sys_package display_value="LossPrevention" source="x_kasp_lossprevent">c2716bb56ffc724099a707321c3ee439</sys_package>
             <sys_policy/>
             <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
             <sys_scope display_value="LossPrevention">c2716bb56ffc724099a707321c3ee439</sys_scope>
             <sys_update_name>sys_choice_x_kasp_lossprevent_loss_prevention_incidents_type_of_issue</sys_update_name>
-            <sys_updated_by>dipsha01</sys_updated_by>
-            <sys_updated_on>2017-04-20 17:10:42</sys_updated_on>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-05-01 13:09:49</sys_updated_on>
         </sys_choice_set>
     </sys_choice>
 </record_update>

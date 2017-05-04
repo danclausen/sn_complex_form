@@ -20,6 +20,7 @@ function getParmVal(name){
 
 var funcs = (function(){
 	var sateyQuestions = 'x_kasp_safety_inci_safety_questions';
+	var locateQuestions = 'x_kasp_locate_appl_locate_questions';
 	var lpQuestions = 'x_kasp_lossprevent_lp_questions';
 	var safetyTables = [
 		{
@@ -35,6 +36,12 @@ var funcs = (function(){
 			name: 'Witness Information'
 		}
 		];
+	var locateTables = [
+		{
+			table:'x_kasp_locate_appl_merchandise_information',
+			name: 'Locate Merchandise Information'
+		}
+	];
 	var lpTables =  [
 		{
 			table:'x_kasp_lossprevent_lp_associate_information',
@@ -59,10 +66,14 @@ var funcs = (function(){
 	if(g_form.getTableName().indexOf('safety') >= 0){
 		questionTable = sateyQuestions;
 		choiceTables = safetyTables;
+	}else if(g_form.getTableName().indexOf('locate') >= 0){
+		questionTable = locateQuestions;
+		choiceTables = locateTables;
 	}else{
 		questionTable = lpQuestions;
 		choiceTables = lpTables;
 	}
+		
 	
 	var popupStr = jQuery("#popup_text").html();
 	popupStr = popupStr.replaceAll("\\\\",'');
@@ -99,6 +110,10 @@ var funcs = (function(){
 			label = '<label id="'+fields[c].name+'_label">'+fields[c].label+'</label>';
 
 			if(fields[c].type){
+			
+				
+				
+				
 
 				if(fields[c].type == 'date'){
 					input = '<input class="form-control" id="'+fields[c].name+'" type="'+fields[c].type+'"/>';
@@ -112,6 +127,9 @@ var funcs = (function(){
 					}
 				}else if(fields[c].type == 'text'){
 					input = '<input class="form-control" id="'+fields[c].name+'"/>';
+					if(fields[c].name=='phone_number'){
+input = '<input class="form-control" id="'+fields[c].name+'"type="'+fields[c].type+'"pattern="'+fields[c].pattern+'"/>';		
+				}
 				}
 
 			}else{
@@ -275,6 +293,15 @@ var funcs = (function(){
 		}
 	};
 	
+	var checkPhoneFormat = function(value){
+		var phone_regex = /^\(?([0-9]{3})\)?[-. ]?([0-9]{3})[-. ]?([0-9]{4})$/;
+		return phone_regex.test(value);
+	};
+	
+	var checkUPCFormat = function(value){
+		var upc_regex = /[0-9]{12}$/;
+		return upc_regex.test(value);
+	};
 	return { 
 		
 		onValueChange: function(element,value){
@@ -297,6 +324,23 @@ var funcs = (function(){
 			for(var i = 0; i < fields.length; i++){
 				value = jQuery("#"+fields[i].name).val();
 				value = (value == "Select")?"":value;
+				if(fields[i].name.indexOf('phone') == 0){
+					console.log('testing phone');
+					if(!checkPhoneFormat(value)){
+						jQuery("#count").html("Invalid Phone Number!");
+						console.log('phone '+ value+ ' failed');
+						return;
+					}
+					
+					console.log('phone '+ value+ ' passed');
+					
+				}
+				if(fields[i].name == 'upc'){
+					if(!checkUPCFormat(value)){
+						jQuery("#count").html("Invalid UPC!");
+						return;
+					}
+				}
 				info[fields[i].name] = value;
 			}
 			info['parent'] = g_form.getUniqueValue();
@@ -437,7 +481,7 @@ var funcs = (function(){
         <sys_created_on>2017-02-21 14:05:16</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
         <sys_id>63460a421389760076165ecf3244b0d8</sys_id>
-        <sys_mod_count>154</sys_mod_count>
+        <sys_mod_count>165</sys_mod_count>
         <sys_name>lp_popup</sys_name>
         <sys_package display_value="LossPrevention" source="x_kasp_lossprevent">c2716bb56ffc724099a707321c3ee439</sys_package>
         <sys_policy/>
@@ -445,6 +489,6 @@ var funcs = (function(){
         <sys_scope display_value="LossPrevention">c2716bb56ffc724099a707321c3ee439</sys_scope>
         <sys_update_name>sys_ui_page_63460a421389760076165ecf3244b0d8</sys_update_name>
         <sys_updated_by>sebgar01</sys_updated_by>
-        <sys_updated_on>2017-04-14 18:03:08</sys_updated_on>
+        <sys_updated_on>2017-05-02 20:56:34</sys_updated_on>
     </sys_ui_page>
 </record_update>

@@ -11,7 +11,7 @@
         <name>Create On Change functions</name>
         <order/>
         <script><![CDATA[function onLoad() {
-	
+	console.log('Running first');
 	if(g_form.getValue('number') != ''){
 		return;
 	}
@@ -60,16 +60,29 @@
 		
 	};
 	
+	var createFunction = function(oldFunc,newFunc){
+		return function(event) {
+			oldFunc(event);
+			newFunc(event);
+		};
+	};
 	var field;
 	//Hide All fields
 	
 	var fieldsArr =  g_form.getEditableFields();
+	
 	for(var f = 0; f < fieldsArr.length; f++){
-		if(fieldsArr[f] != 'issue' && fieldsArr[f] != 'requested_by' && fieldsArr[f] != 'submitted_by'&& fieldsArr[f] != 'level_of_priority'){
+		if(fieldsArr[f] != 'issue' && fieldsArr[f] != 'requested_by' && fieldsArr[f] != 'submitted_by'&& fieldsArr[f] != 'level_of_priority' && fieldsArr[f] != 'lpi_created_on'){
 			field = g_form.getControl(fieldsArr[f]);
 			try{
-			
-				field.onchange = myOnchangeFunction;
+				
+				var oldOnChange = field.onchange;
+				field.onchange = createFunction(oldOnChange,myOnchangeFunction);
+				
+				if(fieldsArr[f] == 'type_of_issue'){
+					console.log('New');
+				    console.log(field.onchange);
+				}
 				
 			}
 			catch(err){
@@ -106,13 +119,12 @@
 				
 				for(var s = 0; s < showOpts.length; s++){
 					if(showOpts[s].value){
-						console.log(g_form.getOption(fields[i].field, showOpts[s].value));
 						g_form.addOption(fields[i].field, showOpts[s].value, showOpts[s].value,s+1);
 						g_form.getOption(fields[i].field, showOpts[s].value).title = showOpts[s].hover;
 						
 					}else{
 						g_form.addOption(fields[i].field, showOpts[s], showOpts[s],s+1);
-						console.log(g_form.getOption(fields[i].field, showOpts[s]));
+						
 					}
 					
 					
@@ -231,7 +243,7 @@
         <sys_customer_update>true</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>a164e7396ffc724099a707321c3ee49e</sys_id>
-        <sys_mod_count>168</sys_mod_count>
+        <sys_mod_count>194</sys_mod_count>
         <sys_name>Create On Change functions</sys_name>
         <sys_overrides display_value="">global</sys_overrides>
         <sys_package display_value="LossPrevention" source="x_kasp_lossprevent">c2716bb56ffc724099a707321c3ee439</sys_package>
@@ -239,8 +251,8 @@
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="LossPrevention">c2716bb56ffc724099a707321c3ee439</sys_scope>
         <sys_update_name>sys_script_client_a164e7396ffc724099a707321c3ee49e</sys_update_name>
-        <sys_updated_by>sebgar01</sys_updated_by>
-        <sys_updated_on>2017-04-24 14:17:19</sys_updated_on>
+        <sys_updated_by>danpal01</sys_updated_by>
+        <sys_updated_on>2017-05-03 13:45:40</sys_updated_on>
         <table>x_kasp_lossprevent_loss_prevention_incidents</table>
         <type>onLoad</type>
         <ui_type>0</ui_type>
