@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <disabled>ignore</disabled>
+        <field>close_notes</field>
+        <mandatory>true</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>danpal01</sys_created_by>
+        <sys_created_on>2017-05-18 13:38:57</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>bd2af8f10ff672c44789e34be1050ef9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>close_notes</sys_name>
+        <sys_package display_value="LossPrevention" source="x_kasp_lossprevent">c2716bb56ffc724099a707321c3ee439</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="LossPrevention">c2716bb56ffc724099a707321c3ee439</sys_scope>
+        <sys_update_name>sys_ui_policy_action_bd2af8f10ff672c44789e34be1050ef9</sys_update_name>
+        <sys_updated_by>danpal01</sys_updated_by>
+        <sys_updated_on>2017-05-18 13:38:57</sys_updated_on>
+        <table>x_kasp_lossprevent_loss_prevention_incidents</table>
+        <ui_policy display_value="Status is closed, show close notes and make mandatory">640a74f10ff672c44789e34be1050ebb</ui_policy>
+        <visible>true</visible>
+    </sys_ui_policy_action>
+</record_update>

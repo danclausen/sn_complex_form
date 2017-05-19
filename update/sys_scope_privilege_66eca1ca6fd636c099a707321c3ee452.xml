@@ -19,7 +19,7 @@
         <sys_updated_by>dipsha01</sys_updated_by>
         <sys_updated_on>2017-04-24 15:27:40</sys_updated_on>
         <target_name>x_kasp_locate_appl_locate_questions</target_name>
-        <target_scope display_value="Locate Application">209c35086fdabe8099a707321c3ee453</target_scope>
+        <target_scope display_value="">209c35086fdabe8099a707321c3ee453</target_scope>
         <target_type>sys_db_object</target_type>
     </sys_scope_privilege>
 </record_update>

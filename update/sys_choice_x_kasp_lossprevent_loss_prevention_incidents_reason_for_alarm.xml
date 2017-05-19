@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="reason_for_alarm" table="x_kasp_lossprevent_loss_prevention_incidents" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>reason_for_alarm</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Select</label>
+            <language>en</language>
+            <name>x_kasp_lossprevent_loss_prevention_incidents</name>
+            <sequence>0</sequence>
+            <sys_created_by>danpal01</sys_created_by>
+            <sys_created_on>2017-05-18 13:03:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>e112f4710fb672c44789e34be1050e3e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-05-18 13:03:33</sys_updated_on>
+            <value>Select</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>reason_for_alarm</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Door Issue</label>
+            <language>en</language>
+            <name>x_kasp_lossprevent_loss_prevention_incidents</name>
+            <sequence>1</sequence>
+            <sys_created_by>danpal01</sys_created_by>
+            <sys_created_on>2017-05-18 13:03:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>6912f4710fb672c44789e34be1050e3e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-05-18 13:03:33</sys_updated_on>
+            <value>Door Issue</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>reason_for_alarm</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>False Alarm</label>
+            <language>en</language>
+            <name>x_kasp_lossprevent_loss_prevention_incidents</name>
+            <sequence>2</sequence>
+            <sys_created_by>danpal01</sys_created_by>
+            <sys_created_on>2017-05-18 13:03:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>6d12f4710fb672c44789e34be1050e3e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-05-18 13:03:33</sys_updated_on>
+            <value>False Alarm</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>reason_for_alarm</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Glass Break</label>
+            <language>en</language>
+            <name>x_kasp_lossprevent_loss_prevention_incidents</name>
+            <sequence>3</sequence>
+            <sys_created_by>danpal01</sys_created_by>
+            <sys_created_on>2017-05-18 13:03:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>6112f4710fb672c44789e34be1050e3f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-05-18 13:03:33</sys_updated_on>
+            <value>Glass Break</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>reason_for_alarm</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Motion Issue</label>
+            <language>en</language>
+            <name>x_kasp_lossprevent_loss_prevention_incidents</name>
+            <sequence>4</sequence>
+            <sys_created_by>danpal01</sys_created_by>
+            <sys_created_on>2017-05-18 13:03:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>6512f4710fb672c44789e34be1050e3f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-05-18 13:03:33</sys_updated_on>
+            <value>Motion Issue</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>reason_for_alarm</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Other</label>
+            <language>en</language>
+            <name>x_kasp_lossprevent_loss_prevention_incidents</name>
+            <sequence>5</sequence>
+            <sys_created_by>danpal01</sys_created_by>
+            <sys_created_on>2017-05-18 13:03:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>6912f4710fb672c44789e34be1050e3f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-05-18 13:03:33</sys_updated_on>
+            <value>Other</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>reason_for_alarm</element>
+            <name>x_kasp_lossprevent_loss_prevention_incidents</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>danpal01</sys_created_by>
+            <sys_created_on>2017-05-18 13:03:33</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>a512f4710fb672c44789e34be1050e3e</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>reason_for_alarm</sys_name>
+            <sys_package display_value="LossPrevention" source="x_kasp_lossprevent">c2716bb56ffc724099a707321c3ee439</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="LossPrevention">c2716bb56ffc724099a707321c3ee439</sys_scope>
+            <sys_update_name>sys_choice_x_kasp_lossprevent_loss_prevention_incidents_reason_for_alarm</sys_update_name>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-05-18 13:03:33</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>3a3338ab6f7c320099a707321c3ee49b</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="x_kasp_lossprevent_lp_questions">
+    <x_kasp_lossprevent_lp_questions action="INSERT_OR_UPDATE">
+        <fields> {
+ "fields":[
+
+{
+         "field":"date_time_of_incident"
+     },
+
+{
+         "field":"location_of_incident"
+     },
+
+{
+         "field":"camera_cctv"
+     },
+
+{
+         "field":"police_notified"
+     },
+
+{
+         "field":"customers_involved"
+     },
+{
+         "field":"witnesses_involved"
+     },
+{
+         "field":"associates_involved"
+     }
+
+],
+
+"sections":[
+
+{
+       "section":"incident_info",
+            "fields":[
+              
+               
+                {"field":"hop_at_time_of_incident"},
+                {"field":"preventative_action_s"},
+                {"field":"incident_details"}
+
+          
+
+          
+
+          ]
+
+}
+
+
+],
+
+"level_of_priority":"High"
+}
+</fields>
+        <question>type_of_issue:Altercation</question>
+        <sys_created_by>danpal01</sys_created_by>
+        <sys_created_on>2017-02-13 13:32:48</sys_created_on>
+        <sys_id>3a3338ab6f7c320099a707321c3ee49b</sys_id>
+        <sys_mod_count>28</sys_mod_count>
+        <sys_updated_by>danpal01</sys_updated_by>
+        <sys_updated_on>2017-04-25 11:42:04</sys_updated_on>
+    </x_kasp_lossprevent_lp_questions>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>sebgar01</sys_created_by>
+        <sys_created_on>2017-05-19 03:27:28</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>acd7b7f10f7eb2c44789e34be1050ed1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Created 2017-02-13 08:32:48</sys_name>
+        <sys_package display_value="LossPrevention" source="x_kasp_lossprevent">c2716bb56ffc724099a707321c3ee439</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="LossPrevention">c2716bb56ffc724099a707321c3ee439</sys_scope>
+        <sys_update_name>sys_metadata_link_acd7b7f10f7eb2c44789e34be1050ed1</sys_update_name>
+        <sys_updated_by>sebgar01</sys_updated_by>
+        <sys_updated_on>2017-05-19 03:27:28</sys_updated_on>
+        <tablename>x_kasp_lossprevent_lp_questions</tablename>
+    </sys_metadata_link>
+</record_update>

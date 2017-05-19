@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_filter">
+    <sys_filter action="INSERT_OR_UPDATE">
+        <filter table="x_kasp_lossprevent_loss_prevention_incidents">requested_byDYNAMIC90d1921e5f510100a9ad2572f2b477fe^ORrequested_by.u_assigned_district_managerDYNAMIC90d1921e5f510100a9ad2572f2b477fe^EQ<item endquery="false" field="requested_by" goto="false" newquery="false" operator="DYNAMIC" or="false" value="90d1921e5f510100a9ad2572f2b477fe"/>
+            <item endquery="false" field="requested_by.u_assigned_district_manager" goto="false" newquery="false" operator="DYNAMIC" or="true" value="90d1921e5f510100a9ad2572f2b477fe"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter>
+        <group/>
+        <last_used/>
+        <mobile>false</mobile>
+        <roles>x_kasp_lossprevent_loss_prevention_incidents_user</roles>
+        <sys_class_name>sys_filter</sys_class_name>
+        <sys_created_by>danpal01</sys_created_by>
+        <sys_created_on>2017-05-10 17:48:59</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>2af5a01b13267a0053dc51522244b0d1</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>My Loss Prevention Incidents</sys_name>
+        <sys_package display_value="LossPrevention" source="x_kasp_lossprevent">c2716bb56ffc724099a707321c3ee439</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="LossPrevention">c2716bb56ffc724099a707321c3ee439</sys_scope>
+        <sys_update_name>sys_filter_2af5a01b13267a0053dc51522244b0d1</sys_update_name>
+        <sys_updated_by>sebgar01</sys_updated_by>
+        <sys_updated_on>2017-05-18 20:06:29</sys_updated_on>
+        <table>x_kasp_lossprevent_loss_prevention_incidents</table>
+        <title>My Loss Prevention Incidents</title>
+        <user/>
+    </sys_filter>
+</record_update>

@@ -105,6 +105,13 @@
         </element>
         <element label="Parent" max_length="32" name="parent" read_only="true" reference="x_kasp_lossprevent_loss_prevention_incidents" type="reference"/>
         <element attributes="edge_encryption_enabled=true" label="Phone" max_length="40" name="phone" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Repeat Offender" max_length="40" name="repeat_offender" type="string">
+            <choice>
+                <element label="Yes" sequence="0" value="Yes"/>
+                <element label="No" sequence="1" value="No"/>
+                <element label="Not Applicable" sequence="2" value="Not Applicable"/>
+            </choice>
+        </element>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Sex" max_length="40" name="sex" type="string">
             <choice>
                 <element label="Male" sequence="0" value="Male"/>

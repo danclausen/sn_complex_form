@@ -202,7 +202,7 @@
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
             <element>type_of_issue</element>
-            <hint>Excessive use of a potentially addictive substance, especially one that may modify body functions, such as alcohol and drugs.  Examples include finding drugs and/or paraphernalia in the store and observing individuals (guest or associates) who may be under the influence.</hint>
+            <hint>Excessive use of a potentially addictive substance, especially one that may modify body functions, such as alcohol and drugs.  Examples include finding drugs and/or paraphernalia in the store and observing individuals (guest or associates) who may be unde</hint>
             <inactive>true</inactive>
             <label>Substance Abuse</label>
             <language>en</language>
@@ -256,7 +256,7 @@
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
             <element>type_of_issue</element>
-            <hint>A defeated sensor is a soft tag that has been removed from merchandise in order to avoid detection upon exiting the store with unpaid merchandise.  Examples of where defeated sensors are often found include the fitting rooms, inside other merchandise (i.e., handbags) and/or on the sales floor.</hint>
+            <hint>A defeated sensor is a soft tag that has been removed from merchandise in order to avoid detection upon exiting the store with unpaid merchandise.  Examples of where defeated sensors are often found include the fitting rooms, inside other merchandise (i.e</hint>
             <inactive>false</inactive>
             <label>Defeated Sensor</label>
             <language>en</language>
@@ -548,7 +548,7 @@
             <sys_created_by>danpal01</sys_created_by>
             <sys_created_on>2017-02-13 13:15:32</sys_created_on>
             <sys_customer_update>false</sys_customer_update>
-            <sys_id>206fa8e76f7c320099a707321c3ee4b8</sys_id>
+            <sys_id>bad872ee0f66be444789e34be1050e53</sys_id>
             <sys_mod_count>75</sys_mod_count>
             <sys_name>type_of_issue</sys_name>
             <sys_package display_value="LossPrevention" source="x_kasp_lossprevent">c2716bb56ffc724099a707321c3ee439</sys_package>

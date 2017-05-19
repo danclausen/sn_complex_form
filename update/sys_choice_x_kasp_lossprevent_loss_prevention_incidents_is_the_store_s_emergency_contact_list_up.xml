@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="is_the_store_s_emergency_contact_list_up" table="x_kasp_lossprevent_loss_prevention_incidents" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>is_the_store_s_emergency_contact_list_up</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Select</label>
+            <language>en</language>
+            <name>x_kasp_lossprevent_loss_prevention_incidents</name>
+            <sequence>0</sequence>
+            <sys_created_by>danpal01</sys_created_by>
+            <sys_created_on>2017-05-18 13:11:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>5fc3f4f10fb672c44789e34be1050e9b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-05-18 13:11:03</sys_updated_on>
+            <value>Select</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>is_the_store_s_emergency_contact_list_up</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Select</label>
+            <language>en</language>
+            <name>x_kasp_lossprevent_loss_prevention_incidents</name>
+            <sequence>0</sequence>
+            <sys_created_by>danpal01</sys_created_by>
+            <sys_created_on>2017-05-18 13:08:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>e12374f10fb672c44789e34be1050e70</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-05-18 13:08:11</sys_updated_on>
+            <value>Select</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>is_the_store_s_emergency_contact_list_up</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Select</label>
+            <language>en</language>
+            <name>x_kasp_lossprevent_loss_prevention_incidents</name>
+            <sequence>0</sequence>
+            <sys_created_by>danpal01</sys_created_by>
+            <sys_created_on>2017-05-18 13:13:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>e84470750fb672c44789e34be1050e8f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-05-18 13:13:02</sys_updated_on>
+            <value>Select</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>is_the_store_s_emergency_contact_list_up</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Select</label>
+            <language>en</language>
+            <name>x_kasp_lossprevent_loss_prevention_incidents</name>
+            <sequence>0</sequence>
+            <sys_created_by>danpal01</sys_created_by>
+            <sys_created_on>2017-05-18 13:07:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>eff270f10fb672c44789e34be1050e83</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-05-18 13:07:31</sys_updated_on>
+            <value>Select</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>is_the_store_s_emergency_contact_list_up</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Yes</label>
+            <language>en</language>
+            <name>x_kasp_lossprevent_loss_prevention_incidents</name>
+            <sequence>1</sequence>
+            <sys_created_by>danpal01</sys_created_by>
+            <sys_created_on>2017-05-18 13:11:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>53c3f4f10fb672c44789e34be1050e9c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-05-18 13:11:03</sys_updated_on>
+            <value>Yes</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>is_the_store_s_emergency_contact_list_up</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Yes</label>
+            <language>en</language>
+            <name>x_kasp_lossprevent_loss_prevention_incidents</name>
+            <sequence>1</sequence>
+            <sys_created_by>danpal01</sys_created_by>
+            <sys_created_on>2017-05-18 13:07:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>67f270f10fb672c44789e34be1050e84</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-05-18 13:07:31</sys_updated_on>
+            <value>Yes</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>is_the_store_s_emergency_contact_list_up</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Yes</label>
+            <language>en</language>
+            <name>x_kasp_lossprevent_loss_prevention_incidents</name>
+            <sequence>1</sequence>
+            <sys_created_by>danpal01</sys_created_by>
+            <sys_created_on>2017-05-18 13:08:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>e52374f10fb672c44789e34be1050e70</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-05-18 13:08:11</sys_updated_on>
+            <value>Yes</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>is_the_store_s_emergency_contact_list_up</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Yes</label>
+            <language>en</language>
+            <name>x_kasp_lossprevent_loss_prevention_incidents</name>
+            <sequence>1</sequence>
+            <sys_created_by>danpal01</sys_created_by>
+            <sys_created_on>2017-05-18 13:13:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>ec4470750fb672c44789e34be1050e8f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-05-18 13:13:02</sys_updated_on>
+            <value>Yes</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>is_the_store_s_emergency_contact_list_up</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>No</label>
+            <language>en</language>
+            <name>x_kasp_lossprevent_loss_prevention_incidents</name>
+            <sequence>2</sequence>
+            <sys_created_by>danpal01</sys_created_by>
+            <sys_created_on>2017-05-18 13:11:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>57c3f4f10fb672c44789e34be1050e9c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-05-18 13:11:03</sys_updated_on>
+            <value>No</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>is_the_store_s_emergency_contact_list_up</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>No</label>
+            <language>en</language>
+            <name>x_kasp_lossprevent_loss_prevention_incidents</name>
+            <sequence>2</sequence>
+            <sys_created_by>danpal01</sys_created_by>
+            <sys_created_on>2017-05-18 13:13:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>6444bc750fb672c44789e34be1050eae</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-05-18 13:13:02</sys_updated_on>
+            <value>No</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>is_the_store_s_emergency_contact_list_up</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>No</label>
+            <language>en</language>
+            <name>x_kasp_lossprevent_loss_prevention_incidents</name>
+            <sequence>2</sequence>
+            <sys_created_by>danpal01</sys_created_by>
+            <sys_created_on>2017-05-18 13:07:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>6bf270f10fb672c44789e34be1050e84</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-05-18 13:07:31</sys_updated_on>
+            <value>No</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>is_the_store_s_emergency_contact_list_up</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>No</label>
+            <language>en</language>
+            <name>x_kasp_lossprevent_loss_prevention_incidents</name>
+            <sequence>2</sequence>
+            <sys_created_by>danpal01</sys_created_by>
+            <sys_created_on>2017-05-18 13:08:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>e92374f10fb672c44789e34be1050e70</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-05-18 13:08:11</sys_updated_on>
+            <value>No</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>is_the_store_s_emergency_contact_list_up</element>
+            <name>x_kasp_lossprevent_loss_prevention_incidents</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>danpal01</sys_created_by>
+            <sys_created_on>2017-05-18 13:07:31</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>a3f270f10fb672c44789e34be1050e84</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>is_the_store_s_emergency_contact_list_up</sys_name>
+            <sys_package display_value="LossPrevention" source="x_kasp_lossprevent">c2716bb56ffc724099a707321c3ee439</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="LossPrevention">c2716bb56ffc724099a707321c3ee439</sys_scope>
+            <sys_update_name>sys_choice_x_kasp_lossprevent_loss_prevention_incidents_is_the_store_s_emergency_contact_list_up</sys_update_name>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-05-18 13:07:31</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

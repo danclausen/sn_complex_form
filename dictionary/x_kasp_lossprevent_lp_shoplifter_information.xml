@@ -3,11 +3,13 @@
     <element label="LP Shoplifter Information" max_length="40" name="x_kasp_lossprevent_lp_shoplifter_information" type="collection">
         <element attributes="edge_encryption_enabled=true" choice="1" label="Ethnicity" max_length="40" name="ethnicity" type="string">
             <choice>
-                <element label="Hispanic" sequence="0" value="Hispanic"/>
-                <element label="African American" sequence="1" value="African American"/>
-                <element label="Native American" sequence="2" value="Native American"/>
-                <element label="Caucasian" sequence="3" value="Caucasian"/>
-                <element label="Asian" sequence="4" value="Asian"/>
+                <element label="American Indian/Alaskan Native(Not Hispanic)" sequence="0" value="American Indian/Alaskan Native(Not Hispanic)"/>
+                <element label="Asian(Hispanic)" sequence="1" value="Asian(Hispanic)"/>
+                <element label="Black/African American(Not Hispanic)" sequence="2" value="Black/African American(Not Hispanic)"/>
+                <element label="Hispanic/Latino" sequence="3" value="Hispanic/Latino"/>
+                <element label="Native Hawaii/Pac Is(Not Hispanic)" sequence="4" value="Native Hawaii/Pac Is(Not Hispanic)"/>
+                <element label="Two or More Races(Not Hispanic)" sequence="5" value="Two or More Races(Not Hispanic)"/>
+                <element label="White(Not Hispanic)" sequence="6" value="White(Not Hispanic)"/>
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Eye Color" max_length="40" name="eye_color" type="string">
@@ -43,6 +45,12 @@
         </element>
         <element attributes="edge_encryption_enabled=true" label="Height" max_length="40" name="height" type="string"/>
         <element label="Parent" max_length="32" name="parent" read_only="true" reference="x_kasp_lossprevent_loss_prevention_incidents" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Repeat Offender" max_length="40" name="repeat_offender" type="string">
+            <choice>
+                <element label="Yes" sequence="0" value="Yes"/>
+                <element label="No" sequence="1" value="No"/>
+            </choice>
+        </element>
         <index name="index">
             <element name="parent"/>
         </index>

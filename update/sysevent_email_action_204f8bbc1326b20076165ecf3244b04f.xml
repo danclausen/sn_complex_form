@@ -10,7 +10,7 @@
         <condition/>
         <content_type>text/html</content_type>
         <description/>
-        <event_name/>
+        <event_name>account.expires</event_name>
         <event_parm_1>false</event_parm_1>
         <event_parm_2>false</event_parm_2>
         <exclude_delegates>false</exclude_delegates>
@@ -38,7 +38,7 @@
 <p>Regional LP Manager: ${requested_by.u_rlpm}</p>
 <p>&nbsp;</p>
 <p>Issue: ${issue}</p>
-<p>Type of Issue; ${type_of_issue}</p>
+<p>Type of Issue: ${type_of_issue}</p>
 <p>Incident Details: ${incident_details}</p>
 <p>&nbsp;</p>
 <p>Please select the link for more information:${URI}</p>
@@ -53,14 +53,14 @@
         <omit_watermark>false</omit_watermark>
         <order>200</order>
         <push_message_only>false</push_message_only>
-        <recipient_fields>requested_by.u_regional_manager,requested_by.u_rlpm,requested_by.u_assigned_district_manager</recipient_fields>
-        <recipient_groups/>
+        <recipient_fields>requested_by.u_assigned_district_manager</recipient_fields>
+        <recipient_groups name="Loss Prevention">6147f2320f2efe444789e34be1050e17</recipient_groups>
         <recipient_users/>
         <reply_to/>
         <send_self>true</send_self>
         <sms_alternate/>
         <style/>
-        <subject>The following ${level_of_priority} priority incident was reported on ${sys_created_on}.</subject>
+        <subject>${level_of_priority} Priority Incident - ${requested_by.u_display_name},${requested_by.state}</subject>
         <subscribable>false</subscribable>
         <sys_class_name>sysevent_email_action</sys_class_name>
         <sys_created_by>danpal01</sys_created_by>
@@ -68,7 +68,7 @@
         <sys_customer_update>true</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>204f8bbc1326b20076165ecf3244b04f</sys_id>
-        <sys_mod_count>13</sys_mod_count>
+        <sys_mod_count>28</sys_mod_count>
         <sys_name>To Corporate Partners When Submitted</sys_name>
         <sys_overrides/>
         <sys_package display_value="LossPrevention" source="x_kasp_lossprevent">c2716bb56ffc724099a707321c3ee439</sys_package>
@@ -77,7 +77,7 @@
         <sys_scope display_value="LossPrevention">c2716bb56ffc724099a707321c3ee439</sys_scope>
         <sys_update_name>sysevent_email_action_204f8bbc1326b20076165ecf3244b04f</sys_update_name>
         <sys_updated_by>danpal01</sys_updated_by>
-        <sys_updated_on>2017-05-03 13:26:56</sys_updated_on>
+        <sys_updated_on>2017-05-18 20:39:36</sys_updated_on>
         <sys_version>2</sys_version>
         <template/>
         <type>email</type>

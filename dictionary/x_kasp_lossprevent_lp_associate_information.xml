@@ -43,6 +43,7 @@
                 <element label="Senior Store Leader" sequence="21" value="Senior Store Leader"/>
                 <element label="Store Leader" sequence="22" value="Store Leader"/>
                 <element label="Corporate Associate" sequence="23" value="Corporate Associate"/>
+                <element label="Corporate Security/LP" sequence="24" value="Corporate Security/LP"/>
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" label="Length of Time within Role" max_length="40" name="length_of_time_within_role" read_only="true" type="string"/>

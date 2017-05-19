@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>ce9a2ca36f7c320099a707321c3ee471</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="x_kasp_lossprevent_lp_questions">
+    <x_kasp_lossprevent_lp_questions action="INSERT_OR_UPDATE">
+        <fields> {&#13;
+ "fields":[&#13;
+   {&#13;
+         "field":"type_of_issue",&#13;
+          "options":{&#13;
+             "show":["Alone in Store",{"value":"Bulk Buyer","hover":"Individuals who are making purchases beyond the limitations of the multi-unit policy and/or individuals who have admitted to reselling Kate Spade merchandise for financial gain."},"Cash Control","Early Close","Late Open","Open Alone","Re-entry After Closing","Store Security"],&#13;
+             "hide":["Associate Incident","Associate Theft","Burglary","Customer Incident","Defeated Sensor","Fraud","Fire","Flood","Known Shortage","Property Damage","Robbery","Shoplifting","U-Haul","Merchandise Recovery"]&#13;
+     }&#13;
+     &#13;
+&#13;
+}&#13;
+]&#13;
+&#13;
+&#13;
+}&#13;
+</fields>
+        <question>issue:Security/Operational Incident</question>
+        <sys_created_by>danpal01</sys_created_by>
+        <sys_created_on>2017-02-13 12:54:52</sys_created_on>
+        <sys_id>ce9a2ca36f7c320099a707321c3ee471</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_updated_by>danpal01</sys_updated_by>
+        <sys_updated_on>2017-05-09 14:28:08</sys_updated_on>
+    </x_kasp_lossprevent_lp_questions>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>sebgar01</sys_created_by>
+        <sys_created_on>2017-05-19 03:27:32</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>65d7f7f10f7eb2c44789e34be1050e5f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Created 2017-02-13 07:54:52</sys_name>
+        <sys_package display_value="LossPrevention" source="x_kasp_lossprevent">c2716bb56ffc724099a707321c3ee439</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="LossPrevention">c2716bb56ffc724099a707321c3ee439</sys_scope>
+        <sys_update_name>sys_metadata_link_65d7f7f10f7eb2c44789e34be1050e5f</sys_update_name>
+        <sys_updated_by>sebgar01</sys_updated_by>
+        <sys_updated_on>2017-05-19 03:27:32</sys_updated_on>
+        <tablename>x_kasp_lossprevent_lp_questions</tablename>
+    </sys_metadata_link>
+</record_update>

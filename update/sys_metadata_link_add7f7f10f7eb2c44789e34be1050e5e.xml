@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>c4e96ce66f0db60099a707321c3ee47b</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="x_kasp_lossprevent_lp_questions">
+    <x_kasp_lossprevent_lp_questions action="INSERT_OR_UPDATE">
+        <fields>{&#13;
+"popup":{&#13;
+     "title":"Associate Information",&#13;
+     "table":"x_kasp_lossprevent_lp_associate_information",&#13;
+     "fields":[&#13;
+               {&#13;
+                    "label":"Full Name",&#13;
+                    "name":"full_name",&#13;
+                    "type":"text"&#13;
+               },&#13;
+               {&#13;
+                    "label":"Job Title",&#13;
+                    "name":"job_title",&#13;
+                    "type":"select",&#13;
+                    "options":["Select","Area Leader","Assistant Store Leader","Associate Store Leader","District Leader","FT Associate","FT Master Muse","FT Sales Lead","FT Senior Sales Associate","FT Stock Supervisor","FT Supervisor","FT Support Associate","FT Support Supervisor","FT Visual Associate","PT Associate","PT Sales Lead","PT Sales Support","PT Senior Sales Associate","PT Supervisor","PT Support Associate","Regional Director","Senior Store Leader","Store Leader","Corporate Associate","Corporate Security/LP"]&#13;
+               },&#13;
+                {&#13;
+                    "label":"Employee ID",&#13;
+                    "name":"employee_id",&#13;
+                    "type":"text"&#13;
+               }&#13;
+           &#13;
+      ]&#13;
+}&#13;
+&#13;
+}</fields>
+        <question>associates_involved:Yes</question>
+        <sys_created_by>danpal01</sys_created_by>
+        <sys_created_on>2017-02-22 20:33:42</sys_created_on>
+        <sys_id>c4e96ce66f0db60099a707321c3ee47b</sys_id>
+        <sys_mod_count>31</sys_mod_count>
+        <sys_updated_by>danpal01</sys_updated_by>
+        <sys_updated_on>2017-05-09 18:06:46</sys_updated_on>
+    </x_kasp_lossprevent_lp_questions>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>sebgar01</sys_created_by>
+        <sys_created_on>2017-05-19 03:27:32</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>add7f7f10f7eb2c44789e34be1050e5e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Created 2017-02-22 15:33:42</sys_name>
+        <sys_package display_value="LossPrevention" source="x_kasp_lossprevent">c2716bb56ffc724099a707321c3ee439</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="LossPrevention">c2716bb56ffc724099a707321c3ee439</sys_scope>
+        <sys_update_name>sys_metadata_link_add7f7f10f7eb2c44789e34be1050e5e</sys_update_name>
+        <sys_updated_by>sebgar01</sys_updated_by>
+        <sys_updated_on>2017-05-19 03:27:32</sys_updated_on>
+        <tablename>x_kasp_lossprevent_lp_questions</tablename>
+    </sys_metadata_link>
+</record_update>

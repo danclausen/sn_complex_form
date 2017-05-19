@@ -3,16 +3,16 @@
     <sysevent_email_action action="INSERT_OR_UPDATE">
         <action_insert>true</action_insert>
         <action_update>false</action_update>
-        <active>false</active>
+        <active>true</active>
         <advanced_condition/>
         <affected_field_on_event/>
         <collection>x_kasp_lossprevent_loss_prevention_incidents</collection>
-        <condition table="x_kasp_lossprevent_loss_prevention_incidents">type_of_issueINBurglary,Robbery^EQ<item endquery="false" field="type_of_issue" goto="false" newquery="false" operator="IN" or="false" value="Burglary,Robbery"/>
+        <condition table="x_kasp_lossprevent_loss_prevention_incidents">type_of_issueINAssociate Theft,Burglary,Fire,Flood,Fraud,Merchandise Recovery,Property Damage,Robbery,U-Haul^EQ<item endquery="false" field="type_of_issue" goto="false" newquery="false" operator="IN" or="false" value="Associate Theft,Burglary,Fire,Flood,Fraud,Merchandise Recovery,Property Damage,Robbery,U-Haul"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </condition>
         <content_type>text/html</content_type>
         <description/>
-        <event_name/>
+        <event_name>account.expires</event_name>
         <event_parm_1>false</event_parm_1>
         <event_parm_2>false</event_parm_2>
         <exclude_delegates>false</exclude_delegates>
@@ -29,9 +29,25 @@
         <list_field/>
         <mandatory>false</mandatory>
         <message/>
-        <message_html><![CDATA[<p>Hello,</p>
-<p>Loss Prevention Incident ${number} has been submitted by ${requested_by} for ${type_of_issue}</p>
-<p>To view the details of this issue click on ${URI}</p>
+        <message_html><![CDATA[<p>Hello;</p>
+<p>The following ${level_of_priority} priority incident was reported on ${sys_created_on}.</p>
+<p>&nbsp;</p>
+<p>Loss Prevention Incident Number: ${number}</p>
+<p>Requested By: ${requested_by}</p>
+<p>Submitted By: ${submitted_by}</p>
+<p>District Leader: ${requested_by.u_assigned_district_manager}</p>
+<p>Regional Director: ${requested_by.u_regional_manager}</p>
+<p>Regional LP Manager: ${requested_by.u_rlpm}</p>
+<p>&nbsp;</p>
+<p>Issue: ${issue}</p>
+<p>Type of Issue: ${type_of_issue}</p>
+<p>Incident Details: ${incident_details}</p>
+<p>&nbsp;</p>
+<p>Please select the link for more information:${URI}</p>
+<p>&nbsp;</p>
+<p>Thank you,</p>
+<p>Loss Prevention</p>
+<p>&nbsp;</p>
 <p>&nbsp;</p>]]></message_html>
         <message_list/>
         <message_text/>
@@ -41,13 +57,12 @@
         <push_message_only>false</push_message_only>
         <recipient_fields>requested_by</recipient_fields>
         <recipient_groups/>
-        <recipient_users>82e2f2b911401600eb9741541c293e81,fd3d092908fd8940d9c3c0e4fa7340c1,00439f6a87b325002d2d098e59434d1a,13d72c2850fd85406499eac314d7320a,0bd4d2dff50f4500649946d756988436,a5c799d387146940ae0246089d434d08,abe25dc8f549ca003ff3bd1ff6575cd6</recipient_users>
+        <recipient_users>82e2f2b911401600eb9741541c293e81,fd3d092908fd8940d9c3c0e4fa7340c1,00439f6a87b325002d2d098e59434d1a,13d72c2850fd85406499eac314d7320a,0bd4d2dff50f4500649946d756988436,a5c799d387146940ae0246089d434d08,abe25dc8f549ca003ff3bd1ff6575cd6,f3c5ee880a0a3c1c016c54d12e0aacaa,25e03db5b4bcd600eb97848ce4aade9e</recipient_users>
         <reply_to/>
         <send_self>true</send_self>
         <sms_alternate/>
         <style/>
-        <subject>Loss Prevention Incident ${number}  submitted by ${requested_by} for ${type_of_issue}&#13;
-</subject>
+        <subject>${level_of_priority} Priority Incident - ${requested_by.u_display_name},${requested_by.state}</subject>
         <subscribable>false</subscribable>
         <sys_class_name>sysevent_email_action</sys_class_name>
         <sys_created_by>dipsha01</sys_created_by>
@@ -55,7 +70,7 @@
         <sys_customer_update>true</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>7b3366d11371fa4076165ecf3244b05f</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_name>Notify Immediately RD's - HR - Robbery; Burglary</sys_name>
         <sys_overrides/>
         <sys_package display_value="LossPrevention" source="x_kasp_lossprevent">c2716bb56ffc724099a707321c3ee439</sys_package>
@@ -64,7 +79,7 @@
         <sys_scope display_value="LossPrevention">c2716bb56ffc724099a707321c3ee439</sys_scope>
         <sys_update_name>sysevent_email_action_7b3366d11371fa4076165ecf3244b05f</sys_update_name>
         <sys_updated_by>danpal01</sys_updated_by>
-        <sys_updated_on>2017-05-03 12:18:19</sys_updated_on>
+        <sys_updated_on>2017-05-18 20:39:37</sys_updated_on>
         <sys_version>2</sys_version>
         <template/>
         <type>email</type>

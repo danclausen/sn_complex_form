@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>33d2e1f813c1f20076165ecf3244b008</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="x_kasp_lossprevent_lp_questions">
+    <x_kasp_lossprevent_lp_questions action="INSERT_OR_UPDATE">
+        <fields> {&#13;
+ "fields":[&#13;
+&#13;
+&#13;
+{&#13;
+         "field":"date_time_of_incident"&#13;
+     },&#13;
+&#13;
+{&#13;
+         "field":"location_of_incident"&#13;
+     },&#13;
+&#13;
+{&#13;
+         "field":"camera_cctv"&#13;
+     },&#13;
+&#13;
+{&#13;
+         "field":"police_notified"&#13;
+     },&#13;
+&#13;
+{&#13;
+         "field":"associates_involved"&#13;
+     },&#13;
+{&#13;
+         "field":"customers_involved"&#13;
+     },&#13;
+{&#13;
+         "field":"witnesses_involved"&#13;
+     },&#13;
+&#13;
+{&#13;
+         "field":"merchandise_lost"&#13;
+     },&#13;
+{&#13;
+         "field":"cash_lost"&#13;
+     },&#13;
+{&#13;
+         "field":"focus_store"&#13;
+     },&#13;
+{&#13;
+         "field":"guard_on_duty"&#13;
+     }&#13;
+&#13;
+&#13;
+&#13;
+],&#13;
+&#13;
+"sections":[&#13;
+&#13;
+{&#13;
+       "section":"incident_info",&#13;
+            "fields":[&#13;
+              &#13;
+                &#13;
+        {"field":"number_of_customers_in_store_at_time_of_incident"},&#13;
+        {"field":"number_of_associates_working_at_time_of_incident"},&#13;
+        {"field":"hop_at_time_of_incident"},&#13;
+        {"field":"preventative_action_s"},&#13;
+        {"field":"incident_details"}&#13;
+&#13;
+          &#13;
+&#13;
+          &#13;
+&#13;
+          ]&#13;
+&#13;
+}&#13;
+&#13;
+&#13;
+],&#13;
+&#13;
+"level_of_priority":"High"&#13;
+}&#13;
+</fields>
+        <question>type_of_issue:Flood</question>
+        <sys_created_by>danpal01</sys_created_by>
+        <sys_created_on>2017-02-17 14:13:05</sys_created_on>
+        <sys_id>33d2e1f813c1f20076165ecf3244b008</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_updated_by>danpal01</sys_updated_by>
+        <sys_updated_on>2017-05-15 12:52:36</sys_updated_on>
+    </x_kasp_lossprevent_lp_questions>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>sebgar01</sys_created_by>
+        <sys_created_on>2017-05-19 03:27:28</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>e8d7b7f10f7eb2c44789e34be1050ecf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Created 2017-02-17 09:13:05</sys_name>
+        <sys_package display_value="LossPrevention" source="x_kasp_lossprevent">c2716bb56ffc724099a707321c3ee439</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="LossPrevention">c2716bb56ffc724099a707321c3ee439</sys_scope>
+        <sys_update_name>sys_metadata_link_e8d7b7f10f7eb2c44789e34be1050ecf</sys_update_name>
+        <sys_updated_by>sebgar01</sys_updated_by>
+        <sys_updated_on>2017-05-19 03:27:28</sys_updated_on>
+        <tablename>x_kasp_lossprevent_lp_questions</tablename>
+    </sys_metadata_link>
+</record_update>

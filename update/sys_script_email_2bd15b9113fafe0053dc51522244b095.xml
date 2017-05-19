@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_script_email">
+    <sys_script_email action="INSERT_OR_UPDATE">
+        <name>x_kasp_lossprevent_loss_prevention_incidents_script_1</name>
+        <new_lines_to_html>false</new_lines_to_html>
+        <script><![CDATA[baseUrl = gs.getProperty("glide.servlet.uri"); 
+ var gr = new GlideRecord("x_kasp_lossprevent_loss_prevention_incidents"); 
+ gr.addEncodedQuery("requested_by=77ad5a1e87eb5900ae0246089d434d61"); gr.orderBy('sys_created_on'); 
+ gr.query(); 
+ if (gr.getRowCount() > 0) { 
+ template.print("<br/><br/><br/>Created Weekly <br/>"); 
+ while (gr.next()) { 
+ template.print(gr.getDisplayValue('sys_created_on') + " - <a href='" + baseUrl + gr.getLink() + "'>" + gr.getValue('number') + "</a> - " + gr.issue + "<br/>"); 
+ } 
+ }]]></script>
+        <sys_class_name>sys_script_email</sys_class_name>
+        <sys_created_by>dipsha01</sys_created_by>
+        <sys_created_on>2017-05-17 11:24:41</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>2bd15b9113fafe0053dc51522244b095</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>x_kasp_lossprevent_loss_prevention_incidents_script_1</sys_name>
+        <sys_package display_value="LossPrevention" source="x_kasp_lossprevent">c2716bb56ffc724099a707321c3ee439</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="LossPrevention">c2716bb56ffc724099a707321c3ee439</sys_scope>
+        <sys_update_name>sys_script_email_2bd15b9113fafe0053dc51522244b095</sys_update_name>
+        <sys_updated_by>dipsha01</sys_updated_by>
+        <sys_updated_on>2017-05-17 11:47:30</sys_updated_on>
+    </sys_script_email>
+</record_update>

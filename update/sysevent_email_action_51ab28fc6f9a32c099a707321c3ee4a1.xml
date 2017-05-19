@@ -3,7 +3,7 @@
     <sysevent_email_action action="INSERT_OR_UPDATE">
         <action_insert>true</action_insert>
         <action_update>false</action_update>
-        <active>false</active>
+        <active>true</active>
         <advanced_condition/>
         <affected_field_on_event/>
         <collection>x_kasp_lossprevent_loss_prevention_incidents</collection>
@@ -12,7 +12,7 @@
         </condition>
         <content_type>text/html</content_type>
         <description/>
-        <event_name/>
+        <event_name>account.expires</event_name>
         <event_parm_1>false</event_parm_1>
         <event_parm_2>false</event_parm_2>
         <exclude_delegates>false</exclude_delegates>
@@ -29,9 +29,25 @@
         <list_field/>
         <mandatory>false</mandatory>
         <message/>
-        <message_html><![CDATA[<p>Hello,</p>
-<p>Loss Prevention Incident ${number} has been submitted by ${requested_by} for ${type_of_issue}</p>
-<p>To view the details of this issue click on ${URI}</p>
+        <message_html><![CDATA[<p>Hello;</p>
+<p>The following ${level_of_priority} priority incident was reported on ${sys_created_on}.</p>
+<p>&nbsp;</p>
+<p>Loss Prevention Incident Number: ${number}</p>
+<p>Requested By: ${requested_by}</p>
+<p>Submitted By: ${submitted_by}</p>
+<p>District Leader: ${requested_by.u_assigned_district_manager}</p>
+<p>Regional Director: ${requested_by.u_regional_manager}</p>
+<p>Regional LP Manager: ${requested_by.u_rlpm}</p>
+<p>&nbsp;</p>
+<p>Issue: ${issue}</p>
+<p>Type of Issue: ${type_of_issue}</p>
+<p>Incident Details: ${incident_details}</p>
+<p>&nbsp;</p>
+<p>Please select the link for more information:${URI}</p>
+<p>&nbsp;</p>
+<p>Thank you,</p>
+<p>Loss Prevention</p>
+<p>&nbsp;</p>
 <p>&nbsp;</p>]]></message_html>
         <message_list/>
         <message_text/>
@@ -40,13 +56,13 @@
         <order/>
         <push_message_only>false</push_message_only>
         <recipient_fields/>
-        <recipient_groups/>
-        <recipient_users>6254951fccdb1c007793ce6c9d54e977,2357959e0dd361009845633ab8404060,f3c532f30a0a3c1c014cf015483067de,dcdd7ac285f30a409fd5797ff5c1c78d</recipient_users>
+        <recipient_groups name="Inventory Accounting">545d33a840f4d1000072a5e111ff306a</recipient_groups>
+        <recipient_users>6254951fccdb1c007793ce6c9d54e977,2357959e0dd361009845633ab8404060,f3c532f30a0a3c1c014cf015483067de,dcdd7ac285f30a409fd5797ff5c1c78d,ecf6cb76e141420045eea35954d9a67f</recipient_users>
         <reply_to/>
         <send_self>true</send_self>
         <sms_alternate/>
         <style/>
-        <subject>Loss Prevention Incident ${number} submitted by ${requested_by} for ${type_of_issue}</subject>
+        <subject>${level_of_priority} Priority Incident - ${requested_by.u_display_name},${requested_by.state}</subject>
         <subscribable>false</subscribable>
         <sys_class_name>sysevent_email_action</sys_class_name>
         <sys_created_by>dipsha01</sys_created_by>
@@ -54,7 +70,7 @@
         <sys_customer_update>true</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>51ab28fc6f9a32c099a707321c3ee4a1</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>Notify for - Issue - Shoplifting &amp; Known Loss</sys_name>
         <sys_overrides/>
         <sys_package display_value="LossPrevention" source="x_kasp_lossprevent">c2716bb56ffc724099a707321c3ee439</sys_package>
@@ -63,7 +79,7 @@
         <sys_scope display_value="LossPrevention">c2716bb56ffc724099a707321c3ee439</sys_scope>
         <sys_update_name>sysevent_email_action_51ab28fc6f9a32c099a707321c3ee4a1</sys_update_name>
         <sys_updated_by>danpal01</sys_updated_by>
-        <sys_updated_on>2017-05-03 12:18:19</sys_updated_on>
+        <sys_updated_on>2017-05-18 20:39:37</sys_updated_on>
         <sys_version>2</sys_version>
         <template/>
         <type>email</type>

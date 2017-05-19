@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element label="Loss Prevention Incidents" max_length="40" name="x_kasp_lossprevent_loss_prevention_incidents" type="collection">
+    <element audit="true" label="Loss Prevention Incidents" max_length="40" name="x_kasp_lossprevent_loss_prevention_incidents" spell_check="true" text_index="true" type="collection">
         <element attributes="edge_encryption_enabled=true" label="Action Taken" max_length="4000" name="action_taken" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Additional Notes/Facts" max_length="1000" name="additional_notes_facts" type="string"/>
         <element attributes="preview_first=true,preview_selector=true,is_multi_text=true" default="&lt;a href = &quot;www.google.com&quot;&gt;Add Customer&lt;/a&gt;" label="." max_length="65536" name="add_customer" read_only="true" type="html"/>
         <element attributes="edge_encryption_enabled=true" label="Add Line Info" max_length="4000" name="add_line_info" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Age at Case" max_length="40" name="age_at_case" type="string"/>
+        <element dependent="assignment_group" dependent_on_field="assignment_group" label="Assigned to" max_length="32" name="assigned_to" reference="sys_user" type="reference" use_dependent_field="true"/>
+        <element default="6147f2320f2efe444789e34be1050e17" label="Assignment Group" max_length="32" name="assignment_group" reference="sys_user_group" type="reference"/>
         <element attributes="edge_encryption_enabled=true" choice="3" default="Select" label="Associates Involved" max_length="40" name="associates_involved" type="string">
             <choice>
                 <element label="Yes" sequence="0" value="Yes"/>
@@ -58,6 +60,10 @@
                 <element label="No" sequence="2" value="No"/>
             </choice>
         </element>
+        <element hint="Time and date as stated on DVR" label="Camera Date and Time" max_length="40" name="camera_date_and_time" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" hint="Enter all camera id/number(s) that captured the incident" label="Camera ID/Number(s)" max_length="40" name="camera_id_number_s" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Camera Number" max_length="40" name="camera_number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Camera Time" max_length="40" name="camera_time" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="3" default="Select" label="Cash Control Reason" max_length="40" name="cash_control_reason" type="string">
             <choice>
                 <element label="Select" sequence="0" value="Select"/>
@@ -109,6 +115,8 @@
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" label="City" max_length="100" name="city" type="string"/>
+        <element dependent="assignment_group" dependent_on_field="assignment_group" label="Closed By" max_length="32" name="closed_by" reference="sys_user" type="reference" use_dependent_field="true"/>
+        <element attributes="edge_encryption_enabled=true" label="Close Notes" max_length="4000" name="close_notes" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Preventive corrective safety action taken to prevent reoccurrence" max_length="1000" name="corrective_action" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="3" default="Select" label="Customers Involved" max_length="40" name="customers_involved" type="string">
             <choice>
@@ -149,6 +157,13 @@
             <choice>
                 <element label="Yes" sequence="0" value="Yes"/>
                 <element label="No" sequence="1" value="No"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="Select" label="Did a manager answer the call?" max_length="40" name="did_a_manager_answer_the_call" type="string">
+            <choice>
+                <element label="Select" sequence="0" value="Select"/>
+                <element label="Yes" sequence="1" value="Yes"/>
+                <element label="No" sequence="2" value="No"/>
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" label="Driver License #" max_length="100" name="driver_license" type="string"/>
@@ -192,9 +207,25 @@
                 <element label="Other" sequence="5" value="Other"/>
             </choice>
         </element>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="Select" label="Focus Store" max_length="40" name="focus_store" type="string">
+            <choice>
+                <element label="Select" sequence="0" value="Select"/>
+                <element label="Yes" sequence="1" value="Yes"/>
+                <element label="No" sequence="2" value="No"/>
+            </choice>
+        </element>
         <element attributes="edge_encryption_enabled=true" label="Full Name of Witness" max_length="100" name="full_name_of_witness" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="3" default="Select" label="Gender" max_length="40" name="gender" type="string">
             <choice/>
+        </element>
+        <element attributes="omit_sys_original=true" label="Gift Card Amount" max_length="15" name="gift_card_amount" type="currency"/>
+        <element attributes="edge_encryption_enabled=true" label="Gift Card Number" max_length="40" name="gift_card_number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="Select" label="Guard On Duty" max_length="40" name="guard_on_duty" type="string">
+            <choice>
+                <element label="Select" sequence="0" value="Select"/>
+                <element label="Yes" sequence="1" value="Yes"/>
+                <element label="No" sequence="2" value="No"/>
+            </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" label="Hair Color" max_length="40" name="hair_color" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Hazard assessment" max_length="1000" name="hazard_assessment" type="string"/>
@@ -208,7 +239,7 @@
                 <element label="No" sequence="1" value="No"/>
             </choice>
         </element>
-        <element attributes="edge_encryption_enabled=true" label="Incident Details" max_length="4000" name="incident_details" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Incident Details" max_length="4000" name="incident_details" spell_check="true" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Injured Party’s Demeanor" max_length="40" name="injured_party_s_demeanor" type="string">
             <choice>
                 <element label="Angry" sequence="0" value="Angry"/>
@@ -258,6 +289,9 @@
                 <element label="No" sequence="1" value="No"/>
             </choice>
         </element>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="Select" label="Is the store's emergency contact list up to date?" max_length="100" name="is_the_store_s_emergency_contact_list_up_to_date" type="choice">
+            <choice/>
+        </element>
         <element attributes="edge_encryption_enabled=true" label="Length of Time in Role" max_length="40" name="length_of_time_in_role" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="3" label="Level of Priority" max_length="40" name="level_of_priority" type="string">
             <choice>
@@ -267,14 +301,27 @@
                 <element label="High" sequence="3" value="High"/>
             </choice>
         </element>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="Select" label="Location Area" max_length="40" name="location_area" type="string">
+            <choice>
+                <element label="Select" sequence="0" value="Select"/>
+                <element label="First Floor" sequence="1" value="First Floor"/>
+                <element label="Second Floor" sequence="2" value="Second Floor"/>
+                <element label="Third Floor" sequence="3" value="Third Floor"/>
+                <element label="Fourth Floor" sequence="4" value="Fourth Floor"/>
+                <element label="Office" sequence="5" value="Office"/>
+                <element label="Other" sequence="6" value="Other"/>
+            </choice>
+        </element>
         <element attributes="edge_encryption_enabled=true" choice="3" default="Select" label="Location Detail" max_length="40" name="location_detail" type="string">
             <choice>
-                <element label="Front of Store" sequence="0" value="Front of Store"/>
-                <element label="Middle of Store" sequence="1" value="Middle of Store"/>
-                <element label="Back of Store" sequence="2" value="Back of Store"/>
-                <element label="Cash Wrap" sequence="3" value="Cash Wrap"/>
-                <element label="Fitting Room" sequence="4" value="Fitting Room"/>
-                <element label="Stockroom" sequence="5" value="Stockroom"/>
+                <element label="Select" sequence="0" value="Select"/>
+                <element label="Back of Store" sequence="1" value="Back of Store"/>
+                <element label="Cash Wrap" sequence="2" value="Cash Wrap"/>
+                <element label="Fitting Room" sequence="3" value="Fitting Room"/>
+                <element label="Front of Store" sequence="4" value="Front of Store"/>
+                <element label="Middle of Store" sequence="5" value="Middle of Store"/>
+                <element label="Stockroom" sequence="6" value="Stockroom"/>
+                <element label="Other" sequence="7" value="Other"/>
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" choice="3" label="Location Inspected immediate after incident" max_length="40" name="location_inspected" type="string">
@@ -287,14 +334,9 @@
             <choice>
                 <element label="Select" sequence="0" value="Select"/>
                 <element label="ASC" sequence="1" value="ASC"/>
-                <element label="First Floor" sequence="2" value="First Floor"/>
-                <element label="Fourth Floor" sequence="3" value="Fourth Floor"/>
-                <element label="Office" sequence="4" value="Office"/>
-                <element label="Offsite" sequence="5" value="Offsite"/>
-                <element label="Second Floor" sequence="6" value="Second Floor"/>
-                <element label="Store" sequence="7" value="Store"/>
-                <element label="Third Floor" sequence="8" value="Third Floor"/>
-                <element label="Other" sequence="9" value="Other"/>
+                <element label="Offsite" sequence="2" value="Offsite"/>
+                <element label="Store" sequence="3" value="Store"/>
+                <element label="Other" sequence="4" value="Other"/>
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Loss of Consciousness" max_length="40" name="loss_of_consciousness" type="string">
@@ -304,6 +346,7 @@
             </choice>
         </element>
         <element default="javascript:gs.nowDateTime()" dynamic_default_value="79cb83a85f220100a9ad2572f2b4773c" label="LPI Created On" max_length="40" name="lpi_created_on" read_only="true" type="glide_date_time" use_dynamic_default="true"/>
+        <element label="LP Work Notes" max_length="4000" name="lp_work_notes" type="journal"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Professional medical attention rendered" max_length="40" name="medical_attention_rendered" type="string">
             <choice>
                 <element label="Yes" sequence="0" value="Yes"/>
@@ -311,6 +354,13 @@
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" choice="3" default="Select" label="Merchandise Lost" max_length="40" name="merchandise_lost" type="string">
+            <choice>
+                <element label="Select" sequence="0" value="Select"/>
+                <element label="Yes" sequence="1" value="Yes"/>
+                <element label="No" sequence="2" value="No"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="Select" label="Merchandise Purchased" max_length="40" name="merchandise_purchased" type="string">
             <choice>
                 <element label="Select" sequence="0" value="Select"/>
                 <element label="Yes" sequence="1" value="Yes"/>
@@ -336,7 +386,11 @@
         <element attributes="edge_encryption_enabled=true" label="Name of Physician/Other" max_length="40" name="name_of_physician_other" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Name of Police Dept" max_length="100" name="name_of_police_dept" type="string"/>
         <element default="javascript:getNextObjNumberPadded();" display="true" dynamic_default_value="fdcb83a85f220100a9ad2572f2b4773c" label="Number" max_length="40" name="number" read_only="true" type="string" use_dynamic_default="true"/>
+        <element attributes="edge_encryption_enabled=true" label="Number of Associates Working at Time of Incident" max_length="40" name="number_of_associates_working_at_time_of_incident" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Number of Customers in Store at Time of Incident" max_length="40" name="number_of_customers_in_store_at_time_of_incident" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Other Area Details" max_length="1000" name="other_area_details" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Other Details" max_length="1000" name="other_details" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Other Location Details" max_length="1000" name="other_location_details" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Other Location (Please Specify)" max_length="1000" name="other_location_please_specify" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Other Reason Details" max_length="1000" name="other_reason_details" type="string"/>
         <element label="Phone #" max_length="40" name="phone" type="integer"/>
@@ -354,7 +408,22 @@
                 <element label="No" sequence="2" value="No"/>
             </choice>
         </element>
-        <element attributes="edge_encryption_enabled=true" label="Preventative Action(s)" max_length="4000" name="preventative_action_s" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="Select" label="Potential Cash Loss" max_length="40" name="potential_cash_loss" type="string">
+            <choice>
+                <element label="Select" sequence="0" value="Select"/>
+                <element label="Yes" sequence="1" value="Yes"/>
+                <element label="No" sequence="2" value="No"/>
+            </choice>
+        </element>
+        <element attributes="omit_sys_original=true" label="Potential Cash Loss Amount" max_length="15" name="potential_cash_loss_amount" type="currency"/>
+        <element attributes="omit_sys_original=true" label="Potential Cash Lost" max_length="15" name="potential_cash_lost" type="currency"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="Select" label="Potential Merchandise Lost" max_length="40" name="potential_merchandise_lost" type="string">
+            <choice>
+                <element label="Yes" sequence="0" value="Yes"/>
+                <element label="No" sequence="1" value="No"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Preventative Action(s)" max_length="4000" name="preventative_action_s" spell_check="true" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="3" label="Primary Cause" max_length="40" name="primary_cause" type="string">
             <choice>
                 <element label="Fall" sequence="0" value="Fall"/>
@@ -374,19 +443,42 @@
                 <element label="Closing Shift" sequence="5" value="Closing Shift"/>
                 <element label="Credit Card" sequence="6" value="Credit Card"/>
                 <element label="Door Issue" sequence="7" value="Door Issue"/>
-                <element label="Forgot Personal Item" sequence="8" value="Forgot Personal Item"/>
-                <element label="Front/Back Door Unsecured" sequence="9" value="Front/Back Door Unsecured"/>
-                <element label="Gift Card" sequence="10" value="Gift Card"/>
-                <element label="Lost/Stolen Store Keys" sequence="11" value="Lost/Stolen Store Keys"/>
-                <element label="Opening Shift" sequence="12" value="Opening Shift"/>
-                <element label="Register Key(s) Missing" sequence="13" value="Register Key(s) Missing"/>
-                <element label="Safe Unsecured" sequence="14" value="Safe Unsecured"/>
-                <element label="Travelers Check" sequence="15" value="Travelers Check"/>
-                <element label="Other" sequence="16" value="Other"/>
+                <element label="Family Emergency" sequence="8" value="Family Emergency"/>
+                <element label="Forgot Personal Item" sequence="9" value="Forgot Personal Item"/>
+                <element label="Front/Back Door Unsecured" sequence="10" value="Front/Back Door Unsecured"/>
+                <element label="Gift Card" sequence="11" value="Gift Card"/>
+                <element label="Illness" sequence="12" value="Illness"/>
+                <element label="Lost/Stolen Store Keys" sequence="13" value="Lost/Stolen Store Keys"/>
+                <element label="Mall Evacuation" sequence="14" value="Mall Evacuation"/>
+                <element label="No Call/No Show" sequence="15" value="No Call/No Show"/>
+                <element label="Opening Shift" sequence="16" value="Opening Shift"/>
+                <element label="Register Key(s) Missing" sequence="17" value="Register Key(s) Missing"/>
+                <element label="Safe Unsecured" sequence="18" value="Safe Unsecured"/>
+                <element label="Scheduling Error" sequence="19" value="Scheduling Error"/>
+                <element label="Travelers Check" sequence="20" value="Travelers Check"/>
+                <element label="Utility Issue(Water/Sewage/Power)" sequence="21" value="Utility Issue(Water/Sewage/Power)"/>
+                <element label="Weather Related" sequence="22" value="Weather Related"/>
+                <element label="Other" sequence="23" value="Other"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="Select" label="Reason for Alarm" max_length="40" name="reason_for_alarm" type="string">
+            <choice>
+                <element label="Select" sequence="0" value="Select"/>
+                <element label="Door Issue" sequence="1" value="Door Issue"/>
+                <element label="False Alarm" sequence="2" value="False Alarm"/>
+                <element label="Glass Break" sequence="3" value="Glass Break"/>
+                <element label="Motion Issue" sequence="4" value="Motion Issue"/>
+                <element label="Other" sequence="5" value="Other"/>
             </choice>
         </element>
         <element dependent="requested_by" dependent_on_field="requested_by" label="Regional Leader" max_length="32" name="regional_leader" reference="sys_user" type="reference" use_dependent_field="true"/>
-        <element default="javascript:gs.getUserID();" dynamic_default_value="2fd8e97bef3221002841f7f775c0fbc1" label="Requested By" max_length="32" name="requested_by" reference="sys_user" type="reference" use_dynamic_default="true"/>
+        <element default="javascript:gs.getUserID();" dynamic_default_value="2fd8e97bef3221002841f7f775c0fbc1" label="Requested By" max_length="32" name="requested_by" read_only="true" reference="sys_user" type="reference" use_dynamic_default="true"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="Select" label="RLPM Contacted" max_length="40" name="rlpm_contacted" type="string">
+            <choice>
+                <element label="Yes" sequence="0" value="Yes"/>
+                <element label="No" sequence="1" value="No"/>
+            </choice>
+        </element>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Sex" max_length="40" name="sex" type="string">
             <choice/>
         </element>
@@ -415,32 +507,50 @@
         <element attributes="edge_encryption_enabled=true" label="Specify First Aid administered by" max_length="100" name="specify_first_aid_administered_by" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Specify Injury Type" max_length="100" name="specify_injury_type" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Specify Other First Aid Type" max_length="100" name="specify_other_first_aid_type" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="Specify Other Type of Issue" max_length="1000" name="specify_other_type_of_issue" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Specify Other Type of Issue" max_length="1000" name="specify_other_type_of_issue" spell_check="true" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Specify Primary Cause" max_length="40" name="specify_primary_cause" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Specify Unsafe Condition" max_length="40" name="specify_unsafe_condition" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Specify where treatment was given" max_length="100" name="specify_where_treatment_was_given" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Specify where video is stored" max_length="40" name="specify_where_video_is_stored" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Specify Witness or Passengers" max_length="40" name="specify_witness_or_passengers" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="State" max_length="40" name="state" type="string">
             <choice/>
         </element>
-        <element attributes="edge_encryption_enabled=true" choice="1" label="Status" max_length="40" name="status" type="string">
+        <element attributes="edge_encryption_enabled=true" choice="3" default="Not Submitted" label="Status" max_length="40" name="status" type="string">
             <choice>
-                <element label="Submitted" sequence="0" value="Submitted"/>
-                <element label="Work in Progress" sequence="1" value="Work in Progress"/>
-                <element label="Awaiting Customer Informartion" sequence="2" value="Awaiting Customer Informartion"/>
-                <element label="Awaiting Associate Information" sequence="3" value="Awaiting Associate Information"/>
-                <element label="Closed/Complete" sequence="4" value="Closed/Complete"/>
+                <element label="Not Submitted" sequence="0" value="Not Submitted"/>
+                <element label="Submitted" sequence="1" value="Submitted"/>
+                <element label="Work in Progress" sequence="2" value="Work in Progress"/>
+                <element label="Awaiting Customer Informartion" sequence="3" value="Awaiting Customer Informartion"/>
+                <element label="Awaiting Associate Information" sequence="4" value="Awaiting Associate Information"/>
+                <element label="Duplicate" sequence="5" value="Duplicate"/>
+                <element label="Closed/Complete" sequence="6" value="Closed/Complete"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="Select" label="Store Emergency Contact List Up to Date" max_length="40" name="store_emergency_contact_list_up_to_date" type="string">
+            <choice>
+                <element label="Select" sequence="0" value="Select"/>
+                <element label="Yes" sequence="1" value="Yes"/>
+                <element label="No" sequence="2" value="No"/>
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" label="Submitted By" max_length="40" name="submitted_by" type="string"/>
         <element attributes="omit_sys_original=true" label="Total Cash Amount Lost" max_length="20" name="total_cash_amount_lost" type="currency"/>
         <element label="Total Loss" max_length="40" name="total_loss" type="integer"/>
         <element attributes="omit_sys_original=true" label="Total Merchandise Amount Loss" max_length="20" name="total_merchandise_amount_loss" type="currency"/>
+        <element attributes="omit_sys_original=true" label="Total Merchandise Amount Purchased" max_length="15" name="total_merchandise_amount_purchased" type="currency"/>
         <element attributes="omit_sys_original=true" label="Total Merchandise Amount Recovered" max_length="20" name="total_merchandise_amount_recovered" type="currency"/>
         <element attributes="edge_encryption_enabled=true" choice="3" label="Treatment Given away from incident area" max_length="40" name="treatment_given" type="string">
             <choice>
                 <element label="Yes" sequence="0" value="Yes"/>
                 <element label="No" sequence="1" value="No"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="Select" label="Type of Fraud" max_length="40" name="type_of_fraud" type="string">
+            <choice>
+                <element label="Select" sequence="0" value="Select"/>
+                <element label="Known" sequence="1" value="Known"/>
+                <element label="Suspected" sequence="2" value="Suspected"/>
             </choice>
         </element>
         <element choice="3" default="Select" label="Type Of Issue" max_length="40" name="type_of_issue" type="choice">
@@ -453,7 +563,7 @@
                 <element hint="Breaking into and entering any building with the intent to steal by day or night." label="Burglary" sequence="5" value="Burglary"/>
                 <element label="Cash Control" sequence="6" value="Cash Control"/>
                 <element hint="A safety incident involving an individual who is not employed by the company (i.e., guest, child or outside vendor)." label="Customer Incident" sequence="7" value="Customer Incident"/>
-                <element hint="A defeated sensor is a soft tag that has been removed from merchandise in order to avoid detection upon exiting the store with unpaid merchandise.  Examples of where defeated sensors are often found include the fitting rooms, inside other merchandise (i.e., handbags) and/or on the sales floor." label="Defeated Sensor" sequence="8" value="Defeated Sensor"/>
+                <element hint="A defeated sensor is a soft tag that has been removed from merchandise in order to avoid detection upon exiting the store with unpaid merchandise.  Examples of where defeated sensors are often found include the fitting rooms, inside other merchandise (i.e" label="Defeated Sensor" sequence="8" value="Defeated Sensor"/>
                 <element label="Early Close" sequence="9" value="Early Close"/>
                 <element label="Fire" sequence="10" value="Fire"/>
                 <element label="Flood" sequence="11" value="Flood"/>
@@ -483,6 +593,13 @@
                 <element label="Respirator" sequence="7" value="Respirator"/>
             </choice>
         </element>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="Select" label="Type of Shift" max_length="40" name="type_of_shift" type="string">
+            <choice>
+                <element label="Select" sequence="0" value="Select"/>
+                <element label="Closing Shift" sequence="1" value="Closing Shift"/>
+                <element label="Opening Shift" sequence="2" value="Opening Shift"/>
+            </choice>
+        </element>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Was Personal Protective Equipment Used" max_length="40" name="was_personal_protective_equipment_used" type="string">
             <choice>
                 <element label="Yes" sequence="0" value="Yes"/>
@@ -498,6 +615,16 @@
                 <element label="Snow" sequence="4" value="Snow"/>
                 <element label="Blizzard" sequence="5" value="Blizzard"/>
                 <element label="Tornado" sequence="6" value="Tornado"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="Select" label="Where is the video stored" max_length="40" name="where_is_the_video_stored" type="string">
+            <choice>
+                <element label="Select" sequence="0" value="Select"/>
+                <element label="Hard copy at store" sequence="1" value="Hard copy at store"/>
+                <element label="Hard copy mailed to home office" sequence="2" value="Hard copy mailed to home office"/>
+                <element label="Hard copy mailed to RLPM" sequence="3" value="Hard copy mailed to RLPM"/>
+                <element label="On the DVR" sequence="4" value="On the DVR"/>
+                <element label="Other" sequence="5" value="Other"/>
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Where was the treatment given" max_length="40" name="where_was_the_treatment_given" type="string">
@@ -529,7 +656,16 @@
             <element name="requested_by"/>
         </index>
         <index name="index2">
+            <element name="assignment_group"/>
+        </index>
+        <index name="index3">
             <element name="regional_leader"/>
+        </index>
+        <index name="index4">
+            <element name="assigned_to"/>
+        </index>
+        <index name="index5">
+            <element name="closed_by"/>
         </index>
     </element>
 </database>

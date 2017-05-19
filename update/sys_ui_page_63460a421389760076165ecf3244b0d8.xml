@@ -3,8 +3,8 @@
     <sys_ui_page action="INSERT_OR_UPDATE">
         <category>general</category>
         <client_script><![CDATA[String.prototype.replaceAll = function(search, replacement) {
-    var target = this;
-    return target.replace(new RegExp(search, 'g'), replacement);
+	var target = this;
+	return target.replace(new RegExp(search, 'g'), replacement);
 };
 
 function getParmVal(name){
@@ -23,43 +23,43 @@ var funcs = (function(){
 	var locateQuestions = 'x_kasp_locate_appl_locate_questions';
 	var lpQuestions = 'x_kasp_lossprevent_lp_questions';
 	var safetyTables = [
-		{
-			table:'x_kasp_safety_inci_safety_associate_information',
-			name: 'Associate Information'
-		},
-		{
-			table:'x_kasp_safety_inci_safety_customer_information',
-			name: 'Customer Information'
-		},
-		{
-			table:'x_kasp_safety_inci_witness_information',
-			name: 'Witness Information'
-		}
-		];
+	{
+		table:'x_kasp_safety_inci_safety_associate_information',
+		name: 'Associate Information'
+	},
+	{
+		table:'x_kasp_safety_inci_safety_customer_information',
+		name: 'Customer Information'
+	},
+	{
+		table:'x_kasp_safety_inci_witness_information',
+		name: 'Witness Information'
+	}
+	];
 	var locateTables = [
-		{
-			table:'x_kasp_locate_appl_merchandise_information',
-			name: 'Locate Merchandise Information'
-		}
+	{
+		table:'x_kasp_locate_appl_merchandise_information',
+		name: 'Locate Merchandise Information'
+	}
 	];
 	var lpTables =  [
-		{
-			table:'x_kasp_lossprevent_lp_associate_information',
-			name: 'Associate Information'
-		},
-		{
-			table:'x_kasp_lossprevent_lp_customer_information',
-			name: 'Customer Information'
-		},
-		{
-			table:'x_kasp_lossprevent_lp_merchandise_table',
-			name: 'Merchandise Information'
-		},
-		{
-			table:'x_kasp_lossprevent_lp_shoplifter_information',
-			name: 'Shoplifter Information'
-		}
-		];
+	{
+		table:'x_kasp_lossprevent_lp_associate_information',
+		name: 'Associate Information'
+	},
+	{
+		table:'x_kasp_lossprevent_lp_customer_information',
+		name: 'Customer Information'
+	},
+	{
+		table:'x_kasp_lossprevent_lp_merchandise_table',
+		name: 'Merchandise Information'
+	},
+	{
+		table:'x_kasp_lossprevent_lp_shoplifter_information',
+		name: 'Shoplifter Information'
+	}
+	];
 	var choiceTables;
 	var questionTable;
 	
@@ -73,7 +73,7 @@ var funcs = (function(){
 		questionTable = lpQuestions;
 		choiceTables = lpTables;
 	}
-		
+	
 	
 	var popupStr = jQuery("#popup_text").html();
 	popupStr = popupStr.replaceAll("\\\\",'');
@@ -94,59 +94,55 @@ var funcs = (function(){
 		table = popup.table;
 		fields = popup.fields;
 		count = 0;
-
+		
 		var fieldBoxDiv = '<div class="field-box">';
 		var innerDiv = '<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">';
 		var halfCount = Math.ceil(fields.length/2);
 		var closeDiv = '</div>';
-
+		
 		var label = '';
 		var input = '';
 		var html = '';
-
+		
 		jQuery("#title").html(title);
-
+		
 		for(var c = 0; c < fields.length; c++){
 			label = '<label id="'+fields[c].name+'_label">'+fields[c].label+'</label>';
-
-			if(fields[c].type){
 			
+			if(fields[c].type){
 				
-				
-				
-
 				if(fields[c].type == 'date'){
 					input = '<input class="form-control" id="'+fields[c].name+'" type="'+fields[c].type+'"/>';
 				}else if(fields[c].type == 'select'){
 					input = '<select class="form-control" id="'+fields[c].name+'" onchange="funcs.onValueChange(this, this.value)">';
 					if(fields[c].options){
 						for(var o = 0; o < fields[c].options.length; o++){
-							input += "<option vlaue='"+fields[c].options[o]+"'>"+fields[c].options[o]+"</option>";
+							input += "<option value='"+fields[c].options[o]+"'>"+fields[c].options[o]+"</option>";
 						}
-
+						
 					}
 				}else if(fields[c].type == 'text'){
 					input = '<input class="form-control" id="'+fields[c].name+'"/>';
 					if(fields[c].name=='phone_number'){
-input = '<input class="form-control" id="'+fields[c].name+'"type="'+fields[c].type+'"pattern="'+fields[c].pattern+'"/>';		
+						input = '<input class="form-control" id="'+fields[c].name+'"type="'+fields[c].type+'"pattern="'+fields[c].pattern+'"/>';
+					}
 				}
-				}
-
+				
 			}else{
-				input = '<input class="form-control" id="'+fields[c].name+'"/>';
+				input = '<input class="form-control" id="'+fields[c].name+'" required/>';
 			}
 			html = fieldBoxDiv+innerDiv+label+closeDiv+innerDiv+input+closeDiv;
 			if(c < halfCount){
 				jQuery('#left').append(html);
-
+				
 			}else{
 				jQuery('#right').append(html);
-
+				
 			}
 			if(fields[c].hide){
 				jQuery("#"+fields[c].name).addClass("hide");
 				jQuery("#"+fields[c].name+"_label").addClass("hide");
-			}		
+			}
 		}
 	};
 	
@@ -159,9 +155,7 @@ input = '<input class="form-control" id="'+fields[c].name+'"type="'+fields[c].ty
 		console.log("Loading " + answer);
 		var fieldsObjs = JSON.parse(answer);
 		showPopupForm(fieldsObjs);
-			
-	
-		
+				
 	};
 	
 	var getPopup = function(title,table){
@@ -204,7 +198,7 @@ input = '<input class="form-control" id="'+fields[c].name+'"type="'+fields[c].ty
 			if(ele && ele.toString() === '[object HTMLSelectElement]'){
 				ele.value = 'Select';
 				
-			}else if(ele){	
+			}else if(ele){
 				ele.value = '';
 				
 			}
@@ -237,7 +231,7 @@ input = '<input class="form-control" id="'+fields[c].name+'"type="'+fields[c].ty
 		}
 		
 		var fields = fieldObj.fields;
-	
+		
 		if(fields){
 			
 			showFields(fields);
@@ -276,7 +270,7 @@ input = '<input class="form-control" id="'+fields[c].name+'"type="'+fields[c].ty
 			}
 			
 			var fields = fieldsGroups.fields;
-		
+			
 			if(fields){
 				
 				hideAndWipeFields(fields);
@@ -299,10 +293,40 @@ input = '<input class="form-control" id="'+fields[c].name+'"type="'+fields[c].ty
 	};
 	
 	var checkUPCFormat = function(value){
-		var upc_regex = /[0-9]{12}$/;
+		var upc_regex = /^[0-9]{12}$/;
 		return upc_regex.test(value);
 	};
-	return { 
+	
+	var checkFields = function(field_id, value){
+		
+		if(field_id.indexOf('phone') == 0 && value != ''){
+			
+			if(!checkPhoneFormat(value)){
+				jQuery("#count").html("Invalid Phone Number!");
+				
+				return false;
+			}
+		}
+		if(field_id == 'upc' && value != ''){
+			if(!checkUPCFormat(value)){
+				jQuery("#count").html("Invalid UPC!");
+				
+				return false;
+			}
+		}
+		
+		if(value == ''){
+			jQuery('#'+field_id).css("border-color","#ff4444");
+			jQuery("#count").html("Please complete mandatory fields");
+			return false;
+		}else{
+			jQuery('#'+field_id).css("border-color","#bdc0c4");
+		}
+		
+		return true;
+	};
+	
+	return {
 		
 		onValueChange: function(element,value){
 			
@@ -314,37 +338,43 @@ input = '<input class="form-control" id="'+fields[c].name+'"type="'+fields[c].ty
 			ajax.getXML(callback);
 		},
 		
+		/**
+		Reads Add Line Info Field on page, which contains JSON of detail lines.
+		Loops through all fields in popup and verifies value has been entered.
+		Highlight unfinished fields and returns false for submit.
+ 		**/
 		addLine: function(){
-		
+			
 			var line_info = (g_form.getValue('add_line_info') != '') ? JSON.parse(g_form.getValue('add_line_info')):{};
-
+			
 			var info = {};
 			
 			var value;
+			
+			var ableToAdd = true;
+			var validInput;
+			
 			for(var i = 0; i < fields.length; i++){
 				value = jQuery("#"+fields[i].name).val();
 				value = (value == "Select")?"":value;
-				if(fields[i].name.indexOf('phone') == 0){
-					console.log('testing phone');
-					if(!checkPhoneFormat(value)){
-						jQuery("#count").html("Invalid Phone Number!");
-						console.log('phone '+ value+ ' failed');
-						return;
-					}
-					
-					console.log('phone '+ value+ ' passed');
-					
+				
+				if(fields[i].name == 'size' || fields[i].name == 'color_code'){
+					validInput = true;
+				}else{
+					validInput = checkFields(fields[i].name, value);
 				}
-				if(fields[i].name == 'upc'){
-					if(!checkUPCFormat(value)){
-						jQuery("#count").html("Invalid UPC!");
-						return;
-					}
-				}
+				
+				ableToAdd = (ableToAdd == false)? ableToAdd:validInput;
+				
 				info[fields[i].name] = value;
 			}
+			
+			if(!ableToAdd){
+				
+				return;
+			}
 			info['parent'] = g_form.getUniqueValue();
-
+			
 			if(line_info[title]){
 				line_info[title].lines.push(info);
 			}else{
@@ -354,19 +384,27 @@ input = '<input class="form-control" id="'+fields[c].name+'"type="'+fields[c].ty
 				};
 				line_info[title].lines.push(info);
 			}
-
+			
 			g_form.setValue('add_line_info',JSON.stringify(line_info));
 			count++;
 			jQuery("#count").html("Added: " + count + " " +title+" record(s)");
 			clearAllFields();
-		},
 	
-		done: function(){
-			GlideDialogWindow.get().destroy();
 		},
 		
+		done: function(){
+			//console.log(g_form.getValue('add_line_info'));
+			var confirmation = confirm("Are you sure you've added all relevant information?");
+			if(confirmation==true){
+			GlideDialogWindow.get().destroy();
+		}else{
+			return;
+		}
+		},
+		
+		
 		load_choice:function(title,table){
-			console.log("Loading " + title + " " + table);
+			//console.log("Loading " + title + " " + table);
 			jQuery("#choice_buttons").addClass("hide");
 			jQuery("#formSection").removeClass("hide");
 			getPopup(title,table);
@@ -378,8 +416,8 @@ input = '<input class="form-control" id="'+fields[c].name+'"type="'+fields[c].ty
 			jQuery("#choice_buttons").removeClass("hide");
 			jQuery("#formSection").addClass("hide");
 		}
-
-};
+		
+	};
 	
 })();]]></client_script>
         <description/>
@@ -427,7 +465,7 @@ input = '<input class="form-control" id="'+fields[c].name+'"type="'+fields[c].ty
 	}
 </style>
 	<div id='template'>
-	
+		
 		<g2:evaluate object="true" jelly="true">  
 			var popupControl = {
 				popup:JSON.parse(jelly.sysparm_popup),
@@ -441,6 +479,7 @@ input = '<input class="form-control" id="'+fields[c].name+'"type="'+fields[c].ty
 		
 		<div id="formSection" class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+				<header><h4><i>Click Add to enter a record</i></h4></header>
 				<h3 id="title"></h3>
 			</div>
 
@@ -460,7 +499,7 @@ input = '<input class="form-control" id="'+fields[c].name+'"type="'+fields[c].ty
 				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
 					<button id="add_line" type="button" class="btn btn-primary" onclick="funcs.addLine()">Add</button> 
 					<button id="back" type="button" class="btn btn-primary" onclick="funcs.back()">Back</button> 
-					<button id="done" type="button" class="btn btn-primary" onclick="funcs.done()">Done</button> 
+					<button id="done" type="button" class="btn btn-primary" onclick="funcs.done()">Close</button> 
 				</div>
 			</div>
 		</div>
@@ -481,14 +520,14 @@ input = '<input class="form-control" id="'+fields[c].name+'"type="'+fields[c].ty
         <sys_created_on>2017-02-21 14:05:16</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
         <sys_id>63460a421389760076165ecf3244b0d8</sys_id>
-        <sys_mod_count>165</sys_mod_count>
+        <sys_mod_count>218</sys_mod_count>
         <sys_name>lp_popup</sys_name>
         <sys_package display_value="LossPrevention" source="x_kasp_lossprevent">c2716bb56ffc724099a707321c3ee439</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="LossPrevention">c2716bb56ffc724099a707321c3ee439</sys_scope>
         <sys_update_name>sys_ui_page_63460a421389760076165ecf3244b0d8</sys_update_name>
-        <sys_updated_by>sebgar01</sys_updated_by>
-        <sys_updated_on>2017-05-02 20:56:34</sys_updated_on>
+        <sys_updated_by>danpal01</sys_updated_by>
+        <sys_updated_on>2017-05-18 13:35:16</sys_updated_on>
     </sys_ui_page>
 </record_update>

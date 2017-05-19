@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>7d0a1f381366b20076165ecf3244b07e</documentkey>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;record_update table="x_kasp_lossprevent_loss_prevention_incidents"&gt;
+    &lt;x_kasp_lossprevent_loss_prevention_incidents action="INSERT_OR_UPDATE"&gt;
+        &lt;action_taken/&gt;
+        &lt;add_customer&gt;&lt;![CDATA[&lt;a href = "www.google.com"&gt;Add Customer&lt;/a&gt;]]&gt;&lt;/add_customer&gt;
+        &lt;add_line_info/&gt;
+        &lt;additional_notes_facts/&gt;
+        &lt;age_at_case/&gt;
+        &lt;associate_id/&gt;
+        &lt;associate_information_available&gt;Select&lt;/associate_information_available&gt;
+        &lt;associate_s_city/&gt;
+        &lt;associate_s_county/&gt;
+        &lt;associate_s_date_of_birth/&gt;
+        &lt;associate_s_full_name/&gt;
+        &lt;associate_s_job_title/&gt;
+        &lt;associate_s_phone/&gt;
+        &lt;associate_s_state/&gt;
+        &lt;associate_s_zip_code/&gt;
+        &lt;associates_involved&gt;Not Applicable&lt;/associates_involved&gt;
+        &lt;birth_date/&gt;
+        &lt;body_part/&gt;
+        &lt;by_whom/&gt;
+        &lt;camera_cctv&gt;No&lt;/camera_cctv&gt;
+        &lt;camera_number/&gt;
+        &lt;camera_time/&gt;
+        &lt;cash_control_reason&gt;Select&lt;/cash_control_reason&gt;
+        &lt;cash_control_type&gt;Select&lt;/cash_control_type&gt;
+        &lt;cash_lost&gt;Select&lt;/cash_lost&gt;
+        &lt;cash_or_merchandise_theft&gt;Select&lt;/cash_or_merchandise_theft&gt;
+        &lt;caused_by_equipment/&gt;
+        &lt;caused_by_unsafe_act/&gt;
+        &lt;caused_by_unsafe_condition/&gt;
+        &lt;city/&gt;
+        &lt;corrective_action/&gt;
+        &lt;customer_associate_information_available&gt;Select&lt;/customer_associate_information_available&gt;
+        &lt;customer_information_available&gt;Select&lt;/customer_information_available&gt;
+        &lt;customer_or_associate_witness&gt;Select&lt;/customer_or_associate_witness&gt;
+        &lt;customer_or_associate_wtinesses/&gt;
+        &lt;customer_s_full_name/&gt;
+        &lt;customers_involved&gt;Select&lt;/customers_involved&gt;
+        &lt;date_of_death/&gt;
+        &lt;date_of_hire/&gt;
+        &lt;date_time_of_incident&gt;2017-05-03 12:28:04&lt;/date_time_of_incident&gt;
+        &lt;death_resulting/&gt;
+        &lt;driver_license/&gt;
+        &lt;edit_customer/&gt;
+        &lt;elaborate_and_describe/&gt;
+        &lt;equipment_type/&gt;
+        &lt;ethnicity/&gt;
+        &lt;eye_color/&gt;
+        &lt;first_aid_administered_by/&gt;
+        &lt;first_aid_only/&gt;
+        &lt;first_aid_type/&gt;
+        &lt;full_name_of_witness/&gt;
+        &lt;gender&gt;Select&lt;/gender&gt;
+        &lt;hair_color/&gt;
+        &lt;hazard_assessment/&gt;
+        &lt;heather_care_provider/&gt;
+        &lt;height/&gt;
+        &lt;home_address/&gt;
+        &lt;hop_at_time_of_incident&gt;sdsd&lt;/hop_at_time_of_incident&gt;
+        &lt;hospitalized_overnight_as_in_patient/&gt;
+        &lt;incident_details&gt;sdsdsdd&lt;/incident_details&gt;
+        &lt;injured_party_s_demeanor/&gt;
+        &lt;injury_type/&gt;
+        &lt;inspection_details/&gt;
+        &lt;is_customer_s_associate_s_information_available&gt;Select&lt;/is_customer_s_associate_s_information_available&gt;
+        &lt;is_shoplifter_s_information_available&gt;Select&lt;/is_shoplifter_s_information_available&gt;
+        &lt;issue&gt;External Theft&lt;/issue&gt;
+        &lt;issuing_state/&gt;
+        &lt;length_of_time_in_role/&gt;
+        &lt;level_of_priority&gt;Low&lt;/level_of_priority&gt;
+        &lt;location_detail&gt;Select&lt;/location_detail&gt;
+        &lt;location_inspected/&gt;
+        &lt;location_of_incident&gt;ASC&lt;/location_of_incident&gt;
+        &lt;loss_of_consciousness/&gt;
+        &lt;lpi_created_on/&gt;
+        &lt;medical_attention_rendered/&gt;
+        &lt;merchandise_lost&gt;No&lt;/merchandise_lost&gt;
+        &lt;merchandise_recovered&gt;Select&lt;/merchandise_recovered&gt;
+        &lt;merchandise_recovered_by&gt;Select&lt;/merchandise_recovered_by&gt;
+        &lt;name_of_physician_other/&gt;
+        &lt;name_of_police_dept/&gt;
+        &lt;number&gt;LP00000115&lt;/number&gt;
+        &lt;other_details/&gt;
+        &lt;other_location_please_specify/&gt;
+        &lt;other_reason_details/&gt;
+        &lt;phone/&gt;
+        &lt;photo_s_taken/&gt;
+        &lt;police_dept_case_number/&gt;
+        &lt;police_notified&gt;No&lt;/police_notified&gt;
+        &lt;preventative_action_s&gt;ssdsds&lt;/preventative_action_s&gt;
+        &lt;primary_cause/&gt;
+        &lt;reason&gt;Select&lt;/reason&gt;
+        &lt;regional_leader/&gt;
+        &lt;requested_by display_value="Store 3203"&gt;f3c67cda0a0a3c1c01a22a89da5906d7&lt;/requested_by&gt;
+        &lt;sex/&gt;
+        &lt;specific_unsafe_act/&gt;
+        &lt;specific_unsafe_condition/&gt;
+        &lt;specify_body_part/&gt;
+        &lt;specify_equipment_type/&gt;
+        &lt;specify_first_aid_administered_by/&gt;
+        &lt;specify_injury_type/&gt;
+        &lt;specify_other_first_aid_type/&gt;
+        &lt;specify_other_type_of_issue/&gt;
+        &lt;specify_primary_cause/&gt;
+        &lt;specify_unsafe_condition/&gt;
+        &lt;specify_where_treatment_was_given/&gt;
+        &lt;specify_where_video_is_stored/&gt;
+        &lt;specify_witness_or_passengers/&gt;
+        &lt;state/&gt;
+        &lt;status&gt;Submitted&lt;/status&gt;
+        &lt;submitted_by&gt;dan&lt;/submitted_by&gt;
+        &lt;sys_created_by&gt;danpal01&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2017-05-03 12:28:14&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;7d0a1f381366b20076165ecf3244b07e&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;danpal01&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2017-05-03 12:28:14&lt;/sys_updated_on&gt;
+        &lt;total_cash_amount_lost&gt;0&lt;/total_cash_amount_lost&gt;
+        &lt;total_loss/&gt;
+        &lt;total_merchandise_amount_loss&gt;0&lt;/total_merchandise_amount_loss&gt;
+        &lt;total_merchandise_amount_recovered&gt;0&lt;/total_merchandise_amount_recovered&gt;
+        &lt;treatment_given/&gt;
+        &lt;type_of_issue&gt;U-Haul&lt;/type_of_issue&gt;
+        &lt;type_of_ppe/&gt;
+        &lt;type_of_shift/&gt;
+        &lt;was_personal_protective_equipment_used/&gt;
+        &lt;weather_condition/&gt;
+        &lt;where_is_the_video_stored/&gt;
+        &lt;where_was_the_treatment_given/&gt;
+        &lt;witness_or_passanger/&gt;
+        &lt;witness_s_phone_number&gt;(xxx)-xxx-xxxx&lt;/witness_s_phone_number&gt;
+        &lt;witnesses_involved&gt;Not Applicable&lt;/witnesses_involved&gt;
+        &lt;zip_code/&gt;
+    &lt;/x_kasp_lossprevent_loss_prevention_incidents&gt;
+&lt;/record_update&gt;
+</payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>dipsha01</sys_created_by>
+        <sys_created_on>2017-05-08 14:31:26</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>5b4669e61366f60076165ecf3244b0b7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="LossPrevention" source="x_kasp_lossprevent">c2716bb56ffc724099a707321c3ee439</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="LossPrevention">c2716bb56ffc724099a707321c3ee439</sys_scope>
+        <sys_update_name>sys_metadata_link_5b4669e61366f60076165ecf3244b0b7</sys_update_name>
+        <sys_updated_by>dipsha01</sys_updated_by>
+        <sys_updated_on>2017-05-08 14:31:26</sys_updated_on>
+        <tablename>x_kasp_lossprevent_loss_prevention_incid</tablename>
+    </sys_metadata_link>
+</record_update>

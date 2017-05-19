@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="type_of_fraud" table="x_kasp_lossprevent_loss_prevention_incidents" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type_of_fraud</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Select</label>
+            <language>en</language>
+            <name>x_kasp_lossprevent_loss_prevention_incidents</name>
+            <sequence>0</sequence>
+            <sys_created_by>danpal01</sys_created_by>
+            <sys_created_on>2017-05-15 11:44:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>864349740fbaba844789e34be1050e5b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-05-15 11:44:46</sys_updated_on>
+            <value>Select</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type_of_fraud</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Known</label>
+            <language>en</language>
+            <name>x_kasp_lossprevent_loss_prevention_incidents</name>
+            <sequence>1</sequence>
+            <sys_created_by>danpal01</sys_created_by>
+            <sys_created_on>2017-05-15 11:44:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>0e4349740fbaba844789e34be1050e5b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-05-15 11:44:46</sys_updated_on>
+            <value>Known</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type_of_fraud</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Suspected</label>
+            <language>en</language>
+            <name>x_kasp_lossprevent_loss_prevention_incidents</name>
+            <sequence>2</sequence>
+            <sys_created_by>danpal01</sys_created_by>
+            <sys_created_on>2017-05-15 11:44:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>024349740fbaba844789e34be1050e5c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-05-15 11:44:46</sys_updated_on>
+            <value>Suspected</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>type_of_fraud</element>
+            <name>x_kasp_lossprevent_loss_prevention_incidents</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>danpal01</sys_created_by>
+            <sys_created_on>2017-05-15 11:44:46</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>4a4349740fbaba844789e34be1050e5b</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>type_of_fraud</sys_name>
+            <sys_package display_value="LossPrevention" source="x_kasp_lossprevent">c2716bb56ffc724099a707321c3ee439</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="LossPrevention">c2716bb56ffc724099a707321c3ee439</sys_scope>
+            <sys_update_name>sys_choice_x_kasp_lossprevent_loss_prevention_incidents_type_of_fraud</sys_update_name>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-05-15 11:44:46</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

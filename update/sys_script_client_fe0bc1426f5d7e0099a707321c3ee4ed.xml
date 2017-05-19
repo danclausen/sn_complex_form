@@ -14,7 +14,7 @@
 	//Type appropriate comment here, and begin script below
 	var fieldsArr = g_form.getEditableFields();
 	for(var f = 0; f < fieldsArr.length; f++){
-		if(g_form.getValue(fieldsArr[f]) == 'Select' || g_form.getValue(fieldsArr[f]) == '' && g_form.getValue('number') == ''){
+		if((g_form.getValue(fieldsArr[f]) == 'Select' || g_form.getValue(fieldsArr[f]) == '') && g_form.getValue('number') == ''){
 			g_form.hideAllFieldMsgs('error');
 			g_form.clearMessages('error');
 			g_form.addErrorMessage('***Please note: All fields must be completed in order to successfully submit this form.***');
@@ -30,7 +30,7 @@
         <sys_customer_update>true</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>fe0bc1426f5d7e0099a707321c3ee4ed</sys_id>
-        <sys_mod_count>25</sys_mod_count>
+        <sys_mod_count>26</sys_mod_count>
         <sys_name>On Submit</sys_name>
         <sys_overrides display_value="">global</sys_overrides>
         <sys_package display_value="LossPrevention" source="x_kasp_lossprevent">c2716bb56ffc724099a707321c3ee439</sys_package>
@@ -38,8 +38,8 @@
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="LossPrevention">c2716bb56ffc724099a707321c3ee439</sys_scope>
         <sys_update_name>sys_script_client_fe0bc1426f5d7e0099a707321c3ee4ed</sys_update_name>
-        <sys_updated_by>sebgar01</sys_updated_by>
-        <sys_updated_on>2017-04-14 13:43:23</sys_updated_on>
+        <sys_updated_by>danpal01</sys_updated_by>
+        <sys_updated_on>2017-05-16 13:11:52</sys_updated_on>
         <table>x_kasp_lossprevent_loss_prevention_incidents</table>
         <type>onSubmit</type>
         <ui_type>0</ui_type>

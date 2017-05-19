@@ -3,7 +3,6 @@
     <sys_dictionary action="INSERT_OR_UPDATE" element="" table="x_kasp_lossprevent_lp_customer_information">
         <active>true</active>
         <array>false</array>
-        <array_denormalized>false</array_denormalized>
         <attributes/>
         <audit>false</audit>
         <calculation>(function calculatedFieldValue(current) {

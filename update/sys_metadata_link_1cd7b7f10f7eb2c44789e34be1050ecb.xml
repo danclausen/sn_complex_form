@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>04a401f40fbaba844789e34be1050ea9</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="x_kasp_lossprevent_lp_questions">
+    <x_kasp_lossprevent_lp_questions action="INSERT_OR_UPDATE">
+        <fields>{&#13;
+"popup":{&#13;
+     "title":"Merchandise Information",&#13;
+     "table":"x_kasp_lossprevent_lp_merchandise_table",&#13;
+     "fields":[&#13;
+               {&#13;
+                    "label":"UPC",&#13;
+                    "name":"upc",&#13;
+                    "type":"text"&#13;
+               },&#13;
+               {&#13;
+                    "label":"Size",&#13;
+                    "name":"size",&#13;
+                    "type":"text"&#13;
+               },&#13;
+              {&#13;
+                    "label":"Style Number",&#13;
+                    "name":"style",&#13;
+                    "type":"text"&#13;
+               },&#13;
+                {&#13;
+                    "label":"Color Code",&#13;
+                    "name":"color_code",&#13;
+                    "type":"text"&#13;
+               },&#13;
+                {&#13;
+                    "label":"Qty",&#13;
+                    "name":"qty",&#13;
+                    "type":"text"&#13;
+               },&#13;
+                {&#13;
+                    "label":"Price",&#13;
+                    "name":"price",&#13;
+                    "type":"text"&#13;
+               }&#13;
+             &#13;
+          &#13;
+          &#13;
+          &#13;
+           &#13;
+      ]&#13;
+},&#13;
+&#13;
+"fields":[&#13;
+{&#13;
+         "field":"total_merchandise_amount_loss"&#13;
+     }&#13;
+]&#13;
+&#13;
+&#13;
+}</fields>
+        <question>potential_merchandise_lost:Yes</question>
+        <sys_created_by>danpal01</sys_created_by>
+        <sys_created_on>2017-05-15 11:52:33</sys_created_on>
+        <sys_id>04a401f40fbaba844789e34be1050ea9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>danpal01</sys_updated_by>
+        <sys_updated_on>2017-05-15 11:52:33</sys_updated_on>
+    </x_kasp_lossprevent_lp_questions>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>sebgar01</sys_created_by>
+        <sys_created_on>2017-05-19 03:27:27</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>1cd7b7f10f7eb2c44789e34be1050ecb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Created 2017-05-15 07:52:33</sys_name>
+        <sys_package display_value="LossPrevention" source="x_kasp_lossprevent">c2716bb56ffc724099a707321c3ee439</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="LossPrevention">c2716bb56ffc724099a707321c3ee439</sys_scope>
+        <sys_update_name>sys_metadata_link_1cd7b7f10f7eb2c44789e34be1050ecb</sys_update_name>
+        <sys_updated_by>sebgar01</sys_updated_by>
+        <sys_updated_on>2017-05-19 03:27:27</sys_updated_on>
+        <tablename>x_kasp_lossprevent_lp_questions</tablename>
+    </sys_metadata_link>
+</record_update>

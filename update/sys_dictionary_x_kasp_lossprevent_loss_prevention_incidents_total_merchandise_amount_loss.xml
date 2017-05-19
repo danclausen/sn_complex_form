@@ -3,7 +3,6 @@
     <sys_dictionary action="INSERT_OR_UPDATE" element="total_merchandise_amount_loss" table="x_kasp_lossprevent_loss_prevention_incidents">
         <active>true</active>
         <array>false</array>
-        <array_denormalized>false</array_denormalized>
         <attributes>omit_sys_original=true</attributes>
         <audit>false</audit>
         <calculation/>

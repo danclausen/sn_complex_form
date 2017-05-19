@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sysevent_email_action">
+    <sysevent_email_action action="INSERT_OR_UPDATE">
+        <action_insert>true</action_insert>
+        <action_update>false</action_update>
+        <active>true</active>
+        <advanced_condition/>
+        <affected_field_on_event/>
+        <collection>x_kasp_lossprevent_loss_prevention_incidents</collection>
+        <condition table="x_kasp_lossprevent_loss_prevention_incidents">type_of_issueINBurglary,Early Close,Late Open,Property Damage,Re-entry After Closing,Robbery,Store Security^EQ<item endquery="false" field="type_of_issue" goto="false" newquery="false" operator="IN" or="false" value="Burglary,Early Close,Late Open,Property Damage,Re-entry After Closing,Robbery,Store Security"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <content_type>text/html</content_type>
+        <description/>
+        <event_name>account.expires</event_name>
+        <event_parm_1>false</event_parm_1>
+        <event_parm_2>false</event_parm_2>
+        <exclude_delegates>false</exclude_delegates>
+        <force_delivery>false</force_delivery>
+        <from/>
+        <generation_type>engine</generation_type>
+        <group/>
+        <group_field/>
+        <importance/>
+        <include_attachments>false</include_attachments>
+        <item>event.parm1</item>
+        <item_table/>
+        <list/>
+        <list_field/>
+        <mandatory>false</mandatory>
+        <message/>
+        <message_html><![CDATA[<p>Hello;</p>
+<p>The following ${level_of_priority} priority incident was reported on ${sys_created_on}.</p>
+<p>&nbsp;</p>
+<p>Loss Prevention Incident Number: ${number}</p>
+<p>Requested By: ${requested_by}</p>
+<p>Submitted By: ${submitted_by}</p>
+<p>District Leader: ${requested_by.u_assigned_district_manager}</p>
+<p>Regional Director: ${requested_by.u_regional_manager}</p>
+<p>Regional LP Manager: ${requested_by.u_rlpm}</p>
+<p>&nbsp;</p>
+<p>Issue: ${issue}</p>
+<p>Type of Issue: ${type_of_issue}</p>
+<p>Incident Details: ${incident_details}</p>
+<p>&nbsp;</p>
+<p>Please select the link for more information:${URI}</p>
+<p>&nbsp;</p>
+<p>Thank you,</p>
+<p>Loss Prevention</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>Attention Facilities When Inserted</name>
+        <omit_watermark>false</omit_watermark>
+        <order/>
+        <push_message_only>false</push_message_only>
+        <recipient_fields/>
+        <recipient_groups/>
+        <recipient_users>62383b392bc4aa403ff3894319da15fd,49bea5c300ced880779351e27127acc3,43e6ba45870c6140ae0246089d434da5,ecf6cb76e141420045eea35954d9a67f,f9bfa7b000515c00779351e27127acff,cf6aa9a41325720053dc51522244b03f,993af7893033410000726c09a73cf304,b9148ca75d404180f935117bdc4ddaf6</recipient_users>
+        <reply_to/>
+        <send_self>true</send_self>
+        <sms_alternate/>
+        <style/>
+        <subject>Attention Facilities: ${level_of_priority} Priority Incident - ${requested_by.u_display_name},${requested_by.state}</subject>
+        <subscribable>false</subscribable>
+        <sys_class_name>sysevent_email_action</sys_class_name>
+        <sys_created_by>danpal01</sys_created_by>
+        <sys_created_on>2017-05-15 19:05:01</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>7ff66efc0f3afa844789e34be1050e15</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Attention Facilities When Inserted</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="LossPrevention" source="x_kasp_lossprevent">c2716bb56ffc724099a707321c3ee439</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="LossPrevention">c2716bb56ffc724099a707321c3ee439</sys_scope>
+        <sys_update_name>sysevent_email_action_7ff66efc0f3afa844789e34be1050e15</sys_update_name>
+        <sys_updated_by>danpal01</sys_updated_by>
+        <sys_updated_on>2017-05-18 20:39:37</sys_updated_on>
+        <sys_version>2</sys_version>
+        <template/>
+        <type>email</type>
+        <user/>
+        <user_field/>
+        <weight>0</weight>
+    </sysevent_email_action>
+</record_update>

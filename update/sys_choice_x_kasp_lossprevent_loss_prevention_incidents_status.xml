@@ -6,17 +6,35 @@
             <element>status</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Submitted</label>
+            <label>Not Submitted</label>
             <language>en</language>
             <name>x_kasp_lossprevent_loss_prevention_incidents</name>
             <sequence>0</sequence>
             <sys_created_by>danpal01</sys_created_by>
+            <sys_created_on>2017-05-09 15:41:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>f4dffaf20f6efe444789e34be1050ea1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-05-09 15:41:03</sys_updated_on>
+            <value>Not Submitted</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Submitted</label>
+            <language>en</language>
+            <name>x_kasp_lossprevent_loss_prevention_incidents</name>
+            <sequence>1</sequence>
+            <sys_created_by>danpal01</sys_created_by>
             <sys_created_on>2017-02-27 19:49:36</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_id>95df82cc13d57a0076165ecf3244b0e7</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>danpal01</sys_updated_by>
-            <sys_updated_on>2017-02-27 19:49:36</sys_updated_on>
+            <sys_updated_on>2017-05-09 15:41:03</sys_updated_on>
             <value>Submitted</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -27,14 +45,14 @@
             <label>Work in Progress</label>
             <language>en</language>
             <name>x_kasp_lossprevent_loss_prevention_incidents</name>
-            <sequence>1</sequence>
+            <sequence>2</sequence>
             <sys_created_by>danpal01</sys_created_by>
             <sys_created_on>2017-02-27 19:49:36</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_id>15df82cc13d57a0076165ecf3244b0e8</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>danpal01</sys_updated_by>
-            <sys_updated_on>2017-02-27 19:49:36</sys_updated_on>
+            <sys_updated_on>2017-05-09 15:41:03</sys_updated_on>
             <value>Work in Progress</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -45,14 +63,14 @@
             <label>Awaiting Customer Informartion</label>
             <language>en</language>
             <name>x_kasp_lossprevent_loss_prevention_incidents</name>
-            <sequence>2</sequence>
+            <sequence>3</sequence>
             <sys_created_by>danpal01</sys_created_by>
             <sys_created_on>2017-02-27 19:49:36</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_id>dddf82cc13d57a0076165ecf3244b0e8</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>danpal01</sys_updated_by>
-            <sys_updated_on>2017-02-27 19:49:36</sys_updated_on>
+            <sys_updated_on>2017-05-09 15:41:03</sys_updated_on>
             <value>Awaiting Customer Informartion</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -63,15 +81,33 @@
             <label>Awaiting Associate Information</label>
             <language>en</language>
             <name>x_kasp_lossprevent_loss_prevention_incidents</name>
-            <sequence>3</sequence>
+            <sequence>4</sequence>
             <sys_created_by>danpal01</sys_created_by>
             <sys_created_on>2017-02-27 19:49:36</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_id>99df82cc13d57a0076165ecf3244b0e9</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-05-09 15:41:03</sys_updated_on>
+            <value>Awaiting Associate Information</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Duplicate</label>
+            <language>en</language>
+            <name>x_kasp_lossprevent_loss_prevention_incidents</name>
+            <sequence>5</sequence>
+            <sys_created_by>danpal01</sys_created_by>
+            <sys_created_on>2017-05-17 15:47:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>761e00ed13fefe0053dc51522244b07e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>danpal01</sys_updated_by>
-            <sys_updated_on>2017-02-27 19:49:36</sys_updated_on>
-            <value>Awaiting Associate Information</value>
+            <sys_updated_on>2017-05-17 15:47:53</sys_updated_on>
+            <value>Duplicate</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
@@ -81,14 +117,14 @@
             <label>Closed/Complete</label>
             <language>en</language>
             <name>x_kasp_lossprevent_loss_prevention_incidents</name>
-            <sequence>4</sequence>
+            <sequence>6</sequence>
             <sys_created_by>danpal01</sys_created_by>
             <sys_created_on>2017-02-27 19:49:36</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_id>95df4ecc13d57a0076165ecf3244b05c</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>2</sys_mod_count>
             <sys_updated_by>danpal01</sys_updated_by>
-            <sys_updated_on>2017-02-27 19:49:36</sys_updated_on>
+            <sys_updated_on>2017-05-17 15:47:53</sys_updated_on>
             <value>Closed/Complete</value>
         </sys_choice>
         <sys_choice_set action="INSERT_OR_UPDATE">
@@ -98,8 +134,8 @@
             <sys_created_by>danpal01</sys_created_by>
             <sys_created_on>2017-02-27 19:49:36</sys_created_on>
             <sys_customer_update>false</sys_customer_update>
-            <sys_id>dddf82cc13d57a0076165ecf3244b0e7</sys_id>
-            <sys_mod_count>1</sys_mod_count>
+            <sys_id>3ad872ee0f66be444789e34be1050e50</sys_id>
+            <sys_mod_count>3</sys_mod_count>
             <sys_name>status</sys_name>
             <sys_package display_value="LossPrevention" source="x_kasp_lossprevent">c2716bb56ffc724099a707321c3ee439</sys_package>
             <sys_policy/>
@@ -107,7 +143,7 @@
             <sys_scope display_value="LossPrevention">c2716bb56ffc724099a707321c3ee439</sys_scope>
             <sys_update_name>sys_choice_x_kasp_lossprevent_loss_prevention_incidents_status</sys_update_name>
             <sys_updated_by>danpal01</sys_updated_by>
-            <sys_updated_on>2017-02-27 19:49:36</sys_updated_on>
+            <sys_updated_on>2017-05-17 15:47:53</sys_updated_on>
         </sys_choice_set>
     </sys_choice>
 </record_update>

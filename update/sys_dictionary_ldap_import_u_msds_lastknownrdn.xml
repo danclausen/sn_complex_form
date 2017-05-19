@@ -3,7 +3,6 @@
     <sys_dictionary action="INSERT_OR_UPDATE" element="u_msds_lastknownrdn" table="ldap_import">
         <active>true</active>
         <array>false</array>
-        <array_denormalized>false</array_denormalized>
         <attributes>edge_encryption_enabled=true</attributes>
         <audit>false</audit>
         <calculation/>
@@ -47,8 +46,8 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>dipsha01</sys_created_by>
         <sys_created_on>2017-03-30 06:00:06</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
-        <sys_id>384bbaf96fb57e4099a707321c3ee42b</sys_id>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>2d4bbe7d13b1364053dc51522244b038</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>msDS-LastKnownRDN</sys_name>
         <sys_package display_value="LossPrevention" source="x_kasp_lossprevent">c2716bb56ffc724099a707321c3ee439</sys_package>
@@ -57,7 +56,7 @@
         <sys_scope display_value="LossPrevention">c2716bb56ffc724099a707321c3ee439</sys_scope>
         <sys_update_name>sys_dictionary_ldap_import_u_msds_lastknownrdn</sys_update_name>
         <sys_updated_by>dipsha01</sys_updated_by>
-        <sys_updated_on>2017-03-30 06:00:06</sys_updated_on>
+        <sys_updated_on>2017-05-08 20:30:09</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

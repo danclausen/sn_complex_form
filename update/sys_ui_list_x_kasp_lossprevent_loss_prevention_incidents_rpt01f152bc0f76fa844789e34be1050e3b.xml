@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_kasp_lossprevent_loss_prevention_incidents" version="2" view="RPT01f152bc0f76fa844789e34be1050e3b">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>status</element>
+            <list_id display_value="x_kasp_lossprevent_loss_prevention_incidents" element="NULL" name="x_kasp_lossprevent_loss_prevention_incidents" parent="NULL" relationship="NULL" sys_domain="global" view="85f152bc0f76fa844789e34be1050e3b">ded3e2b80f3afa844789e34be1050e32</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>danpal01</sys_created_by>
+            <sys_created_on>2017-05-15 18:46:40</sys_created_on>
+            <sys_id>d2d3e2b80f3afa844789e34be1050e33</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-05-15 18:46:40</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_created_on</element>
+            <list_id display_value="x_kasp_lossprevent_loss_prevention_incidents" element="NULL" name="x_kasp_lossprevent_loss_prevention_incidents" parent="NULL" relationship="NULL" sys_domain="global" view="85f152bc0f76fa844789e34be1050e3b">ded3e2b80f3afa844789e34be1050e32</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>danpal01</sys_created_by>
+            <sys_created_on>2017-05-15 18:46:40</sys_created_on>
+            <sys_id>56d3e2b80f3afa844789e34be1050e33</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-05-15 18:46:40</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>number</element>
+            <list_id display_value="x_kasp_lossprevent_loss_prevention_incidents" element="NULL" name="x_kasp_lossprevent_loss_prevention_incidents" parent="NULL" relationship="NULL" sys_domain="global" view="85f152bc0f76fa844789e34be1050e3b">ded3e2b80f3afa844789e34be1050e32</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>danpal01</sys_created_by>
+            <sys_created_on>2017-05-15 18:46:40</sys_created_on>
+            <sys_id>d6d3e2b80f3afa844789e34be1050e33</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-05-15 18:46:40</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>level_of_priority</element>
+            <list_id display_value="x_kasp_lossprevent_loss_prevention_incidents" element="NULL" name="x_kasp_lossprevent_loss_prevention_incidents" parent="NULL" relationship="NULL" sys_domain="global" view="85f152bc0f76fa844789e34be1050e3b">ded3e2b80f3afa844789e34be1050e32</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>danpal01</sys_created_by>
+            <sys_created_on>2017-05-15 18:46:40</sys_created_on>
+            <sys_id>5ad3e2b80f3afa844789e34be1050e33</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-05-15 18:46:40</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>issue</element>
+            <list_id display_value="x_kasp_lossprevent_loss_prevention_incidents" element="NULL" name="x_kasp_lossprevent_loss_prevention_incidents" parent="NULL" relationship="NULL" sys_domain="global" view="85f152bc0f76fa844789e34be1050e3b">ded3e2b80f3afa844789e34be1050e32</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>danpal01</sys_created_by>
+            <sys_created_on>2017-05-15 18:46:40</sys_created_on>
+            <sys_id>dad3e2b80f3afa844789e34be1050e33</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-05-15 18:46:40</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>type_of_issue</element>
+            <list_id display_value="x_kasp_lossprevent_loss_prevention_incidents" element="NULL" name="x_kasp_lossprevent_loss_prevention_incidents" parent="NULL" relationship="NULL" sys_domain="global" view="85f152bc0f76fa844789e34be1050e3b">ded3e2b80f3afa844789e34be1050e32</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>danpal01</sys_created_by>
+            <sys_created_on>2017-05-15 18:46:40</sys_created_on>
+            <sys_id>5ed3e2b80f3afa844789e34be1050e33</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-05-15 18:46:40</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>requested_by</element>
+            <list_id display_value="x_kasp_lossprevent_loss_prevention_incidents" element="NULL" name="x_kasp_lossprevent_loss_prevention_incidents" parent="NULL" relationship="NULL" sys_domain="global" view="85f152bc0f76fa844789e34be1050e3b">ded3e2b80f3afa844789e34be1050e32</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>6</position>
+            <sum>false</sum>
+            <sys_created_by>danpal01</sys_created_by>
+            <sys_created_on>2017-05-15 18:46:40</sys_created_on>
+            <sys_id>ded3e2b80f3afa844789e34be1050e33</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-05-15 18:46:40</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>submitted_by</element>
+            <list_id display_value="x_kasp_lossprevent_loss_prevention_incidents" element="NULL" name="x_kasp_lossprevent_loss_prevention_incidents" parent="NULL" relationship="NULL" sys_domain="global" view="85f152bc0f76fa844789e34be1050e3b">ded3e2b80f3afa844789e34be1050e32</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>7</position>
+            <sum>false</sum>
+            <sys_created_by>danpal01</sys_created_by>
+            <sys_created_on>2017-05-15 18:46:40</sys_created_on>
+            <sys_id>52d3e2b80f3afa844789e34be1050e34</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-05-15 18:46:40</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>incident_details</element>
+            <list_id display_value="x_kasp_lossprevent_loss_prevention_incidents" element="NULL" name="x_kasp_lossprevent_loss_prevention_incidents" parent="NULL" relationship="NULL" sys_domain="global" view="85f152bc0f76fa844789e34be1050e3b">ded3e2b80f3afa844789e34be1050e32</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>8</position>
+            <sum>false</sum>
+            <sys_created_by>danpal01</sys_created_by>
+            <sys_created_on>2017-05-15 18:46:40</sys_created_on>
+            <sys_id>d2d3e2b80f3afa844789e34be1050e34</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-05-15 18:46:40</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>total_merchandise_amount_loss</element>
+            <list_id display_value="x_kasp_lossprevent_loss_prevention_incidents" element="NULL" name="x_kasp_lossprevent_loss_prevention_incidents" parent="NULL" relationship="NULL" sys_domain="global" view="85f152bc0f76fa844789e34be1050e3b">ded3e2b80f3afa844789e34be1050e32</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>9</position>
+            <sum>false</sum>
+            <sys_created_by>danpal01</sys_created_by>
+            <sys_created_on>2017-05-15 18:46:40</sys_created_on>
+            <sys_id>56d3e2b80f3afa844789e34be1050e34</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-05-15 18:46:40</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>total_cash_amount_lost</element>
+            <list_id display_value="x_kasp_lossprevent_loss_prevention_incidents" element="NULL" name="x_kasp_lossprevent_loss_prevention_incidents" parent="NULL" relationship="NULL" sys_domain="global" view="85f152bc0f76fa844789e34be1050e3b">ded3e2b80f3afa844789e34be1050e32</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>10</position>
+            <sum>false</sum>
+            <sys_created_by>danpal01</sys_created_by>
+            <sys_created_on>2017-05-15 18:46:40</sys_created_on>
+            <sys_id>d6d3e2b80f3afa844789e34be1050e34</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-05-15 18:46:40</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_kasp_lossprevent_loss_prevention_incidents</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>danpal01</sys_created_by>
+            <sys_created_on>2017-05-15 18:46:40</sys_created_on>
+            <sys_customer_update>true</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_id>ded3e2b80f3afa844789e34be1050e32</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_kasp_lossprevent_loss_prevention_incidents</sys_name>
+            <sys_package display_value="LossPrevention" source="x_kasp_lossprevent">c2716bb56ffc724099a707321c3ee439</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="LossPrevention">c2716bb56ffc724099a707321c3ee439</sys_scope>
+            <sys_update_name>sys_ui_list_x_kasp_lossprevent_loss_prevention_incidents_RPT01f152bc0f76fa844789e34be1050e3b</sys_update_name>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-05-15 18:46:40</sys_updated_on>
+            <sys_user/>
+            <view display_value="Rpt01f152bc0f76fa844789e34be1050e3b" name="RPT01f152bc0f76fa844789e34be1050e3b">85f152bc0f76fa844789e34be1050e3b</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

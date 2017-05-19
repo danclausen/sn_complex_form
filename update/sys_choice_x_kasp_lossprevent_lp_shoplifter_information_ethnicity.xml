@@ -5,36 +5,18 @@
             <dependent_value/>
             <element>ethnicity</element>
             <hint/>
-            <inactive>false</inactive>
-            <label>Hispanic</label>
+            <inactive>true</inactive>
+            <label>African American</label>
             <language>en</language>
             <name>x_kasp_lossprevent_lp_shoplifter_information</name>
             <sequence>0</sequence>
             <sys_created_by>danpal01</sys_created_by>
             <sys_created_on>2017-03-05 18:47:47</sys_created_on>
             <sys_domain>global</sys_domain>
-            <sys_id>ea3bf4866f1d7e0099a707321c3ee4bf</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>danpal01</sys_updated_by>
-            <sys_updated_on>2017-03-05 18:47:47</sys_updated_on>
-            <value>Hispanic</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>ethnicity</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>African American</label>
-            <language>en</language>
-            <name>x_kasp_lossprevent_lp_shoplifter_information</name>
-            <sequence>1</sequence>
-            <sys_created_by>danpal01</sys_created_by>
-            <sys_created_on>2017-03-05 18:47:47</sys_created_on>
-            <sys_domain>global</sys_domain>
             <sys_id>6a3bf4866f1d7e0099a707321c3ee4c0</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>danpal01</sys_updated_by>
-            <sys_updated_on>2017-03-05 18:47:47</sys_updated_on>
+            <sys_updated_on>2017-05-09 20:21:11</sys_updated_on>
             <value>African American</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -42,6 +24,78 @@
             <element>ethnicity</element>
             <hint/>
             <inactive>false</inactive>
+            <label>American Indian/Alaskan Native(Not Hispanic)</label>
+            <language>en</language>
+            <name>x_kasp_lossprevent_lp_shoplifter_information</name>
+            <sequence>0</sequence>
+            <sys_created_by>danpal01</sys_created_by>
+            <sys_created_on>2017-05-09 20:21:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>50ff737a0f6632844789e34be1050e3f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-05-09 20:21:11</sys_updated_on>
+            <value>American Indian/Alaskan Native(Not Hispanic)</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>ethnicity</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Asian(Hispanic)</label>
+            <language>en</language>
+            <name>x_kasp_lossprevent_lp_shoplifter_information</name>
+            <sequence>1</sequence>
+            <sys_created_by>danpal01</sys_created_by>
+            <sys_created_on>2017-05-09 20:21:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>54ff737a0f6632844789e34be1050e3f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-05-09 20:21:11</sys_updated_on>
+            <value>Asian(Hispanic)</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>ethnicity</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>Hispanic</label>
+            <language>en</language>
+            <name>x_kasp_lossprevent_lp_shoplifter_information</name>
+            <sequence>1</sequence>
+            <sys_created_by>danpal01</sys_created_by>
+            <sys_created_on>2017-03-05 18:47:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>ea3bf4866f1d7e0099a707321c3ee4bf</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-05-09 20:21:11</sys_updated_on>
+            <value>Hispanic</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>ethnicity</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Black/African American(Not Hispanic)</label>
+            <language>en</language>
+            <name>x_kasp_lossprevent_lp_shoplifter_information</name>
+            <sequence>2</sequence>
+            <sys_created_by>danpal01</sys_created_by>
+            <sys_created_on>2017-05-09 20:21:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>58ff737a0f6632844789e34be1050e3f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-05-09 20:21:11</sys_updated_on>
+            <value>Black/African American(Not Hispanic)</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>ethnicity</element>
+            <hint/>
+            <inactive>true</inactive>
             <label>Native American</label>
             <language>en</language>
             <name>x_kasp_lossprevent_lp_shoplifter_information</name>
@@ -50,16 +104,16 @@
             <sys_created_on>2017-03-05 18:47:47</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_id>263bf4866f1d7e0099a707321c3ee4c1</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>danpal01</sys_updated_by>
-            <sys_updated_on>2017-03-05 18:47:47</sys_updated_on>
+            <sys_updated_on>2017-05-09 20:21:11</sys_updated_on>
             <value>Native American</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
             <element>ethnicity</element>
             <hint/>
-            <inactive>false</inactive>
+            <inactive>true</inactive>
             <label>Caucasian</label>
             <language>en</language>
             <name>x_kasp_lossprevent_lp_shoplifter_information</name>
@@ -68,9 +122,9 @@
             <sys_created_on>2017-03-05 18:47:47</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_id>ee3bf4866f1d7e0099a707321c3ee4c1</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>danpal01</sys_updated_by>
-            <sys_updated_on>2017-03-05 18:47:47</sys_updated_on>
+            <sys_updated_on>2017-05-09 20:21:11</sys_updated_on>
             <value>Caucasian</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -78,6 +132,24 @@
             <element>ethnicity</element>
             <hint/>
             <inactive>false</inactive>
+            <label>Hispanic/Latino</label>
+            <language>en</language>
+            <name>x_kasp_lossprevent_lp_shoplifter_information</name>
+            <sequence>3</sequence>
+            <sys_created_by>danpal01</sys_created_by>
+            <sys_created_on>2017-05-09 20:21:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>5cff737a0f6632844789e34be1050e3f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-05-09 20:21:11</sys_updated_on>
+            <value>Hispanic/Latino</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>ethnicity</element>
+            <hint/>
+            <inactive>true</inactive>
             <label>Asian</label>
             <language>en</language>
             <name>x_kasp_lossprevent_lp_shoplifter_information</name>
@@ -86,10 +158,64 @@
             <sys_created_on>2017-03-05 18:47:47</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_id>aa3bf4866f1d7e0099a707321c3ee4c2</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-05-09 20:21:11</sys_updated_on>
+            <value>Asian</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>ethnicity</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Native Hawaii/Pac Is(Not Hispanic)</label>
+            <language>en</language>
+            <name>x_kasp_lossprevent_lp_shoplifter_information</name>
+            <sequence>4</sequence>
+            <sys_created_by>danpal01</sys_created_by>
+            <sys_created_on>2017-05-09 20:21:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>50ff737a0f6632844789e34be1050e40</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>danpal01</sys_updated_by>
-            <sys_updated_on>2017-03-05 18:47:47</sys_updated_on>
-            <value>Asian</value>
+            <sys_updated_on>2017-05-09 20:21:11</sys_updated_on>
+            <value>Native Hawaii/Pac Is(Not Hispanic)</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>ethnicity</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Two or More Races(Not Hispanic)</label>
+            <language>en</language>
+            <name>x_kasp_lossprevent_lp_shoplifter_information</name>
+            <sequence>5</sequence>
+            <sys_created_by>danpal01</sys_created_by>
+            <sys_created_on>2017-05-09 20:21:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>54ff737a0f6632844789e34be1050e40</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-05-09 20:21:11</sys_updated_on>
+            <value>Two or More Races(Not Hispanic)</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>ethnicity</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>White(Not Hispanic)</label>
+            <language>en</language>
+            <name>x_kasp_lossprevent_lp_shoplifter_information</name>
+            <sequence>6</sequence>
+            <sys_created_by>danpal01</sys_created_by>
+            <sys_created_on>2017-05-09 20:21:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>58ff737a0f6632844789e34be1050e40</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-05-09 20:21:11</sys_updated_on>
+            <value>White(Not Hispanic)</value>
         </sys_choice>
         <sys_choice_set action="INSERT_OR_UPDATE">
             <element>ethnicity</element>
@@ -98,8 +224,8 @@
             <sys_created_by>danpal01</sys_created_by>
             <sys_created_on>2017-03-05 18:47:47</sys_created_on>
             <sys_customer_update>false</sys_customer_update>
-            <sys_id>263bf4866f1d7e0099a707321c3ee4c0</sys_id>
-            <sys_mod_count>1</sys_mod_count>
+            <sys_id>2ce8b2ee0f66be444789e34be1050e62</sys_id>
+            <sys_mod_count>2</sys_mod_count>
             <sys_name>ethnicity</sys_name>
             <sys_package display_value="LossPrevention" source="x_kasp_lossprevent">c2716bb56ffc724099a707321c3ee439</sys_package>
             <sys_policy/>
@@ -107,7 +233,7 @@
             <sys_scope display_value="LossPrevention">c2716bb56ffc724099a707321c3ee439</sys_scope>
             <sys_update_name>sys_choice_x_kasp_lossprevent_lp_shoplifter_information_ethnicity</sys_update_name>
             <sys_updated_by>danpal01</sys_updated_by>
-            <sys_updated_on>2017-03-05 18:47:47</sys_updated_on>
+            <sys_updated_on>2017-05-09 20:21:11</sys_updated_on>
         </sys_choice_set>
     </sys_choice>
 </record_update>

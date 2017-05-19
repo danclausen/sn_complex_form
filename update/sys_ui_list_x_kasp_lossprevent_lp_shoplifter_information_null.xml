@@ -4,122 +4,122 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>parent</element>
-            <list_id display_value="x_kasp_lossprevent_lp_shoplifter_information" element="NULL" name="x_kasp_lossprevent_lp_shoplifter_information" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">ae81ceb46fde32c099a707321c3ee4fa</list_id>
+            <list_id display_value="x_kasp_lossprevent_lp_shoplifter_information" element="NULL" name="x_kasp_lossprevent_lp_shoplifter_information" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">43d826320faafe444789e34be1050e19</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
             <sum>false</sum>
-            <sys_created_by>dipsha01</sys_created_by>
-            <sys_created_on>2017-04-20 19:45:23</sys_created_on>
-            <sys_id>2681ceb46fde32c099a707321c3ee4fb</sys_id>
+            <sys_created_by>danpal01</sys_created_by>
+            <sys_created_on>2017-05-09 14:00:43</sys_created_on>
+            <sys_id>47d826320faafe444789e34be1050e19</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>dipsha01</sys_updated_by>
-            <sys_updated_on>2017-04-20 19:45:23</sys_updated_on>
-        </sys_ui_list_element>
-        <sys_ui_list_element action="INSERT_OR_UPDATE">
-            <average_value>false</average_value>
-            <element>full_name</element>
-            <list_id display_value="x_kasp_lossprevent_lp_shoplifter_information" element="NULL" name="x_kasp_lossprevent_lp_shoplifter_information" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">ae81ceb46fde32c099a707321c3ee4fa</list_id>
-            <max_value>false</max_value>
-            <min_value>false</min_value>
-            <position>1</position>
-            <sum>false</sum>
-            <sys_created_by>dipsha01</sys_created_by>
-            <sys_created_on>2017-04-20 19:45:23</sys_created_on>
-            <sys_id>a681ceb46fde32c099a707321c3ee4fb</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>dipsha01</sys_updated_by>
-            <sys_updated_on>2017-04-20 19:45:23</sys_updated_on>
-        </sys_ui_list_element>
-        <sys_ui_list_element action="INSERT_OR_UPDATE">
-            <average_value>false</average_value>
-            <element>gender</element>
-            <list_id display_value="x_kasp_lossprevent_lp_shoplifter_information" element="NULL" name="x_kasp_lossprevent_lp_shoplifter_information" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">ae81ceb46fde32c099a707321c3ee4fa</list_id>
-            <max_value>false</max_value>
-            <min_value>false</min_value>
-            <position>2</position>
-            <sum>false</sum>
-            <sys_created_by>dipsha01</sys_created_by>
-            <sys_created_on>2017-04-20 19:45:23</sys_created_on>
-            <sys_id>2a81ceb46fde32c099a707321c3ee4fb</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>dipsha01</sys_updated_by>
-            <sys_updated_on>2017-04-20 19:45:23</sys_updated_on>
-        </sys_ui_list_element>
-        <sys_ui_list_element action="INSERT_OR_UPDATE">
-            <average_value>false</average_value>
-            <element>ethnicity</element>
-            <list_id display_value="x_kasp_lossprevent_lp_shoplifter_information" element="NULL" name="x_kasp_lossprevent_lp_shoplifter_information" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">ae81ceb46fde32c099a707321c3ee4fa</list_id>
-            <max_value>false</max_value>
-            <min_value>false</min_value>
-            <position>3</position>
-            <sum>false</sum>
-            <sys_created_by>dipsha01</sys_created_by>
-            <sys_created_on>2017-04-20 19:45:23</sys_created_on>
-            <sys_id>aa81ceb46fde32c099a707321c3ee4fb</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>dipsha01</sys_updated_by>
-            <sys_updated_on>2017-04-20 19:45:23</sys_updated_on>
-        </sys_ui_list_element>
-        <sys_ui_list_element action="INSERT_OR_UPDATE">
-            <average_value>false</average_value>
-            <element>height</element>
-            <list_id display_value="x_kasp_lossprevent_lp_shoplifter_information" element="NULL" name="x_kasp_lossprevent_lp_shoplifter_information" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">ae81ceb46fde32c099a707321c3ee4fa</list_id>
-            <max_value>false</max_value>
-            <min_value>false</min_value>
-            <position>4</position>
-            <sum>false</sum>
-            <sys_created_by>dipsha01</sys_created_by>
-            <sys_created_on>2017-04-20 19:45:23</sys_created_on>
-            <sys_id>ee81c2786fde32c099a707321c3ee434</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>dipsha01</sys_updated_by>
-            <sys_updated_on>2017-04-20 19:45:23</sys_updated_on>
-        </sys_ui_list_element>
-        <sys_ui_list_element action="INSERT_OR_UPDATE">
-            <average_value>false</average_value>
-            <element>hair_color</element>
-            <list_id display_value="x_kasp_lossprevent_lp_shoplifter_information" element="NULL" name="x_kasp_lossprevent_lp_shoplifter_information" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">ae81ceb46fde32c099a707321c3ee4fa</list_id>
-            <max_value>false</max_value>
-            <min_value>false</min_value>
-            <position>5</position>
-            <sum>false</sum>
-            <sys_created_by>dipsha01</sys_created_by>
-            <sys_created_on>2017-04-20 19:45:23</sys_created_on>
-            <sys_id>6281c2786fde32c099a707321c3ee435</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>dipsha01</sys_updated_by>
-            <sys_updated_on>2017-04-20 19:45:23</sys_updated_on>
-        </sys_ui_list_element>
-        <sys_ui_list_element action="INSERT_OR_UPDATE">
-            <average_value>false</average_value>
-            <element>eye_color</element>
-            <list_id display_value="x_kasp_lossprevent_lp_shoplifter_information" element="NULL" name="x_kasp_lossprevent_lp_shoplifter_information" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">ae81ceb46fde32c099a707321c3ee4fa</list_id>
-            <max_value>false</max_value>
-            <min_value>false</min_value>
-            <position>6</position>
-            <sum>false</sum>
-            <sys_created_by>dipsha01</sys_created_by>
-            <sys_created_on>2017-04-20 19:45:23</sys_created_on>
-            <sys_id>e281c2786fde32c099a707321c3ee435</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>dipsha01</sys_updated_by>
-            <sys_updated_on>2017-04-20 19:45:23</sys_updated_on>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-05-09 14:00:43</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>sys_created_on</element>
-            <list_id display_value="x_kasp_lossprevent_lp_shoplifter_information" element="NULL" name="x_kasp_lossprevent_lp_shoplifter_information" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">ae81ceb46fde32c099a707321c3ee4fa</list_id>
+            <list_id display_value="x_kasp_lossprevent_lp_shoplifter_information" element="NULL" name="x_kasp_lossprevent_lp_shoplifter_information" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">43d826320faafe444789e34be1050e19</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>danpal01</sys_created_by>
+            <sys_created_on>2017-05-09 14:00:43</sys_created_on>
+            <sys_id>c7d826320faafe444789e34be1050e19</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-05-09 14:00:43</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>full_name</element>
+            <list_id display_value="x_kasp_lossprevent_lp_shoplifter_information" element="NULL" name="x_kasp_lossprevent_lp_shoplifter_information" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">43d826320faafe444789e34be1050e19</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>danpal01</sys_created_by>
+            <sys_created_on>2017-05-09 14:00:43</sys_created_on>
+            <sys_id>4bd826320faafe444789e34be1050e19</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-05-09 14:00:43</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>gender</element>
+            <list_id display_value="x_kasp_lossprevent_lp_shoplifter_information" element="NULL" name="x_kasp_lossprevent_lp_shoplifter_information" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">43d826320faafe444789e34be1050e19</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>danpal01</sys_created_by>
+            <sys_created_on>2017-05-09 14:00:43</sys_created_on>
+            <sys_id>cbd826320faafe444789e34be1050e19</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-05-09 14:00:43</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>ethnicity</element>
+            <list_id display_value="x_kasp_lossprevent_lp_shoplifter_information" element="NULL" name="x_kasp_lossprevent_lp_shoplifter_information" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">43d826320faafe444789e34be1050e19</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>danpal01</sys_created_by>
+            <sys_created_on>2017-05-09 14:00:43</sys_created_on>
+            <sys_id>4fd826320faafe444789e34be1050e19</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-05-09 14:00:43</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>height</element>
+            <list_id display_value="x_kasp_lossprevent_lp_shoplifter_information" element="NULL" name="x_kasp_lossprevent_lp_shoplifter_information" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">43d826320faafe444789e34be1050e19</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>danpal01</sys_created_by>
+            <sys_created_on>2017-05-09 14:00:43</sys_created_on>
+            <sys_id>cfd826320faafe444789e34be1050e19</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-05-09 14:00:43</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>hair_color</element>
+            <list_id display_value="x_kasp_lossprevent_lp_shoplifter_information" element="NULL" name="x_kasp_lossprevent_lp_shoplifter_information" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">43d826320faafe444789e34be1050e19</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>6</position>
+            <sum>false</sum>
+            <sys_created_by>danpal01</sys_created_by>
+            <sys_created_on>2017-05-09 14:00:43</sys_created_on>
+            <sys_id>43d826320faafe444789e34be1050e1a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-05-09 14:00:43</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>eye_color</element>
+            <list_id display_value="x_kasp_lossprevent_lp_shoplifter_information" element="NULL" name="x_kasp_lossprevent_lp_shoplifter_information" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">43d826320faafe444789e34be1050e19</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>7</position>
             <sum>false</sum>
-            <sys_created_by>dipsha01</sys_created_by>
-            <sys_created_on>2017-04-20 19:45:23</sys_created_on>
-            <sys_id>6681c2786fde32c099a707321c3ee435</sys_id>
+            <sys_created_by>danpal01</sys_created_by>
+            <sys_created_on>2017-05-09 14:00:43</sys_created_on>
+            <sys_id>c3d826320faafe444789e34be1050e1a</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>dipsha01</sys_updated_by>
-            <sys_updated_on>2017-04-20 19:45:23</sys_updated_on>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-05-09 14:00:43</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
@@ -132,11 +132,11 @@
             <relationship/>
             <sum>false</sum>
             <sys_class_name>sys_ui_list</sys_class_name>
-            <sys_created_by>dipsha01</sys_created_by>
-            <sys_created_on>2017-04-20 19:45:22</sys_created_on>
+            <sys_created_by>danpal01</sys_created_by>
+            <sys_created_on>2017-05-09 14:00:43</sys_created_on>
             <sys_customer_update>true</sys_customer_update>
             <sys_domain>global</sys_domain>
-            <sys_id>ae81ceb46fde32c099a707321c3ee4fa</sys_id>
+            <sys_id>43d826320faafe444789e34be1050e19</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>x_kasp_lossprevent_lp_shoplifter_information</sys_name>
             <sys_package display_value="LossPrevention" source="x_kasp_lossprevent">c2716bb56ffc724099a707321c3ee439</sys_package>
@@ -144,8 +144,8 @@
             <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
             <sys_scope display_value="LossPrevention">c2716bb56ffc724099a707321c3ee439</sys_scope>
             <sys_update_name>sys_ui_list_x_kasp_lossprevent_lp_shoplifter_information_null</sys_update_name>
-            <sys_updated_by>dipsha01</sys_updated_by>
-            <sys_updated_on>2017-04-20 19:45:22</sys_updated_on>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-05-09 14:00:43</sys_updated_on>
             <sys_user/>
             <view display_value="Default view" name="NULL">Default view</view>
             <view_name/>

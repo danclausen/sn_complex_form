@@ -23,6 +23,24 @@
             <dependent_value/>
             <element>location_of_incident</element>
             <hint/>
+            <inactive>true</inactive>
+            <label>Third Floor</label>
+            <language>en</language>
+            <name>x_kasp_lossprevent_loss_prevention_incidents</name>
+            <sequence>0</sequence>
+            <sys_created_by>danpal01</sys_created_by>
+            <sys_created_on>2017-02-26 19:43:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>3fd485336f457a0099a707321c3ee4ce</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-05-09 18:18:55</sys_updated_on>
+            <value>Third Floor</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>location_of_incident</element>
+            <hint/>
             <inactive>false</inactive>
             <label>ASC</label>
             <language>en</language>
@@ -41,54 +59,36 @@
             <dependent_value/>
             <element>location_of_incident</element>
             <hint/>
-            <inactive>false</inactive>
-            <label>First Floor</label>
+            <inactive>true</inactive>
+            <label>Second Floor</label>
+            <language>en</language>
+            <name>x_kasp_lossprevent_loss_prevention_incidents</name>
+            <sequence>1</sequence>
+            <sys_created_by>danpal01</sys_created_by>
+            <sys_created_on>2017-02-17 13:33:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>33b9557413c1f20076165ecf3244b049</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-05-09 18:18:55</sys_updated_on>
+            <value>Second Floor</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>location_of_incident</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>Office</label>
             <language>en</language>
             <name>x_kasp_lossprevent_loss_prevention_incidents</name>
             <sequence>2</sequence>
             <sys_created_by>danpal01</sys_created_by>
             <sys_created_on>2017-02-17 13:33:02</sys_created_on>
             <sys_domain>global</sys_domain>
-            <sys_id>b3b9557413c1f20076165ecf3244b048</sys_id>
-            <sys_mod_count>2</sys_mod_count>
-            <sys_updated_by>sebgar01</sys_updated_by>
-            <sys_updated_on>2017-04-14 19:12:57</sys_updated_on>
-            <value>First Floor</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>location_of_incident</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>Fourth Floor</label>
-            <language>en</language>
-            <name>x_kasp_lossprevent_loss_prevention_incidents</name>
-            <sequence>3</sequence>
-            <sys_created_by>danpal01</sys_created_by>
-            <sys_created_on>2017-02-26 19:43:35</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_id>f7d485336f457a0099a707321c3ee4cf</sys_id>
-            <sys_mod_count>2</sys_mod_count>
-            <sys_updated_by>sebgar01</sys_updated_by>
-            <sys_updated_on>2017-04-14 19:12:59</sys_updated_on>
-            <value>Fourth Floor</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>location_of_incident</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>Office</label>
-            <language>en</language>
-            <name>x_kasp_lossprevent_loss_prevention_incidents</name>
-            <sequence>4</sequence>
-            <sys_created_by>danpal01</sys_created_by>
-            <sys_created_on>2017-02-17 13:33:02</sys_created_on>
-            <sys_domain>global</sys_domain>
             <sys_id>73b9197413c1f20076165ecf3244b01b</sys_id>
-            <sys_mod_count>3</sys_mod_count>
-            <sys_updated_by>sebgar01</sys_updated_by>
-            <sys_updated_on>2017-04-14 19:13:00</sys_updated_on>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-05-09 18:18:55</sys_updated_on>
             <value>Office</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -99,33 +99,33 @@
             <label>Offsite</label>
             <language>en</language>
             <name>x_kasp_lossprevent_loss_prevention_incidents</name>
-            <sequence>5</sequence>
+            <sequence>2</sequence>
             <sys_created_by>danpal01</sys_created_by>
             <sys_created_on>2017-02-17 13:33:02</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_id>3fb9197413c1f20076165ecf3244b01b</sys_id>
-            <sys_mod_count>3</sys_mod_count>
-            <sys_updated_by>sebgar01</sys_updated_by>
-            <sys_updated_on>2017-04-14 19:13:03</sys_updated_on>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-05-09 18:18:55</sys_updated_on>
             <value>Offsite</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
             <element>location_of_incident</element>
             <hint/>
-            <inactive>false</inactive>
-            <label>Second Floor</label>
+            <inactive>true</inactive>
+            <label>Fourth Floor</label>
             <language>en</language>
             <name>x_kasp_lossprevent_loss_prevention_incidents</name>
-            <sequence>6</sequence>
+            <sequence>3</sequence>
             <sys_created_by>danpal01</sys_created_by>
-            <sys_created_on>2017-02-17 13:33:02</sys_created_on>
+            <sys_created_on>2017-02-26 19:43:35</sys_created_on>
             <sys_domain>global</sys_domain>
-            <sys_id>33b9557413c1f20076165ecf3244b049</sys_id>
-            <sys_mod_count>2</sys_mod_count>
-            <sys_updated_by>sebgar01</sys_updated_by>
-            <sys_updated_on>2017-04-14 19:13:11</sys_updated_on>
-            <value>Second Floor</value>
+            <sys_id>f7d485336f457a0099a707321c3ee4cf</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-05-09 18:18:55</sys_updated_on>
+            <value>Fourth Floor</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
@@ -135,33 +135,33 @@
             <label>Store</label>
             <language>en</language>
             <name>x_kasp_lossprevent_loss_prevention_incidents</name>
-            <sequence>7</sequence>
+            <sequence>3</sequence>
             <sys_created_by>dipsha01</sys_created_by>
             <sys_created_on>2017-04-11 12:55:16</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_id>af5dc2f513823a8076165ecf3244b06d</sys_id>
-            <sys_mod_count>1</sys_mod_count>
-            <sys_updated_by>sebgar01</sys_updated_by>
-            <sys_updated_on>2017-04-14 19:13:09</sys_updated_on>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-05-09 18:18:55</sys_updated_on>
             <value>Store</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
             <element>location_of_incident</element>
             <hint/>
-            <inactive>false</inactive>
-            <label>Third Floor</label>
+            <inactive>true</inactive>
+            <label>First Floor</label>
             <language>en</language>
             <name>x_kasp_lossprevent_loss_prevention_incidents</name>
-            <sequence>8</sequence>
+            <sequence>4</sequence>
             <sys_created_by>danpal01</sys_created_by>
-            <sys_created_on>2017-02-26 19:43:35</sys_created_on>
+            <sys_created_on>2017-02-17 13:33:02</sys_created_on>
             <sys_domain>global</sys_domain>
-            <sys_id>3fd485336f457a0099a707321c3ee4ce</sys_id>
+            <sys_id>b3b9557413c1f20076165ecf3244b048</sys_id>
             <sys_mod_count>3</sys_mod_count>
-            <sys_updated_by>sebgar01</sys_updated_by>
-            <sys_updated_on>2017-04-14 19:13:17</sys_updated_on>
-            <value>Third Floor</value>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-05-09 18:18:55</sys_updated_on>
+            <value>First Floor</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
@@ -171,14 +171,14 @@
             <label>Other</label>
             <language>en</language>
             <name>x_kasp_lossprevent_loss_prevention_incidents</name>
-            <sequence>9</sequence>
+            <sequence>4</sequence>
             <sys_created_by>danpal01</sys_created_by>
             <sys_created_on>2017-02-17 13:33:02</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_id>b3b9197413c1f20076165ecf3244b01d</sys_id>
-            <sys_mod_count>4</sys_mod_count>
+            <sys_mod_count>5</sys_mod_count>
             <sys_updated_by>danpal01</sys_updated_by>
-            <sys_updated_on>2017-04-25 11:33:11</sys_updated_on>
+            <sys_updated_on>2017-05-09 18:18:55</sys_updated_on>
             <value>Other</value>
         </sys_choice>
         <sys_choice_set action="INSERT_OR_UPDATE">
@@ -188,8 +188,8 @@
             <sys_created_by>danpal01</sys_created_by>
             <sys_created_on>2017-02-17 13:33:02</sys_created_on>
             <sys_customer_update>false</sys_customer_update>
-            <sys_id>fbb9557413c1f20076165ecf3244b048</sys_id>
-            <sys_mod_count>14</sys_mod_count>
+            <sys_id>9ed872ee0f66be444789e34be1050e1d</sys_id>
+            <sys_mod_count>15</sys_mod_count>
             <sys_name>location_of_incident</sys_name>
             <sys_package display_value="LossPrevention" source="x_kasp_lossprevent">c2716bb56ffc724099a707321c3ee439</sys_package>
             <sys_policy/>
@@ -197,7 +197,7 @@
             <sys_scope display_value="LossPrevention">c2716bb56ffc724099a707321c3ee439</sys_scope>
             <sys_update_name>sys_choice_x_kasp_lossprevent_loss_prevention_incidents_location_of_incident</sys_update_name>
             <sys_updated_by>danpal01</sys_updated_by>
-            <sys_updated_on>2017-04-25 11:33:11</sys_updated_on>
+            <sys_updated_on>2017-05-09 18:18:55</sys_updated_on>
         </sys_choice_set>
     </sys_choice>
 </record_update>

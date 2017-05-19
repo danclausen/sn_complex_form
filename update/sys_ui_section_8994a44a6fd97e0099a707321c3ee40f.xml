@@ -5,13 +5,13 @@
             <element>full_name</element>
             <position>0</position>
             <sys_created_by>danpal01</sys_created_by>
-            <sys_created_on>2017-03-05 17:12:45</sys_created_on>
-            <sys_id>1275e04a6fd97e0099a707321c3ee41f</sys_id>
+            <sys_created_on>2017-05-09 20:15:42</sys_created_on>
+            <sys_id>00be3bf20f6632844789e34be1050ee2</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_kasp_lossprevent_lp_shoplifter_information" sys_domain="global" view="Default view">8994a44a6fd97e0099a707321c3ee40f</sys_ui_section>
             <sys_updated_by>danpal01</sys_updated_by>
-            <sys_updated_on>2017-03-05 17:12:45</sys_updated_on>
+            <sys_updated_on>2017-05-09 20:15:42</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -19,13 +19,13 @@
             <element>gender</element>
             <position>1</position>
             <sys_created_by>danpal01</sys_created_by>
-            <sys_created_on>2017-03-05 17:12:45</sys_created_on>
-            <sys_id>9275e04a6fd97e0099a707321c3ee41f</sys_id>
+            <sys_created_on>2017-05-09 20:15:42</sys_created_on>
+            <sys_id>80be3bf20f6632844789e34be1050ee2</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_kasp_lossprevent_lp_shoplifter_information" sys_domain="global" view="Default view">8994a44a6fd97e0099a707321c3ee40f</sys_ui_section>
             <sys_updated_by>danpal01</sys_updated_by>
-            <sys_updated_on>2017-03-05 17:12:45</sys_updated_on>
+            <sys_updated_on>2017-05-09 20:15:42</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -33,13 +33,13 @@
             <element>ethnicity</element>
             <position>2</position>
             <sys_created_by>danpal01</sys_created_by>
-            <sys_created_on>2017-03-05 17:12:45</sys_created_on>
-            <sys_id>1675e04a6fd97e0099a707321c3ee41f</sys_id>
+            <sys_created_on>2017-05-09 20:15:42</sys_created_on>
+            <sys_id>04be3bf20f6632844789e34be1050ee2</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_kasp_lossprevent_lp_shoplifter_information" sys_domain="global" view="Default view">8994a44a6fd97e0099a707321c3ee40f</sys_ui_section>
             <sys_updated_by>danpal01</sys_updated_by>
-            <sys_updated_on>2017-03-05 17:12:45</sys_updated_on>
+            <sys_updated_on>2017-05-09 20:15:42</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -47,13 +47,13 @@
             <element>height</element>
             <position>3</position>
             <sys_created_by>danpal01</sys_created_by>
-            <sys_created_on>2017-03-05 17:12:45</sys_created_on>
-            <sys_id>9675e04a6fd97e0099a707321c3ee41f</sys_id>
+            <sys_created_on>2017-05-09 20:15:42</sys_created_on>
+            <sys_id>84be3bf20f6632844789e34be1050ee2</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_kasp_lossprevent_lp_shoplifter_information" sys_domain="global" view="Default view">8994a44a6fd97e0099a707321c3ee40f</sys_ui_section>
             <sys_updated_by>danpal01</sys_updated_by>
-            <sys_updated_on>2017-03-05 17:12:45</sys_updated_on>
+            <sys_updated_on>2017-05-09 20:15:42</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -61,13 +61,13 @@
             <element>hair_color</element>
             <position>4</position>
             <sys_created_by>danpal01</sys_created_by>
-            <sys_created_on>2017-03-05 17:12:45</sys_created_on>
-            <sys_id>1a75e04a6fd97e0099a707321c3ee41f</sys_id>
+            <sys_created_on>2017-05-09 20:15:42</sys_created_on>
+            <sys_id>08be3bf20f6632844789e34be1050ee2</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_kasp_lossprevent_lp_shoplifter_information" sys_domain="global" view="Default view">8994a44a6fd97e0099a707321c3ee40f</sys_ui_section>
             <sys_updated_by>danpal01</sys_updated_by>
-            <sys_updated_on>2017-03-05 17:12:45</sys_updated_on>
+            <sys_updated_on>2017-05-09 20:15:42</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -75,55 +75,69 @@
             <element>eye_color</element>
             <position>5</position>
             <sys_created_by>danpal01</sys_created_by>
-            <sys_created_on>2017-03-05 17:12:45</sys_created_on>
-            <sys_id>9a75e04a6fd97e0099a707321c3ee41f</sys_id>
+            <sys_created_on>2017-05-09 20:15:42</sys_created_on>
+            <sys_id>88be3bf20f6632844789e34be1050ee2</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_kasp_lossprevent_lp_shoplifter_information" sys_domain="global" view="Default view">8994a44a6fd97e0099a707321c3ee40f</sys_ui_section>
             <sys_updated_by>danpal01</sys_updated_by>
-            <sys_updated_on>2017-03-05 17:12:45</sys_updated_on>
+            <sys_updated_on>2017-05-09 20:15:42</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>repeat_offender</element>
+            <position>6</position>
+            <sys_created_by>danpal01</sys_created_by>
+            <sys_created_on>2017-05-09 20:15:42</sys_created_on>
+            <sys_id>0cbe3bf20f6632844789e34be1050ee2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_kasp_lossprevent_lp_shoplifter_information" sys_domain="global" view="Default view">8994a44a6fd97e0099a707321c3ee40f</sys_ui_section>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-05-09 20:15:42</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>6</position>
+            <position>7</position>
             <sys_created_by>danpal01</sys_created_by>
-            <sys_created_on>2017-03-05 17:12:45</sys_created_on>
-            <sys_id>1e75e04a6fd97e0099a707321c3ee41f</sys_id>
+            <sys_created_on>2017-05-09 20:15:42</sys_created_on>
+            <sys_id>8cbe3bf20f6632844789e34be1050ee2</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_kasp_lossprevent_lp_shoplifter_information" sys_domain="global" view="Default view">8994a44a6fd97e0099a707321c3ee40f</sys_ui_section>
             <sys_updated_by>danpal01</sys_updated_by>
-            <sys_updated_on>2017-03-05 17:12:45</sys_updated_on>
+            <sys_updated_on>2017-05-09 20:15:42</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>parent</element>
-            <position>7</position>
+            <position>8</position>
             <sys_created_by>danpal01</sys_created_by>
-            <sys_created_on>2017-03-05 17:12:45</sys_created_on>
-            <sys_id>9e75e04a6fd97e0099a707321c3ee41f</sys_id>
+            <sys_created_on>2017-05-09 20:15:42</sys_created_on>
+            <sys_id>00be3bf20f6632844789e34be1050ee3</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_kasp_lossprevent_lp_shoplifter_information" sys_domain="global" view="Default view">8994a44a6fd97e0099a707321c3ee40f</sys_ui_section>
             <sys_updated_by>danpal01</sys_updated_by>
-            <sys_updated_on>2017-03-05 17:12:45</sys_updated_on>
+            <sys_updated_on>2017-05-09 20:15:42</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.end_split</element>
-            <position>8</position>
+            <position>9</position>
             <sys_created_by>danpal01</sys_created_by>
-            <sys_created_on>2017-03-05 17:12:45</sys_created_on>
-            <sys_id>1275e04a6fd97e0099a707321c3ee420</sys_id>
+            <sys_created_on>2017-05-09 20:15:42</sys_created_on>
+            <sys_id>80be3bf20f6632844789e34be1050ee3</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_kasp_lossprevent_lp_shoplifter_information" sys_domain="global" view="Default view">8994a44a6fd97e0099a707321c3ee40f</sys_ui_section>
             <sys_updated_by>danpal01</sys_updated_by>
-            <sys_updated_on>2017-03-05 17:12:45</sys_updated_on>
+            <sys_updated_on>2017-05-09 20:15:42</sys_updated_on>
             <sys_user/>
             <type>.end_split</type>
         </sys_ui_element>

@@ -4,22 +4,22 @@
         <sys_ui_annotation action="INSERT_OR_UPDATE">
             <is_plain_text>false</is_plain_text>
             <sys_created_by>danpal01</sys_created_by>
-            <sys_created_on>2017-05-03 13:48:26</sys_created_on>
-            <sys_id>708ce77813a6b20076165ecf3244b0e0</sys_id>
+            <sys_created_on>2017-05-18 14:30:19</sys_created_on>
+            <sys_id>20f5897d0f3a72c44789e34be1050edd</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>danpal01</sys_updated_by>
-            <sys_updated_on>2017-05-03 13:48:26</sys_updated_on>
+            <sys_updated_on>2017-05-18 14:30:19</sys_updated_on>
             <text/>
             <type display_value="Line Separator">a93fc8e00f530000b12e6903cfe012e6</type>
         </sys_ui_annotation>
         <sys_ui_annotation action="INSERT_OR_UPDATE">
             <is_plain_text>false</is_plain_text>
             <sys_created_by>danpal01</sys_created_by>
-            <sys_created_on>2017-05-03 13:48:26</sys_created_on>
-            <sys_id>748ce77813a6b20076165ecf3244b0e0</sys_id>
+            <sys_created_on>2017-05-18 14:30:19</sys_created_on>
+            <sys_id>a0f5897d0f3a72c44789e34be1050edd</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>danpal01</sys_updated_by>
-            <sys_updated_on>2017-05-03 13:48:26</sys_updated_on>
+            <sys_updated_on>2017-05-18 14:30:19</sys_updated_on>
             <text/>
             <type display_value="Line Separator">a93fc8e00f530000b12e6903cfe012e6</type>
         </sys_ui_annotation>
@@ -27,13 +27,13 @@
             <element>lpi_created_on</element>
             <position>0</position>
             <sys_created_by>danpal01</sys_created_by>
-            <sys_created_on>2017-05-03 13:48:26</sys_created_on>
-            <sys_id>388ce77813a6b20076165ecf3244b0e0</sys_id>
+            <sys_created_on>2017-05-18 14:30:21</sys_created_on>
+            <sys_id>09f5897d0f3a72c44789e34be1050ee0</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_kasp_lossprevent_loss_prevention_incidents" sys_domain="global" view="Default view">25b5af396ffc724099a707321c3ee408</sys_ui_section>
             <sys_updated_by>danpal01</sys_updated_by>
-            <sys_updated_on>2017-05-03 13:48:26</sys_updated_on>
+            <sys_updated_on>2017-05-18 14:30:21</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -41,13 +41,13 @@
             <element>number</element>
             <position>1</position>
             <sys_created_by>danpal01</sys_created_by>
-            <sys_created_on>2017-05-03 13:48:26</sys_created_on>
-            <sys_id>b88ce77813a6b20076165ecf3244b0e0</sys_id>
+            <sys_created_on>2017-05-18 14:30:21</sys_created_on>
+            <sys_id>89f5897d0f3a72c44789e34be1050ee0</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_kasp_lossprevent_loss_prevention_incidents" sys_domain="global" view="Default view">25b5af396ffc724099a707321c3ee408</sys_ui_section>
             <sys_updated_by>danpal01</sys_updated_by>
-            <sys_updated_on>2017-05-03 13:48:26</sys_updated_on>
+            <sys_updated_on>2017-05-18 14:30:21</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -55,713 +55,1105 @@
             <element>requested_by</element>
             <position>2</position>
             <sys_created_by>danpal01</sys_created_by>
-            <sys_created_on>2017-05-03 13:48:27</sys_created_on>
-            <sys_id>3c8ce77813a6b20076165ecf3244b0e0</sys_id>
+            <sys_created_on>2017-05-18 14:30:21</sys_created_on>
+            <sys_id>0df5897d0f3a72c44789e34be1050ee0</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_kasp_lossprevent_loss_prevention_incidents" sys_domain="global" view="Default view">25b5af396ffc724099a707321c3ee408</sys_ui_section>
             <sys_updated_by>danpal01</sys_updated_by>
-            <sys_updated_on>2017-05-03 13:48:27</sys_updated_on>
+            <sys_updated_on>2017-05-18 14:30:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>requested_by.u_display_name</element>
+            <position>3</position>
+            <sys_created_by>danpal01</sys_created_by>
+            <sys_created_on>2017-05-18 14:30:21</sys_created_on>
+            <sys_id>8df5897d0f3a72c44789e34be1050ee0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_kasp_lossprevent_loss_prevention_incidents" sys_domain="global" view="Default view">25b5af396ffc724099a707321c3ee408</sys_ui_section>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-05-18 14:30:21</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>3</position>
+            <position>4</position>
             <sys_created_by>danpal01</sys_created_by>
-            <sys_created_on>2017-05-03 13:48:27</sys_created_on>
-            <sys_id>bc8ce77813a6b20076165ecf3244b0e0</sys_id>
+            <sys_created_on>2017-05-18 14:30:21</sys_created_on>
+            <sys_id>01f5897d0f3a72c44789e34be1050ee1</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_kasp_lossprevent_loss_prevention_incidents" sys_domain="global" view="Default view">25b5af396ffc724099a707321c3ee408</sys_ui_section>
             <sys_updated_by>danpal01</sys_updated_by>
-            <sys_updated_on>2017-05-03 13:48:27</sys_updated_on>
+            <sys_updated_on>2017-05-18 14:30:21</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>status</element>
-            <position>4</position>
+            <position>5</position>
             <sys_created_by>danpal01</sys_created_by>
-            <sys_created_on>2017-05-03 13:48:27</sys_created_on>
-            <sys_id>308ce77813a6b20076165ecf3244b0e1</sys_id>
+            <sys_created_on>2017-05-18 14:30:21</sys_created_on>
+            <sys_id>81f5897d0f3a72c44789e34be1050ee1</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_kasp_lossprevent_loss_prevention_incidents" sys_domain="global" view="Default view">25b5af396ffc724099a707321c3ee408</sys_ui_section>
             <sys_updated_by>danpal01</sys_updated_by>
-            <sys_updated_on>2017-05-03 13:48:27</sys_updated_on>
+            <sys_updated_on>2017-05-18 14:30:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>assignment_group</element>
+            <position>6</position>
+            <sys_created_by>danpal01</sys_created_by>
+            <sys_created_on>2017-05-18 14:30:21</sys_created_on>
+            <sys_id>05f5897d0f3a72c44789e34be1050ee1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_kasp_lossprevent_loss_prevention_incidents" sys_domain="global" view="Default view">25b5af396ffc724099a707321c3ee408</sys_ui_section>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-05-18 14:30:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>assigned_to</element>
+            <position>7</position>
+            <sys_created_by>danpal01</sys_created_by>
+            <sys_created_on>2017-05-18 14:30:21</sys_created_on>
+            <sys_id>85f5897d0f3a72c44789e34be1050ee1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_kasp_lossprevent_loss_prevention_incidents" sys_domain="global" view="Default view">25b5af396ffc724099a707321c3ee408</sys_ui_section>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-05-18 14:30:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>closed_by</element>
+            <position>8</position>
+            <sys_created_by>danpal01</sys_created_by>
+            <sys_created_on>2017-05-18 14:30:21</sys_created_on>
+            <sys_id>09f5897d0f3a72c44789e34be1050ee1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_kasp_lossprevent_loss_prevention_incidents" sys_domain="global" view="Default view">25b5af396ffc724099a707321c3ee408</sys_ui_section>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-05-18 14:30:21</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>5</position>
+            <position>9</position>
             <sys_created_by>danpal01</sys_created_by>
-            <sys_created_on>2017-05-03 13:48:27</sys_created_on>
-            <sys_id>b08ce77813a6b20076165ecf3244b0e1</sys_id>
+            <sys_created_on>2017-05-18 14:30:21</sys_created_on>
+            <sys_id>89f5897d0f3a72c44789e34be1050ee1</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_kasp_lossprevent_loss_prevention_incidents" sys_domain="global" view="Default view">25b5af396ffc724099a707321c3ee408</sys_ui_section>
             <sys_updated_by>danpal01</sys_updated_by>
-            <sys_updated_on>2017-05-03 13:48:27</sys_updated_on>
+            <sys_updated_on>2017-05-18 14:30:21</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>submitted_by</element>
-            <position>6</position>
-            <sys_created_by>danpal01</sys_created_by>
-            <sys_created_on>2017-05-03 13:48:27</sys_created_on>
-            <sys_id>348ce77813a6b20076165ecf3244b0e1</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_kasp_lossprevent_loss_prevention_incidents" sys_domain="global" view="Default view">25b5af396ffc724099a707321c3ee408</sys_ui_section>
-            <sys_updated_by>danpal01</sys_updated_by>
-            <sys_updated_on>2017-05-03 13:48:27</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>.end_split</element>
-            <position>7</position>
-            <sys_created_by>danpal01</sys_created_by>
-            <sys_created_on>2017-05-03 13:48:27</sys_created_on>
-            <sys_id>b48ce77813a6b20076165ecf3244b0e1</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_kasp_lossprevent_loss_prevention_incidents" sys_domain="global" view="Default view">25b5af396ffc724099a707321c3ee408</sys_ui_section>
-            <sys_updated_by>danpal01</sys_updated_by>
-            <sys_updated_on>2017-05-03 13:48:27</sys_updated_on>
-            <sys_user/>
-            <type>.end_split</type>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>.end_split</element>
-            <position>8</position>
-            <sys_created_by>danpal01</sys_created_by>
-            <sys_created_on>2017-05-03 13:48:27</sys_created_on>
-            <sys_id>388ce77813a6b20076165ecf3244b0e1</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_kasp_lossprevent_loss_prevention_incidents" sys_domain="global" view="Default view">25b5af396ffc724099a707321c3ee408</sys_ui_section>
-            <sys_updated_by>danpal01</sys_updated_by>
-            <sys_updated_on>2017-05-03 13:48:27</sys_updated_on>
-            <sys_user/>
-            <type>.end_split</type>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>.begin_split</element>
-            <position>9</position>
-            <sys_created_by>danpal01</sys_created_by>
-            <sys_created_on>2017-05-03 13:48:27</sys_created_on>
-            <sys_id>b88ce77813a6b20076165ecf3244b0e1</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_kasp_lossprevent_loss_prevention_incidents" sys_domain="global" view="Default view">25b5af396ffc724099a707321c3ee408</sys_ui_section>
-            <sys_updated_by>danpal01</sys_updated_by>
-            <sys_updated_on>2017-05-03 13:48:27</sys_updated_on>
-            <sys_user/>
-            <type>.begin_split</type>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>requested_by.street</element>
             <position>10</position>
             <sys_created_by>danpal01</sys_created_by>
-            <sys_created_on>2017-05-03 13:48:27</sys_created_on>
-            <sys_id>3c8ce77813a6b20076165ecf3244b0e1</sys_id>
+            <sys_created_on>2017-05-18 14:30:21</sys_created_on>
+            <sys_id>0df5897d0f3a72c44789e34be1050ee1</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_kasp_lossprevent_loss_prevention_incidents" sys_domain="global" view="Default view">25b5af396ffc724099a707321c3ee408</sys_ui_section>
             <sys_updated_by>danpal01</sys_updated_by>
-            <sys_updated_on>2017-05-03 13:48:27</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>requested_by.city</element>
-            <position>11</position>
-            <sys_created_by>danpal01</sys_created_by>
-            <sys_created_on>2017-05-03 13:48:27</sys_created_on>
-            <sys_id>bc8ce77813a6b20076165ecf3244b0e1</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_kasp_lossprevent_loss_prevention_incidents" sys_domain="global" view="Default view">25b5af396ffc724099a707321c3ee408</sys_ui_section>
-            <sys_updated_by>danpal01</sys_updated_by>
-            <sys_updated_on>2017-05-03 13:48:27</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>requested_by.state</element>
-            <position>12</position>
-            <sys_created_by>danpal01</sys_created_by>
-            <sys_created_on>2017-05-03 13:48:27</sys_created_on>
-            <sys_id>308ce77813a6b20076165ecf3244b0e2</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_kasp_lossprevent_loss_prevention_incidents" sys_domain="global" view="Default view">25b5af396ffc724099a707321c3ee408</sys_ui_section>
-            <sys_updated_by>danpal01</sys_updated_by>
-            <sys_updated_on>2017-05-03 13:48:27</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>requested_by.zip</element>
-            <position>13</position>
-            <sys_created_by>danpal01</sys_created_by>
-            <sys_created_on>2017-05-03 13:48:27</sys_created_on>
-            <sys_id>b08ce77813a6b20076165ecf3244b0e2</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_kasp_lossprevent_loss_prevention_incidents" sys_domain="global" view="Default view">25b5af396ffc724099a707321c3ee408</sys_ui_section>
-            <sys_updated_by>danpal01</sys_updated_by>
-            <sys_updated_on>2017-05-03 13:48:27</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>.split</element>
-            <position>14</position>
-            <sys_created_by>danpal01</sys_created_by>
-            <sys_created_on>2017-05-03 13:48:27</sys_created_on>
-            <sys_id>348ce77813a6b20076165ecf3244b0e2</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_kasp_lossprevent_loss_prevention_incidents" sys_domain="global" view="Default view">25b5af396ffc724099a707321c3ee408</sys_ui_section>
-            <sys_updated_by>danpal01</sys_updated_by>
-            <sys_updated_on>2017-05-03 13:48:27</sys_updated_on>
-            <sys_user/>
-            <type>.split</type>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>requested_by.u_assigned_district_manager</element>
-            <position>15</position>
-            <sys_created_by>danpal01</sys_created_by>
-            <sys_created_on>2017-05-03 13:48:27</sys_created_on>
-            <sys_id>b48ce77813a6b20076165ecf3244b0e2</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_kasp_lossprevent_loss_prevention_incidents" sys_domain="global" view="Default view">25b5af396ffc724099a707321c3ee408</sys_ui_section>
-            <sys_updated_by>danpal01</sys_updated_by>
-            <sys_updated_on>2017-05-03 13:48:27</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>requested_by.u_regional_manager</element>
-            <position>16</position>
-            <sys_created_by>danpal01</sys_created_by>
-            <sys_created_on>2017-05-03 13:48:27</sys_created_on>
-            <sys_id>388ce77813a6b20076165ecf3244b0e2</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_kasp_lossprevent_loss_prevention_incidents" sys_domain="global" view="Default view">25b5af396ffc724099a707321c3ee408</sys_ui_section>
-            <sys_updated_by>danpal01</sys_updated_by>
-            <sys_updated_on>2017-05-03 13:48:27</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>requested_by.u_rlpm</element>
-            <position>17</position>
-            <sys_created_by>danpal01</sys_created_by>
-            <sys_created_on>2017-05-03 13:48:27</sys_created_on>
-            <sys_id>b88ce77813a6b20076165ecf3244b0e2</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_kasp_lossprevent_loss_prevention_incidents" sys_domain="global" view="Default view">25b5af396ffc724099a707321c3ee408</sys_ui_section>
-            <sys_updated_by>danpal01</sys_updated_by>
-            <sys_updated_on>2017-05-03 13:48:27</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>regional_leader</element>
-            <position>18</position>
-            <sys_created_by>danpal01</sys_created_by>
-            <sys_created_on>2017-05-03 13:48:27</sys_created_on>
-            <sys_id>3c8ce77813a6b20076165ecf3244b0e2</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_kasp_lossprevent_loss_prevention_incidents" sys_domain="global" view="Default view">25b5af396ffc724099a707321c3ee408</sys_ui_section>
-            <sys_updated_by>danpal01</sys_updated_by>
-            <sys_updated_on>2017-05-03 13:48:27</sys_updated_on>
+            <sys_updated_on>2017-05-18 14:30:21</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>level_of_priority</element>
-            <position>19</position>
+            <position>11</position>
             <sys_created_by>danpal01</sys_created_by>
-            <sys_created_on>2017-05-03 13:48:27</sys_created_on>
-            <sys_id>bc8ce77813a6b20076165ecf3244b0e2</sys_id>
+            <sys_created_on>2017-05-18 14:30:21</sys_created_on>
+            <sys_id>8df5897d0f3a72c44789e34be1050ee1</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_kasp_lossprevent_loss_prevention_incidents" sys_domain="global" view="Default view">25b5af396ffc724099a707321c3ee408</sys_ui_section>
             <sys_updated_by>danpal01</sys_updated_by>
-            <sys_updated_on>2017-05-03 13:48:27</sys_updated_on>
+            <sys_updated_on>2017-05-18 14:30:21</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.end_split</element>
-            <position>20</position>
+            <position>12</position>
             <sys_created_by>danpal01</sys_created_by>
-            <sys_created_on>2017-05-03 13:48:27</sys_created_on>
-            <sys_id>308ce77813a6b20076165ecf3244b0e3</sys_id>
+            <sys_created_on>2017-05-18 14:30:21</sys_created_on>
+            <sys_id>01f5897d0f3a72c44789e34be1050ee2</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_kasp_lossprevent_loss_prevention_incidents" sys_domain="global" view="Default view">25b5af396ffc724099a707321c3ee408</sys_ui_section>
             <sys_updated_by>danpal01</sys_updated_by>
-            <sys_updated_on>2017-05-03 13:48:27</sys_updated_on>
+            <sys_updated_on>2017-05-18 14:30:21</sys_updated_on>
             <sys_user/>
             <type>.end_split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>708ce77813a6b20076165ecf3244b0e0</element>
-            <position>21</position>
-            <sys_created_by>danpal01</sys_created_by>
-            <sys_created_on>2017-05-03 13:48:27</sys_created_on>
-            <sys_id>b08ce77813a6b20076165ecf3244b0e3</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_kasp_lossprevent_loss_prevention_incidents" sys_domain="global" view="Default view">25b5af396ffc724099a707321c3ee408</sys_ui_section>
-            <sys_updated_by>danpal01</sys_updated_by>
-            <sys_updated_on>2017-05-03 13:48:27</sys_updated_on>
-            <sys_user/>
-            <type>annotation</type>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.begin_split</element>
-            <position>22</position>
+            <position>13</position>
             <sys_created_by>danpal01</sys_created_by>
-            <sys_created_on>2017-05-03 13:48:27</sys_created_on>
-            <sys_id>348ce77813a6b20076165ecf3244b0e3</sys_id>
+            <sys_created_on>2017-05-18 14:30:21</sys_created_on>
+            <sys_id>81f5897d0f3a72c44789e34be1050ee2</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_kasp_lossprevent_loss_prevention_incidents" sys_domain="global" view="Default view">25b5af396ffc724099a707321c3ee408</sys_ui_section>
             <sys_updated_by>danpal01</sys_updated_by>
-            <sys_updated_on>2017-05-03 13:48:27</sys_updated_on>
+            <sys_updated_on>2017-05-18 14:30:21</sys_updated_on>
             <sys_user/>
             <type>.begin_split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>issue</element>
-            <position>23</position>
+            <element>requested_by.street</element>
+            <position>14</position>
             <sys_created_by>danpal01</sys_created_by>
-            <sys_created_on>2017-05-03 13:48:27</sys_created_on>
-            <sys_id>b48ce77813a6b20076165ecf3244b0e3</sys_id>
+            <sys_created_on>2017-05-18 14:30:21</sys_created_on>
+            <sys_id>05f5897d0f3a72c44789e34be1050ee2</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_kasp_lossprevent_loss_prevention_incidents" sys_domain="global" view="Default view">25b5af396ffc724099a707321c3ee408</sys_ui_section>
             <sys_updated_by>danpal01</sys_updated_by>
-            <sys_updated_on>2017-05-03 13:48:27</sys_updated_on>
+            <sys_updated_on>2017-05-18 14:30:21</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>type_of_issue</element>
-            <position>24</position>
+            <element>requested_by.city</element>
+            <position>15</position>
             <sys_created_by>danpal01</sys_created_by>
-            <sys_created_on>2017-05-03 13:48:27</sys_created_on>
-            <sys_id>388ce77813a6b20076165ecf3244b0e3</sys_id>
+            <sys_created_on>2017-05-18 14:30:21</sys_created_on>
+            <sys_id>85f5897d0f3a72c44789e34be1050ee2</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_kasp_lossprevent_loss_prevention_incidents" sys_domain="global" view="Default view">25b5af396ffc724099a707321c3ee408</sys_ui_section>
             <sys_updated_by>danpal01</sys_updated_by>
-            <sys_updated_on>2017-05-03 13:48:27</sys_updated_on>
+            <sys_updated_on>2017-05-18 14:30:21</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>cash_control_type</element>
-            <position>25</position>
+            <element>requested_by.state</element>
+            <position>16</position>
             <sys_created_by>danpal01</sys_created_by>
-            <sys_created_on>2017-05-03 13:48:27</sys_created_on>
-            <sys_id>b88ce77813a6b20076165ecf3244b0e3</sys_id>
+            <sys_created_on>2017-05-18 14:30:21</sys_created_on>
+            <sys_id>09f5897d0f3a72c44789e34be1050ee2</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_kasp_lossprevent_loss_prevention_incidents" sys_domain="global" view="Default view">25b5af396ffc724099a707321c3ee408</sys_ui_section>
             <sys_updated_by>danpal01</sys_updated_by>
-            <sys_updated_on>2017-05-03 13:48:27</sys_updated_on>
+            <sys_updated_on>2017-05-18 14:30:21</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>cash_control_reason</element>
-            <position>26</position>
+            <element>requested_by.zip</element>
+            <position>17</position>
             <sys_created_by>danpal01</sys_created_by>
-            <sys_created_on>2017-05-03 13:48:27</sys_created_on>
-            <sys_id>3c8ce77813a6b20076165ecf3244b0e3</sys_id>
+            <sys_created_on>2017-05-18 14:30:21</sys_created_on>
+            <sys_id>89f5897d0f3a72c44789e34be1050ee2</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_kasp_lossprevent_loss_prevention_incidents" sys_domain="global" view="Default view">25b5af396ffc724099a707321c3ee408</sys_ui_section>
             <sys_updated_by>danpal01</sys_updated_by>
-            <sys_updated_on>2017-05-03 13:48:27</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>reason</element>
-            <position>27</position>
-            <sys_created_by>danpal01</sys_created_by>
-            <sys_created_on>2017-05-03 13:48:27</sys_created_on>
-            <sys_id>bc8ce77813a6b20076165ecf3244b0e3</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_kasp_lossprevent_loss_prevention_incidents" sys_domain="global" view="Default view">25b5af396ffc724099a707321c3ee408</sys_ui_section>
-            <sys_updated_by>danpal01</sys_updated_by>
-            <sys_updated_on>2017-05-03 13:48:27</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>other_reason_details</element>
-            <position>28</position>
-            <sys_created_by>danpal01</sys_created_by>
-            <sys_created_on>2017-05-03 13:48:27</sys_created_on>
-            <sys_id>308ce77813a6b20076165ecf3244b0e4</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_kasp_lossprevent_loss_prevention_incidents" sys_domain="global" view="Default view">25b5af396ffc724099a707321c3ee408</sys_ui_section>
-            <sys_updated_by>danpal01</sys_updated_by>
-            <sys_updated_on>2017-05-03 13:48:27</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>location_of_incident</element>
-            <position>29</position>
-            <sys_created_by>danpal01</sys_created_by>
-            <sys_created_on>2017-05-03 13:48:27</sys_created_on>
-            <sys_id>b08ce77813a6b20076165ecf3244b0e4</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_kasp_lossprevent_loss_prevention_incidents" sys_domain="global" view="Default view">25b5af396ffc724099a707321c3ee408</sys_ui_section>
-            <sys_updated_by>danpal01</sys_updated_by>
-            <sys_updated_on>2017-05-03 13:48:27</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>location_detail</element>
-            <position>30</position>
-            <sys_created_by>danpal01</sys_created_by>
-            <sys_created_on>2017-05-03 13:48:27</sys_created_on>
-            <sys_id>348ce77813a6b20076165ecf3244b0e4</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_kasp_lossprevent_loss_prevention_incidents" sys_domain="global" view="Default view">25b5af396ffc724099a707321c3ee408</sys_ui_section>
-            <sys_updated_by>danpal01</sys_updated_by>
-            <sys_updated_on>2017-05-03 13:48:27</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>other_location_please_specify</element>
-            <position>31</position>
-            <sys_created_by>danpal01</sys_created_by>
-            <sys_created_on>2017-05-03 13:48:27</sys_created_on>
-            <sys_id>b48ce77813a6b20076165ecf3244b0e4</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_kasp_lossprevent_loss_prevention_incidents" sys_domain="global" view="Default view">25b5af396ffc724099a707321c3ee408</sys_ui_section>
-            <sys_updated_by>danpal01</sys_updated_by>
-            <sys_updated_on>2017-05-03 13:48:27</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>date_time_of_incident</element>
-            <position>32</position>
-            <sys_created_by>danpal01</sys_created_by>
-            <sys_created_on>2017-05-03 13:48:27</sys_created_on>
-            <sys_id>388ce77813a6b20076165ecf3244b0e4</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_kasp_lossprevent_loss_prevention_incidents" sys_domain="global" view="Default view">25b5af396ffc724099a707321c3ee408</sys_ui_section>
-            <sys_updated_by>danpal01</sys_updated_by>
-            <sys_updated_on>2017-05-03 13:48:27</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>camera_cctv</element>
-            <position>33</position>
-            <sys_created_by>danpal01</sys_created_by>
-            <sys_created_on>2017-05-03 13:48:27</sys_created_on>
-            <sys_id>b88ce77813a6b20076165ecf3244b0e4</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_kasp_lossprevent_loss_prevention_incidents" sys_domain="global" view="Default view">25b5af396ffc724099a707321c3ee408</sys_ui_section>
-            <sys_updated_by>danpal01</sys_updated_by>
-            <sys_updated_on>2017-05-03 13:48:27</sys_updated_on>
+            <sys_updated_on>2017-05-18 14:30:21</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>34</position>
+            <position>18</position>
             <sys_created_by>danpal01</sys_created_by>
-            <sys_created_on>2017-05-03 13:48:27</sys_created_on>
-            <sys_id>3c8ce77813a6b20076165ecf3244b0e4</sys_id>
+            <sys_created_on>2017-05-18 14:30:21</sys_created_on>
+            <sys_id>0df5897d0f3a72c44789e34be1050ee2</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_kasp_lossprevent_loss_prevention_incidents" sys_domain="global" view="Default view">25b5af396ffc724099a707321c3ee408</sys_ui_section>
             <sys_updated_by>danpal01</sys_updated_by>
-            <sys_updated_on>2017-05-03 13:48:27</sys_updated_on>
+            <sys_updated_on>2017-05-18 14:30:21</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>police_notified</element>
-            <position>35</position>
+            <element>requested_by.u_assigned_district_manager</element>
+            <position>19</position>
             <sys_created_by>danpal01</sys_created_by>
-            <sys_created_on>2017-05-03 13:48:27</sys_created_on>
-            <sys_id>bc8ce77813a6b20076165ecf3244b0e4</sys_id>
+            <sys_created_on>2017-05-18 14:30:21</sys_created_on>
+            <sys_id>8df5897d0f3a72c44789e34be1050ee2</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_kasp_lossprevent_loss_prevention_incidents" sys_domain="global" view="Default view">25b5af396ffc724099a707321c3ee408</sys_ui_section>
             <sys_updated_by>danpal01</sys_updated_by>
-            <sys_updated_on>2017-05-03 13:48:27</sys_updated_on>
+            <sys_updated_on>2017-05-18 14:30:21</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>name_of_police_dept</element>
-            <position>36</position>
+            <element>requested_by.u_regional_director</element>
+            <position>20</position>
             <sys_created_by>danpal01</sys_created_by>
-            <sys_created_on>2017-05-03 13:48:27</sys_created_on>
-            <sys_id>308ce77813a6b20076165ecf3244b0e5</sys_id>
+            <sys_created_on>2017-05-18 14:30:21</sys_created_on>
+            <sys_id>01f5897d0f3a72c44789e34be1050ee3</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_kasp_lossprevent_loss_prevention_incidents" sys_domain="global" view="Default view">25b5af396ffc724099a707321c3ee408</sys_ui_section>
             <sys_updated_by>danpal01</sys_updated_by>
-            <sys_updated_on>2017-05-03 13:48:27</sys_updated_on>
+            <sys_updated_on>2017-05-18 14:30:21</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>police_dept_case_number</element>
-            <position>37</position>
+            <element>requested_by.u_regional_loss_prevention_manager</element>
+            <position>21</position>
             <sys_created_by>danpal01</sys_created_by>
-            <sys_created_on>2017-05-03 13:48:27</sys_created_on>
-            <sys_id>b08ce77813a6b20076165ecf3244b0e5</sys_id>
+            <sys_created_on>2017-05-18 14:30:21</sys_created_on>
+            <sys_id>81f5897d0f3a72c44789e34be1050ee3</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_kasp_lossprevent_loss_prevention_incidents" sys_domain="global" view="Default view">25b5af396ffc724099a707321c3ee408</sys_ui_section>
             <sys_updated_by>danpal01</sys_updated_by>
-            <sys_updated_on>2017-05-03 13:48:27</sys_updated_on>
+            <sys_updated_on>2017-05-18 14:30:21</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>merchandise_lost</element>
-            <position>38</position>
+            <element>requested_by.u_store_hrm</element>
+            <position>22</position>
             <sys_created_by>danpal01</sys_created_by>
-            <sys_created_on>2017-05-03 13:48:27</sys_created_on>
-            <sys_id>348ce77813a6b20076165ecf3244b0e5</sys_id>
+            <sys_created_on>2017-05-18 14:30:21</sys_created_on>
+            <sys_id>85f5c97d0f3a72c44789e34be1050e91</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_kasp_lossprevent_loss_prevention_incidents" sys_domain="global" view="Default view">25b5af396ffc724099a707321c3ee408</sys_ui_section>
             <sys_updated_by>danpal01</sys_updated_by>
-            <sys_updated_on>2017-05-03 13:48:27</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>total_merchandise_amount_loss</element>
-            <position>39</position>
-            <sys_created_by>danpal01</sys_created_by>
-            <sys_created_on>2017-05-03 13:48:27</sys_created_on>
-            <sys_id>b48ce77813a6b20076165ecf3244b0e5</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_kasp_lossprevent_loss_prevention_incidents" sys_domain="global" view="Default view">25b5af396ffc724099a707321c3ee408</sys_ui_section>
-            <sys_updated_by>danpal01</sys_updated_by>
-            <sys_updated_on>2017-05-03 13:48:27</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>merchandise_recovered_by</element>
-            <position>40</position>
-            <sys_created_by>danpal01</sys_created_by>
-            <sys_created_on>2017-05-03 13:48:27</sys_created_on>
-            <sys_id>388ce77813a6b20076165ecf3244b0e5</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_kasp_lossprevent_loss_prevention_incidents" sys_domain="global" view="Default view">25b5af396ffc724099a707321c3ee408</sys_ui_section>
-            <sys_updated_by>danpal01</sys_updated_by>
-            <sys_updated_on>2017-05-03 13:48:27</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>other_details</element>
-            <position>41</position>
-            <sys_created_by>danpal01</sys_created_by>
-            <sys_created_on>2017-05-03 13:48:27</sys_created_on>
-            <sys_id>b88ce77813a6b20076165ecf3244b0e5</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_kasp_lossprevent_loss_prevention_incidents" sys_domain="global" view="Default view">25b5af396ffc724099a707321c3ee408</sys_ui_section>
-            <sys_updated_by>danpal01</sys_updated_by>
-            <sys_updated_on>2017-05-03 13:48:27</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>total_merchandise_amount_recovered</element>
-            <position>42</position>
-            <sys_created_by>danpal01</sys_created_by>
-            <sys_created_on>2017-05-03 13:48:27</sys_created_on>
-            <sys_id>3c8ce77813a6b20076165ecf3244b0e5</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_kasp_lossprevent_loss_prevention_incidents" sys_domain="global" view="Default view">25b5af396ffc724099a707321c3ee408</sys_ui_section>
-            <sys_updated_by>danpal01</sys_updated_by>
-            <sys_updated_on>2017-05-03 13:48:27</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>cash_lost</element>
-            <position>43</position>
-            <sys_created_by>danpal01</sys_created_by>
-            <sys_created_on>2017-05-03 13:48:27</sys_created_on>
-            <sys_id>bc8ce77813a6b20076165ecf3244b0e5</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_kasp_lossprevent_loss_prevention_incidents" sys_domain="global" view="Default view">25b5af396ffc724099a707321c3ee408</sys_ui_section>
-            <sys_updated_by>danpal01</sys_updated_by>
-            <sys_updated_on>2017-05-03 13:48:27</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>total_cash_amount_lost</element>
-            <position>44</position>
-            <sys_created_by>danpal01</sys_created_by>
-            <sys_created_on>2017-05-03 13:48:27</sys_created_on>
-            <sys_id>308ce77813a6b20076165ecf3244b0e6</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_kasp_lossprevent_loss_prevention_incidents" sys_domain="global" view="Default view">25b5af396ffc724099a707321c3ee408</sys_ui_section>
-            <sys_updated_by>danpal01</sys_updated_by>
-            <sys_updated_on>2017-05-03 13:48:27</sys_updated_on>
+            <sys_updated_on>2017-05-18 14:30:21</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.end_split</element>
-            <position>45</position>
+            <position>23</position>
             <sys_created_by>danpal01</sys_created_by>
-            <sys_created_on>2017-05-03 13:48:27</sys_created_on>
-            <sys_id>b08ce77813a6b20076165ecf3244b0e6</sys_id>
+            <sys_created_on>2017-05-18 14:30:21</sys_created_on>
+            <sys_id>09f5c97d0f3a72c44789e34be1050e91</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_kasp_lossprevent_loss_prevention_incidents" sys_domain="global" view="Default view">25b5af396ffc724099a707321c3ee408</sys_ui_section>
             <sys_updated_by>danpal01</sys_updated_by>
-            <sys_updated_on>2017-05-03 13:48:27</sys_updated_on>
+            <sys_updated_on>2017-05-18 14:30:21</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>20f5897d0f3a72c44789e34be1050edd</element>
+            <position>24</position>
+            <sys_created_by>danpal01</sys_created_by>
+            <sys_created_on>2017-05-18 14:30:21</sys_created_on>
+            <sys_id>89f5c97d0f3a72c44789e34be1050e91</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_kasp_lossprevent_loss_prevention_incidents" sys_domain="global" view="Default view">25b5af396ffc724099a707321c3ee408</sys_ui_section>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-05-18 14:30:21</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>25</position>
+            <sys_created_by>danpal01</sys_created_by>
+            <sys_created_on>2017-05-18 14:30:21</sys_created_on>
+            <sys_id>0df5c97d0f3a72c44789e34be1050e91</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_kasp_lossprevent_loss_prevention_incidents" sys_domain="global" view="Default view">25b5af396ffc724099a707321c3ee408</sys_ui_section>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-05-18 14:30:21</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>issue</element>
+            <position>26</position>
+            <sys_created_by>danpal01</sys_created_by>
+            <sys_created_on>2017-05-18 14:30:21</sys_created_on>
+            <sys_id>8df5c97d0f3a72c44789e34be1050e91</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_kasp_lossprevent_loss_prevention_incidents" sys_domain="global" view="Default view">25b5af396ffc724099a707321c3ee408</sys_ui_section>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-05-18 14:30:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>type_of_issue</element>
+            <position>27</position>
+            <sys_created_by>danpal01</sys_created_by>
+            <sys_created_on>2017-05-18 14:30:21</sys_created_on>
+            <sys_id>01f5c97d0f3a72c44789e34be1050e92</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_kasp_lossprevent_loss_prevention_incidents" sys_domain="global" view="Default view">25b5af396ffc724099a707321c3ee408</sys_ui_section>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-05-18 14:30:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>type_of_fraud</element>
+            <position>28</position>
+            <sys_created_by>danpal01</sys_created_by>
+            <sys_created_on>2017-05-18 14:30:21</sys_created_on>
+            <sys_id>81f5c97d0f3a72c44789e34be1050e92</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_kasp_lossprevent_loss_prevention_incidents" sys_domain="global" view="Default view">25b5af396ffc724099a707321c3ee408</sys_ui_section>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-05-18 14:30:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>cash_control_type</element>
+            <position>29</position>
+            <sys_created_by>danpal01</sys_created_by>
+            <sys_created_on>2017-05-18 14:30:21</sys_created_on>
+            <sys_id>05f5c97d0f3a72c44789e34be1050e92</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_kasp_lossprevent_loss_prevention_incidents" sys_domain="global" view="Default view">25b5af396ffc724099a707321c3ee408</sys_ui_section>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-05-18 14:30:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>cash_control_reason</element>
+            <position>30</position>
+            <sys_created_by>danpal01</sys_created_by>
+            <sys_created_on>2017-05-18 14:30:21</sys_created_on>
+            <sys_id>85f5c97d0f3a72c44789e34be1050e92</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_kasp_lossprevent_loss_prevention_incidents" sys_domain="global" view="Default view">25b5af396ffc724099a707321c3ee408</sys_ui_section>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-05-18 14:30:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>type_of_shift</element>
+            <position>31</position>
+            <sys_created_by>danpal01</sys_created_by>
+            <sys_created_on>2017-05-18 14:30:21</sys_created_on>
+            <sys_id>09f5c97d0f3a72c44789e34be1050e92</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_kasp_lossprevent_loss_prevention_incidents" sys_domain="global" view="Default view">25b5af396ffc724099a707321c3ee408</sys_ui_section>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-05-18 14:30:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>reason</element>
+            <position>32</position>
+            <sys_created_by>danpal01</sys_created_by>
+            <sys_created_on>2017-05-18 14:30:21</sys_created_on>
+            <sys_id>89f5c97d0f3a72c44789e34be1050e92</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_kasp_lossprevent_loss_prevention_incidents" sys_domain="global" view="Default view">25b5af396ffc724099a707321c3ee408</sys_ui_section>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-05-18 14:30:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>gift_card_number</element>
+            <position>33</position>
+            <sys_created_by>danpal01</sys_created_by>
+            <sys_created_on>2017-05-18 14:30:21</sys_created_on>
+            <sys_id>0df5c97d0f3a72c44789e34be1050e92</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_kasp_lossprevent_loss_prevention_incidents" sys_domain="global" view="Default view">25b5af396ffc724099a707321c3ee408</sys_ui_section>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-05-18 14:30:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>gift_card_amount</element>
+            <position>34</position>
+            <sys_created_by>danpal01</sys_created_by>
+            <sys_created_on>2017-05-18 14:30:21</sys_created_on>
+            <sys_id>8df5c97d0f3a72c44789e34be1050e92</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_kasp_lossprevent_loss_prevention_incidents" sys_domain="global" view="Default view">25b5af396ffc724099a707321c3ee408</sys_ui_section>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-05-18 14:30:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>reason_for_alarm</element>
+            <position>35</position>
+            <sys_created_by>danpal01</sys_created_by>
+            <sys_created_on>2017-05-18 14:30:21</sys_created_on>
+            <sys_id>01f5c97d0f3a72c44789e34be1050e93</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_kasp_lossprevent_loss_prevention_incidents" sys_domain="global" view="Default view">25b5af396ffc724099a707321c3ee408</sys_ui_section>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-05-18 14:30:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>other_reason_details</element>
+            <position>36</position>
+            <sys_created_by>danpal01</sys_created_by>
+            <sys_created_on>2017-05-18 14:30:21</sys_created_on>
+            <sys_id>81f5c97d0f3a72c44789e34be1050e93</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_kasp_lossprevent_loss_prevention_incidents" sys_domain="global" view="Default view">25b5af396ffc724099a707321c3ee408</sys_ui_section>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-05-18 14:30:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>did_a_manager_answer_the_call</element>
+            <position>37</position>
+            <sys_created_by>danpal01</sys_created_by>
+            <sys_created_on>2017-05-18 14:30:21</sys_created_on>
+            <sys_id>05f5c97d0f3a72c44789e34be1050e93</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_kasp_lossprevent_loss_prevention_incidents" sys_domain="global" view="Default view">25b5af396ffc724099a707321c3ee408</sys_ui_section>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-05-18 14:30:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>store_emergency_contact_list_up_to_date</element>
+            <position>38</position>
+            <sys_created_by>danpal01</sys_created_by>
+            <sys_created_on>2017-05-18 14:30:21</sys_created_on>
+            <sys_id>85f5c97d0f3a72c44789e34be1050e93</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_kasp_lossprevent_loss_prevention_incidents" sys_domain="global" view="Default view">25b5af396ffc724099a707321c3ee408</sys_ui_section>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-05-18 14:30:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>location_of_incident</element>
+            <position>39</position>
+            <sys_created_by>danpal01</sys_created_by>
+            <sys_created_on>2017-05-18 14:30:21</sys_created_on>
+            <sys_id>09f5c97d0f3a72c44789e34be1050e93</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_kasp_lossprevent_loss_prevention_incidents" sys_domain="global" view="Default view">25b5af396ffc724099a707321c3ee408</sys_ui_section>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-05-18 14:30:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>location_area</element>
+            <position>40</position>
+            <sys_created_by>danpal01</sys_created_by>
+            <sys_created_on>2017-05-18 14:30:21</sys_created_on>
+            <sys_id>89f5c97d0f3a72c44789e34be1050e93</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_kasp_lossprevent_loss_prevention_incidents" sys_domain="global" view="Default view">25b5af396ffc724099a707321c3ee408</sys_ui_section>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-05-18 14:30:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>other_area_details</element>
+            <position>41</position>
+            <sys_created_by>danpal01</sys_created_by>
+            <sys_created_on>2017-05-18 14:30:21</sys_created_on>
+            <sys_id>0df5c97d0f3a72c44789e34be1050e93</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_kasp_lossprevent_loss_prevention_incidents" sys_domain="global" view="Default view">25b5af396ffc724099a707321c3ee408</sys_ui_section>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-05-18 14:30:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>location_detail</element>
+            <position>42</position>
+            <sys_created_by>danpal01</sys_created_by>
+            <sys_created_on>2017-05-18 14:30:21</sys_created_on>
+            <sys_id>8df5c97d0f3a72c44789e34be1050e93</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_kasp_lossprevent_loss_prevention_incidents" sys_domain="global" view="Default view">25b5af396ffc724099a707321c3ee408</sys_ui_section>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-05-18 14:30:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>other_location_details</element>
+            <position>43</position>
+            <sys_created_by>danpal01</sys_created_by>
+            <sys_created_on>2017-05-18 14:30:21</sys_created_on>
+            <sys_id>01f5c97d0f3a72c44789e34be1050e94</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_kasp_lossprevent_loss_prevention_incidents" sys_domain="global" view="Default view">25b5af396ffc724099a707321c3ee408</sys_ui_section>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-05-18 14:30:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>other_location_please_specify</element>
+            <position>44</position>
+            <sys_created_by>danpal01</sys_created_by>
+            <sys_created_on>2017-05-18 14:30:21</sys_created_on>
+            <sys_id>81f5c97d0f3a72c44789e34be1050e94</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_kasp_lossprevent_loss_prevention_incidents" sys_domain="global" view="Default view">25b5af396ffc724099a707321c3ee408</sys_ui_section>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-05-18 14:30:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>date_time_of_incident</element>
+            <position>45</position>
+            <sys_created_by>danpal01</sys_created_by>
+            <sys_created_on>2017-05-18 14:30:21</sys_created_on>
+            <sys_id>05f5c97d0f3a72c44789e34be1050e94</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_kasp_lossprevent_loss_prevention_incidents" sys_domain="global" view="Default view">25b5af396ffc724099a707321c3ee408</sys_ui_section>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-05-18 14:30:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>camera_cctv</element>
+            <position>46</position>
+            <sys_created_by>danpal01</sys_created_by>
+            <sys_created_on>2017-05-18 14:30:21</sys_created_on>
+            <sys_id>85f5c97d0f3a72c44789e34be1050e94</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_kasp_lossprevent_loss_prevention_incidents" sys_domain="global" view="Default view">25b5af396ffc724099a707321c3ee408</sys_ui_section>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-05-18 14:30:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>camera_date_and_time</element>
+            <position>47</position>
+            <sys_created_by>danpal01</sys_created_by>
+            <sys_created_on>2017-05-18 14:30:21</sys_created_on>
+            <sys_id>09f5c97d0f3a72c44789e34be1050e94</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_kasp_lossprevent_loss_prevention_incidents" sys_domain="global" view="Default view">25b5af396ffc724099a707321c3ee408</sys_ui_section>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-05-18 14:30:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>camera_id_number_s</element>
+            <position>48</position>
+            <sys_created_by>danpal01</sys_created_by>
+            <sys_created_on>2017-05-18 14:30:21</sys_created_on>
+            <sys_id>89f5c97d0f3a72c44789e34be1050e94</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_kasp_lossprevent_loss_prevention_incidents" sys_domain="global" view="Default view">25b5af396ffc724099a707321c3ee408</sys_ui_section>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-05-18 14:30:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>camera_time</element>
+            <position>49</position>
+            <sys_created_by>danpal01</sys_created_by>
+            <sys_created_on>2017-05-18 14:30:21</sys_created_on>
+            <sys_id>0df5c97d0f3a72c44789e34be1050e94</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_kasp_lossprevent_loss_prevention_incidents" sys_domain="global" view="Default view">25b5af396ffc724099a707321c3ee408</sys_ui_section>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-05-18 14:30:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>camera_number</element>
+            <position>50</position>
+            <sys_created_by>danpal01</sys_created_by>
+            <sys_created_on>2017-05-18 14:30:21</sys_created_on>
+            <sys_id>8df5c97d0f3a72c44789e34be1050e94</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_kasp_lossprevent_loss_prevention_incidents" sys_domain="global" view="Default view">25b5af396ffc724099a707321c3ee408</sys_ui_section>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-05-18 14:30:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>where_is_the_video_stored</element>
+            <position>51</position>
+            <sys_created_by>danpal01</sys_created_by>
+            <sys_created_on>2017-05-18 14:30:21</sys_created_on>
+            <sys_id>01f5c97d0f3a72c44789e34be1050e95</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_kasp_lossprevent_loss_prevention_incidents" sys_domain="global" view="Default view">25b5af396ffc724099a707321c3ee408</sys_ui_section>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-05-18 14:30:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>specify_where_video_is_stored</element>
+            <position>52</position>
+            <sys_created_by>danpal01</sys_created_by>
+            <sys_created_on>2017-05-18 14:30:21</sys_created_on>
+            <sys_id>81f5c97d0f3a72c44789e34be1050e95</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_kasp_lossprevent_loss_prevention_incidents" sys_domain="global" view="Default view">25b5af396ffc724099a707321c3ee408</sys_ui_section>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-05-18 14:30:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>53</position>
+            <sys_created_by>danpal01</sys_created_by>
+            <sys_created_on>2017-05-18 14:30:21</sys_created_on>
+            <sys_id>05f5c97d0f3a72c44789e34be1050e95</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_kasp_lossprevent_loss_prevention_incidents" sys_domain="global" view="Default view">25b5af396ffc724099a707321c3ee408</sys_ui_section>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-05-18 14:30:21</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>focus_store</element>
+            <position>54</position>
+            <sys_created_by>danpal01</sys_created_by>
+            <sys_created_on>2017-05-18 14:30:21</sys_created_on>
+            <sys_id>85f5c97d0f3a72c44789e34be1050e95</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_kasp_lossprevent_loss_prevention_incidents" sys_domain="global" view="Default view">25b5af396ffc724099a707321c3ee408</sys_ui_section>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-05-18 14:30:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>guard_on_duty</element>
+            <position>55</position>
+            <sys_created_by>danpal01</sys_created_by>
+            <sys_created_on>2017-05-18 14:30:21</sys_created_on>
+            <sys_id>09f5c97d0f3a72c44789e34be1050e95</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_kasp_lossprevent_loss_prevention_incidents" sys_domain="global" view="Default view">25b5af396ffc724099a707321c3ee408</sys_ui_section>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-05-18 14:30:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>rlpm_contacted</element>
+            <position>56</position>
+            <sys_created_by>danpal01</sys_created_by>
+            <sys_created_on>2017-05-18 14:30:21</sys_created_on>
+            <sys_id>89f5c97d0f3a72c44789e34be1050e95</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_kasp_lossprevent_loss_prevention_incidents" sys_domain="global" view="Default view">25b5af396ffc724099a707321c3ee408</sys_ui_section>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-05-18 14:30:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>police_notified</element>
+            <position>57</position>
+            <sys_created_by>danpal01</sys_created_by>
+            <sys_created_on>2017-05-18 14:30:21</sys_created_on>
+            <sys_id>0df5c97d0f3a72c44789e34be1050e95</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_kasp_lossprevent_loss_prevention_incidents" sys_domain="global" view="Default view">25b5af396ffc724099a707321c3ee408</sys_ui_section>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-05-18 14:30:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>name_of_police_dept</element>
+            <position>58</position>
+            <sys_created_by>danpal01</sys_created_by>
+            <sys_created_on>2017-05-18 14:30:21</sys_created_on>
+            <sys_id>8df5c97d0f3a72c44789e34be1050e95</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_kasp_lossprevent_loss_prevention_incidents" sys_domain="global" view="Default view">25b5af396ffc724099a707321c3ee408</sys_ui_section>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-05-18 14:30:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>police_dept_case_number</element>
+            <position>59</position>
+            <sys_created_by>danpal01</sys_created_by>
+            <sys_created_on>2017-05-18 14:30:21</sys_created_on>
+            <sys_id>01f5c97d0f3a72c44789e34be1050e96</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_kasp_lossprevent_loss_prevention_incidents" sys_domain="global" view="Default view">25b5af396ffc724099a707321c3ee408</sys_ui_section>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-05-18 14:30:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>merchandise_lost</element>
+            <position>60</position>
+            <sys_created_by>danpal01</sys_created_by>
+            <sys_created_on>2017-05-18 14:30:21</sys_created_on>
+            <sys_id>81f5c97d0f3a72c44789e34be1050e96</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_kasp_lossprevent_loss_prevention_incidents" sys_domain="global" view="Default view">25b5af396ffc724099a707321c3ee408</sys_ui_section>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-05-18 14:30:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>potential_merchandise_lost</element>
+            <position>61</position>
+            <sys_created_by>danpal01</sys_created_by>
+            <sys_created_on>2017-05-18 14:30:21</sys_created_on>
+            <sys_id>05f5c97d0f3a72c44789e34be1050e96</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_kasp_lossprevent_loss_prevention_incidents" sys_domain="global" view="Default view">25b5af396ffc724099a707321c3ee408</sys_ui_section>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-05-18 14:30:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>merchandise_purchased</element>
+            <position>62</position>
+            <sys_created_by>danpal01</sys_created_by>
+            <sys_created_on>2017-05-18 14:30:21</sys_created_on>
+            <sys_id>85f5c97d0f3a72c44789e34be1050e96</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_kasp_lossprevent_loss_prevention_incidents" sys_domain="global" view="Default view">25b5af396ffc724099a707321c3ee408</sys_ui_section>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-05-18 14:30:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>total_merchandise_amount_purchased</element>
+            <position>63</position>
+            <sys_created_by>danpal01</sys_created_by>
+            <sys_created_on>2017-05-18 14:30:21</sys_created_on>
+            <sys_id>09f5c97d0f3a72c44789e34be1050e96</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_kasp_lossprevent_loss_prevention_incidents" sys_domain="global" view="Default view">25b5af396ffc724099a707321c3ee408</sys_ui_section>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-05-18 14:30:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>total_merchandise_amount_loss</element>
+            <position>64</position>
+            <sys_created_by>danpal01</sys_created_by>
+            <sys_created_on>2017-05-18 14:30:21</sys_created_on>
+            <sys_id>89f5c97d0f3a72c44789e34be1050e96</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_kasp_lossprevent_loss_prevention_incidents" sys_domain="global" view="Default view">25b5af396ffc724099a707321c3ee408</sys_ui_section>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-05-18 14:30:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>merchandise_recovered_by</element>
+            <position>65</position>
+            <sys_created_by>danpal01</sys_created_by>
+            <sys_created_on>2017-05-18 14:30:21</sys_created_on>
+            <sys_id>0df5c97d0f3a72c44789e34be1050e96</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_kasp_lossprevent_loss_prevention_incidents" sys_domain="global" view="Default view">25b5af396ffc724099a707321c3ee408</sys_ui_section>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-05-18 14:30:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>other_details</element>
+            <position>66</position>
+            <sys_created_by>danpal01</sys_created_by>
+            <sys_created_on>2017-05-18 14:30:21</sys_created_on>
+            <sys_id>8df5c97d0f3a72c44789e34be1050e96</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_kasp_lossprevent_loss_prevention_incidents" sys_domain="global" view="Default view">25b5af396ffc724099a707321c3ee408</sys_ui_section>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-05-18 14:30:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>total_merchandise_amount_recovered</element>
+            <position>67</position>
+            <sys_created_by>danpal01</sys_created_by>
+            <sys_created_on>2017-05-18 14:30:21</sys_created_on>
+            <sys_id>01f5c97d0f3a72c44789e34be1050e97</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_kasp_lossprevent_loss_prevention_incidents" sys_domain="global" view="Default view">25b5af396ffc724099a707321c3ee408</sys_ui_section>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-05-18 14:30:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>cash_lost</element>
+            <position>68</position>
+            <sys_created_by>danpal01</sys_created_by>
+            <sys_created_on>2017-05-18 14:30:21</sys_created_on>
+            <sys_id>81f5c97d0f3a72c44789e34be1050e97</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_kasp_lossprevent_loss_prevention_incidents" sys_domain="global" view="Default view">25b5af396ffc724099a707321c3ee408</sys_ui_section>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-05-18 14:30:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>total_cash_amount_lost</element>
+            <position>69</position>
+            <sys_created_by>danpal01</sys_created_by>
+            <sys_created_on>2017-05-18 14:30:21</sys_created_on>
+            <sys_id>05f5c97d0f3a72c44789e34be1050e97</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_kasp_lossprevent_loss_prevention_incidents" sys_domain="global" view="Default view">25b5af396ffc724099a707321c3ee408</sys_ui_section>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-05-18 14:30:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>potential_cash_loss</element>
+            <position>70</position>
+            <sys_created_by>danpal01</sys_created_by>
+            <sys_created_on>2017-05-18 14:30:21</sys_created_on>
+            <sys_id>85f5c97d0f3a72c44789e34be1050e97</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_kasp_lossprevent_loss_prevention_incidents" sys_domain="global" view="Default view">25b5af396ffc724099a707321c3ee408</sys_ui_section>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-05-18 14:30:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>potential_cash_loss_amount</element>
+            <position>71</position>
+            <sys_created_by>danpal01</sys_created_by>
+            <sys_created_on>2017-05-18 14:30:21</sys_created_on>
+            <sys_id>09f5c97d0f3a72c44789e34be1050e97</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_kasp_lossprevent_loss_prevention_incidents" sys_domain="global" view="Default view">25b5af396ffc724099a707321c3ee408</sys_ui_section>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-05-18 14:30:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>potential_cash_lost</element>
+            <position>72</position>
+            <sys_created_by>danpal01</sys_created_by>
+            <sys_created_on>2017-05-18 14:30:21</sys_created_on>
+            <sys_id>89f5c97d0f3a72c44789e34be1050e97</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_kasp_lossprevent_loss_prevention_incidents" sys_domain="global" view="Default view">25b5af396ffc724099a707321c3ee408</sys_ui_section>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-05-18 14:30:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>73</position>
+            <sys_created_by>danpal01</sys_created_by>
+            <sys_created_on>2017-05-18 14:30:21</sys_created_on>
+            <sys_id>0df5c97d0f3a72c44789e34be1050e97</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_kasp_lossprevent_loss_prevention_incidents" sys_domain="global" view="Default view">25b5af396ffc724099a707321c3ee408</sys_ui_section>
+            <sys_updated_by>danpal01</sys_updated_by>
+            <sys_updated_on>2017-05-18 14:30:21</sys_updated_on>
             <sys_user/>
             <type>.end_split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>specify_other_type_of_issue</element>
-            <position>46</position>
+            <position>74</position>
             <sys_created_by>danpal01</sys_created_by>
-            <sys_created_on>2017-05-03 13:48:27</sys_created_on>
-            <sys_id>348ce77813a6b20076165ecf3244b0e6</sys_id>
+            <sys_created_on>2017-05-18 14:30:21</sys_created_on>
+            <sys_id>8df5c97d0f3a72c44789e34be1050e97</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_kasp_lossprevent_loss_prevention_incidents" sys_domain="global" view="Default view">25b5af396ffc724099a707321c3ee408</sys_ui_section>
             <sys_updated_by>danpal01</sys_updated_by>
-            <sys_updated_on>2017-05-03 13:48:27</sys_updated_on>
+            <sys_updated_on>2017-05-18 14:30:21</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>748ce77813a6b20076165ecf3244b0e0</element>
-            <position>47</position>
+            <element>a0f5897d0f3a72c44789e34be1050edd</element>
+            <position>75</position>
             <sys_created_by>danpal01</sys_created_by>
-            <sys_created_on>2017-05-03 13:48:27</sys_created_on>
-            <sys_id>b48ce77813a6b20076165ecf3244b0e6</sys_id>
+            <sys_created_on>2017-05-18 14:30:21</sys_created_on>
+            <sys_id>01f5c97d0f3a72c44789e34be1050e98</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_kasp_lossprevent_loss_prevention_incidents" sys_domain="global" view="Default view">25b5af396ffc724099a707321c3ee408</sys_ui_section>
             <sys_updated_by>danpal01</sys_updated_by>
-            <sys_updated_on>2017-05-03 13:48:27</sys_updated_on>
+            <sys_updated_on>2017-05-18 14:30:21</sys_updated_on>
             <sys_user/>
             <type>annotation</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>is_shoplifter_s_information_available</element>
-            <position>48</position>
+            <position>76</position>
             <sys_created_by>danpal01</sys_created_by>
-            <sys_created_on>2017-05-03 13:48:27</sys_created_on>
-            <sys_id>388ce77813a6b20076165ecf3244b0e6</sys_id>
+            <sys_created_on>2017-05-18 14:30:21</sys_created_on>
+            <sys_id>81f5c97d0f3a72c44789e34be1050e98</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_kasp_lossprevent_loss_prevention_incidents" sys_domain="global" view="Default view">25b5af396ffc724099a707321c3ee408</sys_ui_section>
             <sys_updated_by>danpal01</sys_updated_by>
-            <sys_updated_on>2017-05-03 13:48:27</sys_updated_on>
+            <sys_updated_on>2017-05-18 14:30:21</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>associates_involved</element>
-            <position>49</position>
+            <position>77</position>
             <sys_created_by>danpal01</sys_created_by>
-            <sys_created_on>2017-05-03 13:48:27</sys_created_on>
-            <sys_id>b88ce77813a6b20076165ecf3244b0e6</sys_id>
+            <sys_created_on>2017-05-18 14:30:21</sys_created_on>
+            <sys_id>05f5c97d0f3a72c44789e34be1050e98</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_kasp_lossprevent_loss_prevention_incidents" sys_domain="global" view="Default view">25b5af396ffc724099a707321c3ee408</sys_ui_section>
             <sys_updated_by>danpal01</sys_updated_by>
-            <sys_updated_on>2017-05-03 13:48:27</sys_updated_on>
+            <sys_updated_on>2017-05-18 14:30:21</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>customers_involved</element>
-            <position>50</position>
+            <position>78</position>
             <sys_created_by>danpal01</sys_created_by>
-            <sys_created_on>2017-05-03 13:48:27</sys_created_on>
-            <sys_id>3c8ce77813a6b20076165ecf3244b0e6</sys_id>
+            <sys_created_on>2017-05-18 14:30:21</sys_created_on>
+            <sys_id>85f5c97d0f3a72c44789e34be1050e98</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_kasp_lossprevent_loss_prevention_incidents" sys_domain="global" view="Default view">25b5af396ffc724099a707321c3ee408</sys_ui_section>
             <sys_updated_by>danpal01</sys_updated_by>
-            <sys_updated_on>2017-05-03 13:48:27</sys_updated_on>
+            <sys_updated_on>2017-05-18 14:30:21</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>witnesses_involved</element>
-            <position>51</position>
+            <position>79</position>
             <sys_created_by>danpal01</sys_created_by>
-            <sys_created_on>2017-05-03 13:48:27</sys_created_on>
-            <sys_id>bc8ce77813a6b20076165ecf3244b0e6</sys_id>
+            <sys_created_on>2017-05-18 14:30:21</sys_created_on>
+            <sys_id>09f5c97d0f3a72c44789e34be1050e98</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_kasp_lossprevent_loss_prevention_incidents" sys_domain="global" view="Default view">25b5af396ffc724099a707321c3ee408</sys_ui_section>
             <sys_updated_by>danpal01</sys_updated_by>
-            <sys_updated_on>2017-05-03 13:48:27</sys_updated_on>
+            <sys_updated_on>2017-05-18 14:30:21</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>add_line_info</element>
-            <position>52</position>
+            <position>80</position>
             <sys_created_by>danpal01</sys_created_by>
-            <sys_created_on>2017-05-03 13:48:27</sys_created_on>
-            <sys_id>308ce77813a6b20076165ecf3244b0e7</sys_id>
+            <sys_created_on>2017-05-18 14:30:21</sys_created_on>
+            <sys_id>89f5c97d0f3a72c44789e34be1050e98</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_kasp_lossprevent_loss_prevention_incidents" sys_domain="global" view="Default view">25b5af396ffc724099a707321c3ee408</sys_ui_section>
             <sys_updated_by>danpal01</sys_updated_by>
-            <sys_updated_on>2017-05-03 13:48:27</sys_updated_on>
+            <sys_updated_on>2017-05-18 14:30:21</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

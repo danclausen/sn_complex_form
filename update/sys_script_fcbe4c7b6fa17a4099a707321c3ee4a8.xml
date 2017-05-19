@@ -15,7 +15,7 @@
         <advanced>true</advanced>
         <application/>
         <change_fields>false</change_fields>
-        <client_callable>false</client_callable>
+        <client_callable>true</client_callable>
         <collection>x_kasp_lossprevent_loss_prevention_incidents</collection>
         <condition/>
         <description/>
@@ -34,17 +34,20 @@
         <rest_service_text/>
         <rest_variables/>
         <role_conditions/>
-        <script><![CDATA[if (!gs.hasRole("lp_team")){
-current.addQuery('issue','!=','Internal Theft');
-				 }
-				 ]]></script>
+        <script><![CDATA[if (!gs.hasRole("x_kasp_lossprevent.lp_team")){
+	current.addQuery('issue','!=','Internal Theft');
+	var stores = current.addQuery('requested_by',gs.getUserID());
+	stores.addOrCondition('requested_by.u_assigned_district_manager',gs.getUserID());
+	
+}
+]]></script>
         <sys_class_name>sys_script</sys_class_name>
         <sys_created_by>dipsha01</sys_created_by>
         <sys_created_on>2017-03-23 12:36:44</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>fcbe4c7b6fa17a4099a707321c3ee4a8</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>18</sys_mod_count>
         <sys_name>Hide Internal Theft</sys_name>
         <sys_overrides/>
         <sys_package display_value="LossPrevention" source="x_kasp_lossprevent">c2716bb56ffc724099a707321c3ee439</sys_package>
@@ -52,8 +55,8 @@ current.addQuery('issue','!=','Internal Theft');
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="LossPrevention">c2716bb56ffc724099a707321c3ee439</sys_scope>
         <sys_update_name>sys_script_fcbe4c7b6fa17a4099a707321c3ee4a8</sys_update_name>
-        <sys_updated_by>dipsha01</sys_updated_by>
-        <sys_updated_on>2017-03-28 14:32:33</sys_updated_on>
+        <sys_updated_by>danpal01</sys_updated_by>
+        <sys_updated_on>2017-05-18 20:22:18</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sysauto_report">
+    <sysauto_report action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <address_list/>
+        <condition/>
+        <conditional>false</conditional>
+        <group_list/>
+        <include_detail>false</include_detail>
+        <include_with/>
+        <name>Scheduled Execution of Weekly Facilities Report</name>
+        <omit_if_no_records>false</omit_if_no_records>
+        <output_type>Excel</output_type>
+        <report display_value="Loss Prevention Facilities Report">30b422f80f3afa844789e34be1050e33</report>
+        <report_body><![CDATA[<p>Hello, </p>
+<p>Attached you will find the &#34;Weekly Facilities Loss Prevention Incident Report&#34;. </p>
+<p>If you need to have this report modified please contact the following: Dipen Shah (<a href="mailto:DShah&#64;Katespade" rel="nofollow">DShah&#64;Katespade</a>.com); Sebastian Gonzalez-Garcia (<a href="mailto:SGonzalez&#64;katespade.com" rel="nofollow">SGonzalez&#64;katespade.com</a>); Daniel Palmer (<a href="mailto:DPalmer&#64;katespade.com" rel="nofollow">DPalmer&#64;katespade.com</a>)</p>
+<p>This is an automated email &#34;DO NOT REPLY&#34;.</p>]]></report_body>
+        <report_title>Weekly Facilities Loss Prevention Incident Report</report_title>
+        <run_as display_value="Daniel Palmer">0e057446877379402d2d098e59434d55</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek>1</run_dayofweek>
+        <run_period/>
+        <run_start>2017-05-15 18:50:50</run_start>
+        <run_time>1970-01-01 11:00:00</run_time>
+        <run_type>weekly</run_type>
+        <sys_class_name>sysauto_report</sys_class_name>
+        <sys_created_by>danpal01</sys_created_by>
+        <sys_created_on>2017-05-15 18:52:23</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>27c4aaf80f3afa844789e34be1050ef5</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Scheduled Execution of Weekly Facilities Report</sys_name>
+        <sys_package display_value="LossPrevention" source="x_kasp_lossprevent">c2716bb56ffc724099a707321c3ee439</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="LossPrevention">c2716bb56ffc724099a707321c3ee439</sys_scope>
+        <sys_update_name>sysauto_report_27c4aaf80f3afa844789e34be1050ef5</sys_update_name>
+        <sys_updated_by>danpal01</sys_updated_by>
+        <sys_updated_on>2017-05-15 18:52:54</sys_updated_on>
+        <upgrade_safe>false</upgrade_safe>
+        <user_list>62383b392bc4aa403ff3894319da15fd</user_list>
+        <zip>false</zip>
+    </sysauto_report>
+</record_update>
